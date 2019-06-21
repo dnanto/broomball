@@ -28,11 +28,7 @@ knitr::opts_chunk$set(
 library(tidyverse)
 library(openxlsx)
 library(visNetwork)
-```
 
-## Assist Network
-
-```{r}
 parse_section <- function(df, section)
 {
   filter(df, X1 == section) %>%
@@ -62,12 +58,17 @@ point <-
   bind_rows() %>% 
   rowid_to_column(var = "label")
 
-penalty <- lapply(stats, parse_section, section = "penalty") %>% bind_rows()
+penalty <- 
+  lapply(stats, parse_section, section = "penalty") %>% 
+  bind_rows() %>% 
+  mutate(duration = as.numeric(lubridate::ms(duration)) / 60)
 
 shot <- lapply(stats, parse_section, section = "shot") %>% bind_rows()
+```
 
-# assist network
+## Assists
 
+```{r}
 edges <-
   bind_rows(
     mutate(rename(select(point, label, assist2, assist1), from = assist2, to = assist1), type = "A2"),
@@ -84,17 +85,15 @@ nodes <-
     label = id,
     color.background = color,
     color.highlight.background = color,
-		color.highlight.border = "#FF0000",
-		color.border = "#000000",
-		borderWidth = 4
-	) %>%
+    color.highlight.border = "#FF0000",
+    color.border = "#000000",
+    borderWidth = 4
+    ) %>%
   select(-color)
 
 visNetwork(nodes, edges) %>%
   visEdges(arrows = list(to = list(enabled = T)), color = "#000000")
 ```
-
-## Points
 
 ```{r}
 DT::datatable(
@@ -103,6 +102,32 @@ DT::datatable(
 	class = "table-bordered table-striped table-hover responsive",
 	filter = list(position = "top")
 )
+```
+
+## Points
+
+```{r}
+PIM <- rename(penalty, id = player) %>% group_by(id) %>% summarise(PIM = sum(duration))
+
+bind_rows(
+  mutate(rename(count(point, scorer), id = scorer), type = "G"),
+  mutate(rename(count(point, assist1), id = assist1), type = "A1"),
+  mutate(rename(count(point, assist2), id = assist2), type = "A2")
+) %>%
+  remove_missing() %>%
+  spread(type, n) %>%
+  replace(., is.na(.), 0) %>%
+  mutate(P = G + A1 + A2) %>%
+  merge(roster, ., all.x = T) %>%
+  select(id, team, P, G, A1, A2) %>%
+  merge(., PIM, all.x = T) %>%
+  replace(., is.na(.), 0) %>%
+  arrange(-P) %>%
+  DT::datatable(
+  	style = "bootstrap",
+  	class = "table-bordered table-striped table-hover responsive",
+  	filter = list(position = "top")
+  )
 ```
 
 ## Shot
