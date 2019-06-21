@@ -1,0 +1,128 @@
+---
+title: "Capitol Broomball"
+author: "Stats Department"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output: 
+  html_document: 
+    keep_md: yes
+    toc: yes
+    toc_depth: 2
+params:
+  path: "data/2019-22.xlsx"
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+knitr::opts_chunk$set(
+  echo = FALSE,
+	warning = FALSE,
+	message = FALSE,
+  comment = "",
+	fig.align = "center",
+	fig.width = 10,
+	fig.height = 5
+)
+```
+
+```{r}
+library(tidyverse)
+library(openxlsx)
+library(visNetwork)
+```
+
+## Assist Network
+
+```{r}
+parse_section <- function(df, section)
+{
+  filter(df, X1 == section) %>%
+    setNames(c(head(., 1)[1:(ncol(.)-2)], "week", "game")) %>%
+    tail(-1) %>%
+     .[!is.na(names(.))]
+}
+
+# load all the week-game sheets
+stats <-
+  grep("\\d-\\d", getSheetNames(params$path), value = T) %>%
+  lapply(function(sheet, ...) mutate(read.xlsx(sheet, ...), sheet = sheet), xlsxFile = params$path, colNames = F) %>%
+  lapply(separate, col = sheet, into = c("week", "game"))
+
+# stat tables
+team <- read.xlsx(params$path, "team")
+
+roster <- 
+  read.xlsx(params$path, "roster") %>% 
+  gather("team", "id") %>% 
+  remove_missing() %>% 
+  merge(team) %>% 
+  mutate(color = gplots::col2hex(color))
+
+point <- 
+  lapply(stats, parse_section, section = "point") %>% 
+  bind_rows() %>% 
+  rowid_to_column(var = "label")
+
+penalty <- lapply(stats, parse_section, section = "penalty") %>% bind_rows()
+
+shot <- lapply(stats, parse_section, section = "shot") %>% bind_rows()
+
+# assist network
+
+edges <-
+  bind_rows(
+    mutate(rename(select(point, label, assist2, assist1), from = assist2, to = assist1), type = "A2"),
+    mutate(rename(select(point, label, assist1, scorer), from = assist1, to = scorer), type = "A1")
+  ) %>%
+  mutate(type = if_else(is.na(from) & type == "A1", "A0", type), dashes = type == "A2") %>%
+  mutate(from = if_else(type == "A0", to, from)) %>%
+  remove_missing()
+
+nodes <-
+  data.frame(id = unique(sort(c(pull(edges, from), pull(edges, to))))) %>%
+  merge(., roster, all.x = T) %>%
+  mutate(
+    label = id,
+    color.background = color,
+    color.highlight.background = color,
+		color.highlight.border = "#FF0000",
+		color.border = "#000000",
+		borderWidth = 4
+	) %>%
+  select(-color)
+
+visNetwork(nodes, edges) %>%
+  visEdges(arrows = list(to = list(enabled = T)), color = "#000000")
+```
+
+## Points
+
+```{r}
+DT::datatable(
+	select(point, week, game, everything(), -label, -point),
+	style = "bootstrap", 
+	class = "table-bordered table-striped table-hover responsive",
+	filter = list(position = "top")
+)
+```
+
+## Shot
+
+```{r}
+DT::datatable(
+	select(shot, week, game, everything(), -shot),
+	style = "bootstrap", 
+	class = "table-bordered table-striped table-hover responsive",
+	filter = list(position = "top")
+)
+```
+
+## Penalty
+
+```{r}
+DT::datatable(
+	select(penalty, week, game, everything(), -penalty),
+	style = "bootstrap", 
+	class = "table-bordered table-striped table-hover responsive",
+	filter = list(position = "top")
+)
+```
