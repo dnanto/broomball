@@ -34,7 +34,8 @@ parse_section <- function(df, section)
   filter(df, X1 == section) %>%
     setNames(c(head(., 1)[1:(ncol(.)-2)], "week", "game")) %>%
     tail(-1) %>%
-     .[!is.na(names(.))]
+    .[!is.na(names(.))] %>%
+    select(-one_of(section))
 }
 
 # load all the week-game sheets
@@ -49,14 +50,14 @@ team <- read.xlsx(params$path, "team")
 roster <- 
   read.xlsx(params$path, "roster") %>% 
   gather("team", "id") %>% 
-  remove_missing() %>% 
+  remove_missing(na.rm = T) %>% 
   merge(team) %>% 
   mutate(color = gplots::col2hex(color))
 
 point <- 
   lapply(stats, parse_section, section = "point") %>% 
   bind_rows() %>% 
-  rowid_to_column(var = "label")
+  rowid_to_column(var = "order")
 
 penalty <- 
   lapply(stats, parse_section, section = "penalty") %>% 
@@ -66,17 +67,17 @@ penalty <-
 shot <- lapply(stats, parse_section, section = "shot") %>% bind_rows()
 ```
 
-## Assists
+## Network
 
 ```{r}
 edges <-
   bind_rows(
-    mutate(rename(select(point, label, assist2, assist1), from = assist2, to = assist1), type = "A2"),
-    mutate(rename(select(point, label, assist1, scorer), from = assist1, to = scorer), type = "A1")
+    mutate(rename(select(point, order, assist2, assist1), from = assist2, to = assist1), type = "A2"),
+    mutate(rename(select(point, order, assist1, scorer), from = assist1, to = scorer), type = "A1")
   ) %>%
   mutate(type = if_else(is.na(from) & type == "A1", "A0", type), dashes = type == "A2") %>%
   mutate(from = if_else(type == "A0", to, from)) %>%
-  remove_missing()
+  remove_missing(na.rm = T)
 
 nodes <-
   data.frame(id = unique(sort(c(pull(edges, from), pull(edges, to))))) %>%
@@ -88,23 +89,47 @@ nodes <-
     color.highlight.border = "#FF0000",
     color.border = "#000000",
     borderWidth = 4
-    ) %>%
+  ) %>%
   select(-color)
 
-visNetwork(nodes, edges) %>%
+visNetwork(nodes, mutate(edges, label = order)) %>%
   visEdges(arrows = list(to = list(enabled = T)), color = "#000000")
 ```
 
 ```{r}
 DT::datatable(
-	select(point, week, game, everything(), -label, -point),
+	select(point, week, game, order, everything()),
 	style = "bootstrap", 
 	class = "table-bordered table-striped table-hover responsive",
-	filter = list(position = "top")
+	filter = list(position = "top"),
+	rownames = F
 )
 ```
 
-## Points
+## Shots
+
+```{r}
+idx <- names(shot)[3:grep("goalie", names(shot))-1]
+goalie <-
+  merge(
+    mutate(shot, SH = rowSums(mutate_all(shot[idx], as.integer))),
+    count(point, week, game, team, goalie, name = "GA"),
+    all.x = T
+  ) %>%
+    mutate(GA = replace_na(GA, 0)) %>%
+    mutate(`SV%` = (SH - GA) / SH * 100) %>%
+    arrange(week, game)
+
+DT::datatable(
+  goalie,
+	style = "bootstrap",
+	class = "table-bordered table-striped table-hover responsive",
+	filter = list(position = "top"),
+	rownames = F
+)
+```
+
+## Skater
 
 ```{r}
 PIM <- rename(penalty, id = player) %>% group_by(id) %>% summarise(PIM = sum(duration))
@@ -114,7 +139,7 @@ bind_rows(
   mutate(rename(count(point, assist1), id = assist1), type = "A1"),
   mutate(rename(count(point, assist2), id = assist2), type = "A2")
 ) %>%
-  remove_missing() %>%
+  remove_missing(na.rm = T) %>%
   spread(type, n) %>%
   replace(., is.na(.), 0) %>%
   mutate(P = G + A1 + A2) %>%
@@ -126,28 +151,34 @@ bind_rows(
   DT::datatable(
   	style = "bootstrap",
   	class = "table-bordered table-striped table-hover responsive",
-  	filter = list(position = "top")
+  	filter = list(position = "top"),
+  	rownames = F
   )
 ```
 
-## Shot
+## Goalie
 
 ```{r}
-DT::datatable(
-	select(shot, week, game, everything(), -shot),
-	style = "bootstrap", 
-	class = "table-bordered table-striped table-hover responsive",
-	filter = list(position = "top")
-)
+select(goalie, goalie, SH, GA) %>% 
+  group_by(goalie) %>% 
+  summarise_if(is.numeric, sum) %>% 
+  mutate(`SV%` = (SH - GA) / SH * 100) %>%
+  DT::datatable(
+    style = "bootstrap",
+    class = "table-bordered table-striped table-hover responsive",
+    filter = list(position = "top"),
+    rownames = F
+  )
 ```
 
 ## Penalty
 
 ```{r}
 DT::datatable(
-	select(penalty, week, game, everything(), -penalty),
+	select(penalty, week, game, everything()),
 	style = "bootstrap", 
 	class = "table-bordered table-striped table-hover responsive",
-	filter = list(position = "top")
+	filter = list(position = "top"),
+  rownames = F
 )
 ```
