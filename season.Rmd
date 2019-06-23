@@ -19,7 +19,6 @@ knitr::opts_chunk$set(
 	message = FALSE,
   comment = "",
 	fig.align = "center",
-	fig.width = 10,
 	fig.height = 5
 )
 ```
@@ -69,13 +68,18 @@ shot <- lapply(stats, parse_section, section = "shot") %>% bind_rows()
 
 ## Network
 
-```{r}
+```{r, fig.width=9.5}
 edges <-
   bind_rows(
-    mutate(rename(select(point, order, assist2, assist1), from = assist2, to = assist1), type = "A2"),
-    mutate(rename(select(point, order, assist1, scorer), from = assist1, to = scorer), type = "A1")
+    mutate(rename(select(point, order, team, assist2, assist1), from = assist2, to = assist1), type = "A2"),
+    mutate(rename(select(point, order, team, assist1, scorer), from = assist1, to = scorer), type = "A1")
   ) %>%
-  mutate(type = if_else(is.na(from) & type == "A1", "A0", type), dashes = type == "A2") %>%
+  mutate(
+    type = if_else(is.na(from) & type == "A1", "A0", type), 
+    dashes = type == "A2",
+    color = team,
+    width = 2
+  ) %>%
   mutate(from = if_else(type == "A0", to, from)) %>%
   remove_missing(na.rm = T)
 
@@ -92,7 +96,7 @@ nodes <-
   ) %>%
   select(-color)
 
-visNetwork(nodes, mutate(edges, label = order)) %>%
+visNetwork(nodes, mutate(edges, label = order), background = "lightgrey") %>%
   visEdges(arrows = list(to = list(enabled = T)), color = "#000000")
 ```
 
