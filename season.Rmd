@@ -4,7 +4,6 @@ author: "Stats Department"
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 output: 
   html_document: 
-    keep_md: yes
     toc: yes
     toc_depth: 2
 params:
@@ -15,11 +14,11 @@ params:
 library(tidyverse)
 knitr::opts_chunk$set(
   echo = FALSE,
-	warning = FALSE,
-	message = FALSE,
+  warning = FALSE,
+  message = FALSE,
   comment = "",
-	fig.align = "center",
-	fig.height = 5
+  fig.align = "center",
+  fig.height = 5
 )
 ```
 
@@ -38,32 +37,96 @@ parse_section <- function(df, section)
 }
 
 # load all the week-game sheets
+
+team <- read.xlsx(params$path, "team")
+
+roster <- 
+  read.xlsx(params$path, "roster") %>% 
+  gather("color", "id") %>% 
+  remove_missing(na.rm = T) %>% 
+  merge(team)
+
 stats <-
   grep("\\d-\\d", getSheetNames(params$path), value = T) %>%
   lapply(function(sheet, ...) mutate(read.xlsx(sheet, ...), sheet = sheet), xlsxFile = params$path, colNames = F) %>%
   lapply(separate, col = sheet, into = c("week", "game"))
 
-# stat tables
-team <- read.xlsx(params$path, "team")
+# query
 
-roster <- 
-  read.xlsx(params$path, "roster") %>% 
-  gather("team", "id") %>% 
-  remove_missing(na.rm = T) %>% 
-  merge(team) %>% 
-  mutate(color = gplots::col2hex(color))
+match <- 
+  lapply(stats, parse_section, section = "match") %>% 
+  bind_rows()
 
 point <- 
   lapply(stats, parse_section, section = "point") %>% 
   bind_rows() %>% 
-  rowid_to_column(var = "order")
+  rowid_to_column(var = "order") %>%
+  merge(team)
 
 penalty <- 
   lapply(stats, parse_section, section = "penalty") %>% 
   bind_rows() %>% 
-  mutate(duration = as.numeric(lubridate::ms(duration)) / 60)
+  mutate(duration = as.numeric(lubridate::ms(duration)) / 60) %>%
+  merge(team)
 
-shot <- lapply(stats, parse_section, section = "shot") %>% bind_rows()
+shot <- 
+  lapply(stats, parse_section, section = "shot") %>% 
+  bind_rows() %>%
+  merge(team)
+
+idx <- names(shot)[3:grep("goalie", names(shot))-1]
+goalie1 <-
+  merge(
+    mutate(shot, SH = rowSums(mutate_all(shot[idx], as.integer))),
+    count(point, week, game, team, goalie, name = "GA"),
+    all.x = T
+  ) %>%
+    mutate(GA = replace_na(GA, 0)) %>%
+    mutate(`SV%` = sprintf("%0.2f%%", (SH - GA) / SH * 100)) %>%
+    arrange(week, game)
+
+goalie2 <- 
+  select(goalie1, goalie, SH, GA) %>% 
+  group_by(goalie) %>% 
+  summarise_if(is.numeric, sum) %>% 
+  rename(id = goalie) %>%
+  mutate(`SV%` = sprintf("%0.2f%%", (SH - GA) / SH * 100))
+
+PIM <- 
+  rename(penalty, id = player) %>% 
+  group_by(id) %>% 
+  summarise(PIM = sum(duration))
+```
+
+## Standings
+
+```{r}
+# omg there has to be a better way to do this...
+
+bind_rows(
+  rename(select(match, week, game, home), color = home),
+  rename(select(match, week, game, away), color = away)
+) %>%
+  merge(count(point, week, game, color), all.x = T) %>%
+  replace(is.na(.), 0) %>%
+  group_by(week, game) %>%
+  group_modify(function(x, y) {
+    if (x[1, "n"] == x[2, "n"])
+      x$outcome <- c("T", "T")
+    else if (x[1, "n"] < x[2, "n"]) 
+      x$outcome <- c("L", "W")
+    else 
+      x$outcome <- c("W", "L")
+    x
+  }) %>% 
+  ungroup() %>%
+  count(color, outcome) %>%
+  spread(outcome, n) %>%
+  merge(team, ., all.x = T) %>%
+  replace(is.na(.), 0) %>%
+  select(., team, color, captain, W, `T`, L) %>%
+  arrange(L, `T`, W) %>%
+  knitr::kable()
 ```
 
 ## Network
@@ -71,13 +134,12 @@ shot <- lapply(stats, parse_section, section = "shot") %>% bind_rows()
 ```{r, fig.width=9.5}
 edges <-
   bind_rows(
-    mutate(rename(select(point, order, team, assist2, assist1), from = assist2, to = assist1), type = "A2"),
-    mutate(rename(select(point, order, team, assist1, scorer), from = assist1, to = scorer), type = "A1")
+    mutate(rename(select(point, order, color, assist2, assist1), from = assist2, to = assist1), type = "A2"),
+    mutate(rename(select(point, order, color, assist1, scorer), from = assist1, to = scorer), type = "A1")
   ) %>%
   mutate(
     type = if_else(is.na(from) & type == "A1", "A0", type), 
     dashes = type == "A2",
-    color = team,
     width = 2
   ) %>%
   mutate(from = if_else(type == "A0", to, from)) %>%
@@ -85,7 +147,7 @@ edges <-
 
 nodes <-
   data.frame(id = unique(sort(c(pull(edges, from), pull(edges, to))))) %>%
-  merge(., roster, all.x = T) %>%
+  merge(roster, all.x = T) %>%
   mutate(
     label = id,
     color.background = color,
@@ -97,12 +159,10 @@ nodes <-
   select(-color)
 
 visNetwork(nodes, mutate(edges, label = order), background = "lightgrey") %>%
-  visEdges(arrows = list(to = list(enabled = T)), color = "#000000")
-```
+  visEdges(arrows = list(to = list(enabled = T)))
 
-```{r}
 DT::datatable(
-	select(point, week, game, order, everything()),
+	select(point, week, game, everything(), -team, -captain),
 	style = "bootstrap", 
 	class = "table-bordered table-striped table-hover responsive",
 	filter = list(position = "top"),
@@ -113,19 +173,8 @@ DT::datatable(
 ## Shots
 
 ```{r}
-idx <- names(shot)[3:grep("goalie", names(shot))-1]
-goalie <-
-  merge(
-    mutate(shot, SH = rowSums(mutate_all(shot[idx], as.integer))),
-    count(point, week, game, team, goalie, name = "GA"),
-    all.x = T
-  ) %>%
-    mutate(GA = replace_na(GA, 0)) %>%
-    mutate(`SV%` = (SH - GA) / SH * 100) %>%
-    arrange(week, game)
-
 DT::datatable(
-  goalie,
+  select(goalie1, -team, -captain),
 	style = "bootstrap",
 	class = "table-bordered table-striped table-hover responsive",
 	filter = list(position = "top"),
@@ -136,8 +185,6 @@ DT::datatable(
 ## Skater
 
 ```{r}
-PIM <- rename(penalty, id = player) %>% group_by(id) %>% summarise(PIM = sum(duration))
-
 bind_rows(
   mutate(rename(count(point, scorer), id = scorer), type = "G"),
   mutate(rename(count(point, assist1), id = assist1), type = "A1"),
@@ -148,9 +195,10 @@ bind_rows(
   replace(., is.na(.), 0) %>%
   mutate(P = G + A1 + A2) %>%
   merge(roster, ., all.x = T) %>%
-  select(id, team, P, G, A1, A2) %>%
-  merge(., PIM, all.x = T) %>%
-  replace(., is.na(.), 0) %>%
+  select(id, color, P, G, A1, A2) %>%
+  merge(PIM, all.x = T) %>%
+  replace(is.na(.), 0) %>%
+  merge(goalie2, all = T) %>%
   arrange(-P) %>%
   DT::datatable(
   	style = "bootstrap",
@@ -160,26 +208,11 @@ bind_rows(
   )
 ```
 
-## Goalie
-
-```{r}
-select(goalie, goalie, SH, GA) %>% 
-  group_by(goalie) %>% 
-  summarise_if(is.numeric, sum) %>% 
-  mutate(`SV%` = (SH - GA) / SH * 100) %>%
-  DT::datatable(
-    style = "bootstrap",
-    class = "table-bordered table-striped table-hover responsive",
-    filter = list(position = "top"),
-    rownames = F
-  )
-```
-
 ## Penalty
 
 ```{r}
 DT::datatable(
-	select(penalty, week, game, everything()),
+	select(penalty, week, game, everything(), -team, -captain),
 	style = "bootstrap", 
 	class = "table-bordered table-striped table-hover responsive",
 	filter = list(position = "top"),
