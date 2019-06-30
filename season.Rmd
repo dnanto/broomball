@@ -162,7 +162,7 @@ visNetwork(nodes, mutate(edges, label = order), background = "lightgrey") %>%
   visEdges(arrows = list(to = list(enabled = T)))
 
 select(point, week, game, everything(), -team, -captain) %>%
-  arrange(desc(week), game, order) %>%
+  arrange(desc(order)) %>%
   DT::datatable(
   	style = "bootstrap", 
   	class = "table-bordered table-striped table-hover responsive",
