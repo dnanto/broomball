@@ -161,28 +161,30 @@ nodes <-
 visNetwork(nodes, mutate(edges, label = order), background = "lightgrey") %>%
   visEdges(arrows = list(to = list(enabled = T)))
 
-DT::datatable(
-	select(point, week, game, everything(), -team, -captain),
-	style = "bootstrap", 
-	class = "table-bordered table-striped table-hover responsive",
-	filter = list(position = "top"),
-	rownames = F
-)
+select(point, week, game, everything(), -team, -captain) %>%
+  arrange(desc(week), game) %>%
+  DT::datatable(
+  	style = "bootstrap", 
+  	class = "table-bordered table-striped table-hover responsive",
+  	filter = list(position = "top"),
+  	rownames = F
+  )
 ```
 
 ## Shots
 
 ```{r}
-DT::datatable(
-  select(goalie1, -team, -captain),
-	style = "bootstrap",
-	class = "table-bordered table-striped table-hover responsive",
-	filter = list(position = "top"),
-	rownames = F
-)
+select(goalie1, -team, -captain) %>%
+  arrange(desc(week), game) %>%
+  DT::datatable(
+  	style = "bootstrap",
+  	class = "table-bordered table-striped table-hover responsive",
+  	filter = list(position = "top"),
+  	rownames = F
+  )
 ```
 
-## Skater
+## Stats
 
 ```{r}
 bind_rows(
@@ -211,11 +213,12 @@ bind_rows(
 ## Penalty
 
 ```{r}
-DT::datatable(
-	select(penalty, week, game, everything(), -team, -captain),
-	style = "bootstrap", 
-	class = "table-bordered table-striped table-hover responsive",
-	filter = list(position = "top"),
-  rownames = F
-)
+select(penalty, week, game, everything(), -team, -captain) %>%
+  arrange(desc(week), game) %>%
+  DT::datatable(
+  	style = "bootstrap", 
+  	class = "table-bordered table-striped table-hover responsive",
+  	filter = list(position = "top"),
+    rownames = F
+  )
 ```
