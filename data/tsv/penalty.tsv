@@ -1,0 +1,529 @@
+id	match	team	period	time	player	server	call	duration	goalie	scored
+1	2	RED HOT BALLS	1		Adam Long		Unsportsmanlike Conduct	2		
+2	2	RED HOT BALLS	2		John Slawinski		Interference	2		
+3	3	EMANCIPATION BROCLAMATION	1		John Lemen		Slashing	2		
+4	3	RED HOT BALLS	1		Colin MacDougall		Hooking	2		
+5	3	RED HOT BALLS	1		Spencer Langrock		Tripping	2		
+6	3	EMANCIPATION BROCLAMATION	1		Chris Conaway		High Sticking	2		
+7	3	EMANCIPATION BROCLAMATION	2		Chris Conaway		Slashing	2		
+8	3	RED HOT BALLS	2		Jordan Walerstein		Slashing	2		
+9	4	BROOM-SHAKA-LAKA	1		Bryan Egan		Slashing	2		
+10	4	THE NIGHT'S WATCH	1		Dan Negron		Tripping	2		
+11	4	THE NIGHT'S WATCH	2		Dan Pall		Tripping	2		
+12	5	BROOM-SHAKA-LAKA	2		Michael McVay		Interference	2		
+13	5	RED HOT BALLS	2		Colin MacDougall		Interference	2		
+14	5	BROOM-SHAKA-LAKA	2		Rob Gittens		Tripping	2		
+15	6	EMANCIPATION BROCLAMATION	1		Nick Keune		Hooking	2		
+16	6	EMANCIPATION BROCLAMATION	2		Chris Conaway		Interference	2		
+17	8	EMANCIPATION BROCLAMATION	1		Tom Zohlen		Interference	2		
+18	8	EMANCIPATION BROCLAMATION	1		Tom Zohlen		Interference	2		
+19	8	EMANCIPATION BROCLAMATION	2		Bradford Neumann		Goaltender Interference	2		
+20	8	BROOM-SHAKA-LAKA	2		Phil Karash		Unsportsmanlike Conduct - Diving	2		
+21	8	EMANCIPATION BROCLAMATION	2		Tom Zohlen		Interference	2		
+22	8	BROOM-SHAKA-LAKA	2		Amy Fenstermacher		Unsportsmanlike Conduct - Taunting	2		
+23	9	THE NIGHT'S WATCH	1		Tim Brady		Tripping	2		
+24	9	BROOM-SHAKA-LAKA	2		Rob Gittens		Hooking	2		
+25	10	RED HOT BALLS	1		Colin MacDougall		Slashing	2		
+26	10	EMANCIPATION BROCLAMATION	1		Tom Zohlen		Slashing	2		
+27	10	RED HOT BALLS	2		Jordan Walerstein		Interference	2		
+28	10	EMANCIPATION BROCLAMATION	2		Bradford Neumann		Roughing	2		
+29	10	EMANCIPATION BROCLAMATION	2		Tom Zohlen		Interference	2		
+30	10	EMANCIPATION BROCLAMATION	2		Mike Pawlo		Roughing	2		
+31	10	RED HOT BALLS	2		Colin MacDougall		Interference	2		
+32	10	EMANCIPATION BROCLAMATION	2		Bradford Neumann		Cross-checking	2		
+33	11	THE NIGHT'S WATCH	1		Dan Pall		Interference	2		
+34	12	BROOM-SHAKA-LAKA	1		Sean Moberg		Tripping	2		
+35	12	RED HOT BALLS	2		Jordan Walerstein		Slashing	2		
+36	12	BROOM-SHAKA-LAKA	2		Andrew Anzano		High Sticking	2		
+37	13	RED HOT BALLS	1		Tim Kamphaus		Tripping	2		
+38	13	RED HOT BALLS	1		Colin MacDougall		Holding the Stick	2		
+39	13	RED HOT BALLS	1		Tim Kamphaus		Delay of Game	2		
+40	13	BROOM-SHAKA-LAKA	2		Andrew Anzano		Holding	2		
+41	13	RED HOT BALLS	2		Colin MacDougall		Unsportsmanlike Conduct - Diving	2		
+42	15	EMANCIPATION BROCLAMATION	1		Chris Conaway		Interference	2		
+43	17	YELLOW FEVER	1		Ryan Powell		Tripping	2		
+44	18	50 SHADES OF NUDI	1		Katherine Koleski		High Sticking	2		
+45	18	PYROMANIACS	1		Amy Fenstermacher		Tripping	2		
+46	18	50 SHADES OF NUDI	2		Joe Nudi III		Tripping	2		
+47	19	YELLOW FEVER	1		Chris Brooks		Interference	2		
+48	20	50 SHADES OF NUDI	1		Michelle LaFramboise		Tripping	2		
+49	21	V FOR VERDE-TTA	1		Kimberley Ramsay		Tripping	2		
+50	21	V FOR VERDE-TTA	1			Lindsey Getches	Too Many Men on the Ice	2		
+51	21	PYROMANIACS	2		Will Weiler		Tripping	2		
+52	22	50 SHADES OF NUDI	1		Bradford Neumann		Tripping	2		
+53	22	50 SHADES OF NUDI	2		Katy Bright		Tripping	2		
+54	24	V FOR VERDE-TTA	1		Andrew Boddorff		High Sticking	2		
+55	24	V FOR VERDE-TTA	1		Dan Pall		Tripping	2		
+56	24	YELLOW FEVER	2		Rachael Wise		High Sticking	2		
+57	24	V FOR VERDE-TTA	2		Spencer Langrock		Interference	2		
+58	26	YELLOW FEVER	1		David Horner		Hooking	2		
+59	26	PYROMANIACS	1		Amy Fenstermacher		Tripping	2		
+60	26	YELLOW FEVER	2		Chris Brooks		High Sticking	2		
+61	27	50 SHADES OF NUDI	2		Michael McVay		High Sticking	2		
+62	27	YELLOW FEVER	2		Ryan Powell		Tripping	2		
+63	27	50 SHADES OF NUDI	2		Phil Karash		Roughing	2		
+64	28	PYROMANIACS	1		Will Weiler		Tripping	2		
+65	28	PYROMANIACS	1		George MacDougall		Tripping	2		
+66	28	PYROMANIACS	2		Colin MacDougall		Tripping	2		
+67	29	YELLOW FEVER	2		Chris Brooks		Roughing	2		
+68	29	V FOR VERDE-TTA	2		Dan Pall		Roughing	2		
+69	30	50 SHADES OF NUDI	2		Chris Conaway		Roughing	2		
+70	30	50 SHADES OF NUDI	2		Michael McVay		Hooking	2		
+71	31	50 SHADES OF NUDI	1		Matt Liverette		Interference	2		
+72	31	YELLOW FEVER	2		Tom Zohlen		Interference	2		
+73	32	PYROMANIACS	1		Will Weiler		Interference	2		
+74	32	PYROMANIACS	1		Dave Laux		High Sticking	2		
+75	32	V FOR VERDE-TTA	1		Keri Rapalski		Tripping	2		
+76	32	PYROMANIACS	2		Colin MacDougall		High Sticking	2		
+77	32	V FOR VERDE-TTA	2		Dan Pall		High Sticking	2		
+78	33	HOW TO TRAIN YOUR FRANCHISE	1	11:16	Robert Kollenberg		High Sticking	2		
+79	33	BANANA GRAHAM BELLS	2	09:58			Too Many Men on the Ice	2		
+80	33	BANANA GRAHAM BELLS	2	06:53	John Lemen		High Sticking	2		
+81	33	BANANA GRAHAM BELLS	2	03:21	Joel Clark		Slashing	2		
+82	34	HOUSE BROOMATHEON	1	23:00	Aaron Bill		Slashing	2		
+83	34	HOUSE BROOMATHEON	1	02:45	Aaron Bill		High Sticking	2		
+84	34	OH, ME SO HORNER	2	07:45	Michelle LaFramboise		Tripping	2		
+85	34	HOUSE BROOMATHEON	3	01:59			Too Many Men on the Ice	2		
+86	35	HOW TO TRAIN YOUR FRANCHISE	1	15:53	Spencer Langrock		Tripping	2		
+87	35	OH, ME SO HORNER	1	03:51	Colin MacDougall		Tripping	2		
+88	35	HOW TO TRAIN YOUR FRANCHISE	2	13:20	Will Weiler		Tripping	2		
+89	35	OH, ME SO HORNER	2	02:41	Colin MacDougall		Interference	2		
+90	36	HOUSE BROOMATHEON	1	04:21	Amy Greeney		Interference	2		
+91	36	HOUSE BROOMATHEON	2	24:01	Ronnie Patterson		Slashing	2		
+92	36	HOUSE BROOMATHEON	2	08:52	Bradford Neumann		Tripping	2		
+93	37	HOUSE BROOMATHEON	1	17:02	Adam Long		High Sticking	2		
+94	37	HOW TO TRAIN YOUR FRANCHISE	1	10:35	Theo Weber		Interference	2		
+95	37	HOW TO TRAIN YOUR FRANCHISE	2	24:00	Marque Sterling		Tripping	2		
+96	37	HOW TO TRAIN YOUR FRANCHISE	2	18:36	Dan Pall		Goaltender Interference	2		
+97	37	HOUSE BROOMATHEON	2	13:24	Chris Brooks		Misconduct	5		
+98	37	HOW TO TRAIN YOUR FRANCHISE	2	10:30	Marque Sterling		Interference	2		
+99	38	OH, ME SO HORNER	1	01:41	Colin MacDougall		Holding the Stick	2		
+100	38	OH, ME SO HORNER	2	21:16	Shane Mitchell		Interference	2		
+101	38	OH, ME SO HORNER	2	10:45	Tom Zohlen		Interference	2		
+102	38	BANANA GRAHAM BELLS	2	06:02	Jenn Caulk		High Sticking	2		
+103	39	OH, ME SO HORNER	1	19:11	Tom Zohlen		High Sticking	2		
+104	39	OH, ME SO HORNER	1	14:02	Aaron Hopkins		Interference	2		
+105	39	HOUSE BROOMATHEON	1	04:42	Will Weiler		Interference	2		
+106	39	HOUSE BROOMATHEON	2	23:45	Art Chambers		High Sticking	2		
+107	39	OH, ME SO HORNER	2	05:25	David Horner		Interference	2		
+108	40	HOW TO TRAIN YOUR FRANCHISE	1	24:38	Robert Kollenberg		High Sticking	2		
+109	40	BANANA GRAHAM BELLS	1	01:00	Art Chambers		Tripping	2		
+110	40	HOW TO TRAIN YOUR FRANCHISE	2	23:06	Theo Weber		Hooking	2		
+111	40	BANANA GRAHAM BELLS	2	02:35	Tim Kamphaus		Interference	2		
+112	40	BANANA GRAHAM BELLS	2	01:22	Art Chambers		High Sticking	2		
+113	41	BANANA GRAHAM BELLS	1	06:16	Art Chambers		Slashing	2		
+114	41	HOUSE BROOMATHEON	2	12:32	George MacDougall		Slashing	2		
+115	42	OH, ME SO HORNER	1	11:26	Kelly Mitchell		Interference	2		
+116	42	HOW TO TRAIN YOUR FRANCHISE	1	09:45	Marque Sterling		Tripping	2		
+117	42	OH, ME SO HORNER	2	16:55	Colin MacDougall		Tripping	2		
+118	42	OH, ME SO HORNER	2	10:02	Keri Rapalski		Interference	2		
+119	42	HOW TO TRAIN YOUR FRANCHISE	2	03:48	Dan Pall		Interference	2		
+120	42	HOW TO TRAIN YOUR FRANCHISE	2		Dan Pall		Interference	2		
+121	43	HOUSE BROOMATHEON	2	03:13	Paul Fajman		Throwing Equipment	2		
+122	43	HOW TO TRAIN YOUR FRANCHISE	2	00:59	Dan Pall		Tripping	2		
+123	44	OH, ME SO HORNER	1	25:00	Joe Nudi III		Unsportsmanlike Conduct	2		
+124	44	OH, ME SO HORNER	1	06:25	Tom Zohlen		High Sticking	2		
+125	44	OH, ME SO HORNER	1	00:10	Shane Mitchell		High Sticking	2		
+126	44	BANANA GRAHAM BELLS	2	16:47	Tim Kamphaus		Holding	2		
+127	44	BANANA GRAHAM BELLS	2	15:45	John Lemen		Interference	2		
+128	44	OH, ME SO HORNER	2	14:25	Michelle LaFramboise		High Sticking	2		
+129	45	HOUSE BROOMATHEON	1	18:00	George MacDougall		Interference	2		
+130	45	OH, ME SO HORNER	1	05:29	Aaron Hopkins		High Sticking	2		
+131	45	HOUSE BROOMATHEON	2	14:00	Ronnie Patterson		Tripping	2		
+132	45	OH, ME SO HORNER	2	12:14	Colin MacDougall		High Sticking	2		
+133	45	OH, ME SO HORNER	2	04:18	Tom Zohlen		Interference	2		
+134	46	HOW TO TRAIN YOUR FRANCHISE	2	01:00	Mychal Ivancich		Goaltender Interference	2		
+135	46	BANANA GRAHAM BELLS	2	00:26	Lauren Kirby		Tripping	2		
+136	47	BANANA GRAHAM BELLS	1	09:50	Art Chambers		Tripping	2		
+137	47	BANANA GRAHAM BELLS	1	00:54	Art Chambers		High Sticking	2		
+138	47	OH, ME SO HORNER	2	08:00	Michelle LaFramboise		Tripping	2		
+139	47	OH, ME SO HORNER	2	05:21	Colin MacDougall		Holding	2		
+140	47	OH, ME SO HORNER	2	03:32	Dinesh Vesra		High Sticking	2		
+141	47	BANANA GRAHAM BELLS	2	01:12	Jenn Caulk		Interference	2		
+142	47	BANANA GRAHAM BELLS	2	00:19	Art Chambers		High Sticking	2		
+143	47	BANANA GRAHAM BELLS	2	00:15	John Slawinski		Interference	2		
+144	48	HOW TO TRAIN YOUR FRANCHISE	1	25:00	Theo Weber		Delay of Game	2		
+145	48	HOW TO TRAIN YOUR FRANCHISE	1	10:56	Dave Laux		Interference	2		
+146	48	HOW TO TRAIN YOUR FRANCHISE	1	08:10	Theo Weber		Tripping	2		
+147	48	HOW TO TRAIN YOUR FRANCHISE	2	25:00	Spencer Langrock		Delay of Game	2		
+148	48	HOW TO TRAIN YOUR FRANCHISE	2	07:29	Dan Pall		Holding	2		
+149	49	GITTEN LAUXY	1		David Horner		Tripping	2		
+150	50	LARGE HALPERIN COLLIDER	2		Colin MacDougall		Holding	2		
+151	50	GANGREEN	2		Dan Pall		Holding	2		
+152	50	LARGE HALPERIN COLLIDER	2		Colin MacDougall		Holding	2		
+153	51	GITTEN LAUXY	1		Katy Bright		High Sticking	2		
+154	51	GITTEN LAUXY	2		Spencer Langrock		Tripping	2		
+155	51	THE MOOSE IS LOOSE	2		Tim Kamphaus		High Sticking	2		
+156	51	GITTEN LAUXY	2		Katy Bright		High Sticking	2		
+157	51	GITTEN LAUXY	2		Michelle LaFramboise		High Sticking	2		
+158	51	GITTEN LAUXY	2			Jason Gubi	Too Many Men on the Ice	2		
+159	53	LARGE HALPERIN COLLIDER	1		Colin MacDougall		Tripping	2		
+160	53	THE MOOSE IS LOOSE	1		Kasey Kirby		Tripping	2		
+161	53	LARGE HALPERIN COLLIDER	1		Andrew Anzano		Tripping	2		
+162	53	THE MOOSE IS LOOSE	2		Stephanie Taylor		High Sticking	2		
+163	53	THE MOOSE IS LOOSE	2		Kasey Kirby		Delay of Game	2		
+164	53	THE MOOSE IS LOOSE	2		Lauren Kirby		Delay of Game	2		
+165	53	THE MOOSE IS LOOSE	2		Kasey Kirby		Holding	2		
+166	53	LARGE HALPERIN COLLIDER	2		George MacDougall		Misconduct - Abuse of Officials	10		
+167	54	HOPKINS SPICED LATTES	1		Tom Zohlen		Tripping	2		
+168	54	HOPKINS SPICED LATTES	1		Brad Sarnell		High Sticking	2		
+169	54	GITTEN LAUXY	2		Paul Fajman		Slashing	2		
+170	54	HOPKINS SPICED LATTES	2		Chris Conaway		Elbowing	2		
+171	54	GITTEN LAUXY	2		Spencer Langrock		High Sticking	2		
+172	54	HOPKINS SPICED LATTES	2		Bradford Neumann		High Sticking	2		
+173	55	LARGE HALPERIN COLLIDER	1		Bryan Egan		High Sticking	2		
+174	55	LARGE HALPERIN COLLIDER	1		Bryan Egan		Slashing	2		
+175	55	THE MOOSE IS LOOSE	2		Chris Matroniano		Interference	2		
+176	55	LARGE HALPERIN COLLIDER	2		Bryan Egan		Tripping	2		
+177	56	GITTEN LAUXY	1		Michael McVay		Interference	2		
+178	56	GANGREEN	2		Chris Brooks		Interference	2		
+179	56	GITTEN LAUXY	2		Michelle LaFramboise		High Sticking	2		
+180	57	HOPKINS SPICED LATTES	1		Bradford Neumann		Tripping	2		
+181	57	HOPKINS SPICED LATTES	1		Chris Conaway		Roughing	2		
+182	57	HOPKINS SPICED LATTES	1		Chris Conaway		Roughing	2		
+183	58	THE MOOSE IS LOOSE	1		Stephanie Taylor		High Sticking	2		
+184	59	GITTEN LAUXY	2		Rachel Pawlo		High Sticking	2		
+185	59	GITTEN LAUXY	2		Spencer Langrock		Holding	2		
+186	60	HOPKINS SPICED LATTES	1		Tom Zohlen		Roughing	2		
+187	60	GANGREEN	2		Dan Pall		Interference	2		
+188	60	GANGREEN	2		Chris Brooks		Interference	2		
+189	61	LARGE HALPERIN COLLIDER	2		Andrew Anzano		Tripping	2		
+190	61	LARGE HALPERIN COLLIDER	2		Colin MacDougall		Hooking	2		
+191	62	THE MOOSE IS LOOSE	1		Joey Tercero		Tripping	2		
+192	62	GANGREEN	2		Dan Pall		Tripping	2		
+193	63	GITTEN LAUXY	2		Michelle LaFramboise		Tripping	2		
+194	63	GITTEN LAUXY	3		Michelle LaFramboise		Tripping	2		
+195	64	GITTEN LAUXY	1		David Horner		Elbowing	2		
+196	65	LARGE HALPERIN COLLIDER	1		Andrew Anzano		Tripping	2		
+197	65	LARGE HALPERIN COLLIDER	2		Colin MacDougall		Holding	2		
+198	67	GITTEN LAUXY	1		Katy Bright		Delay of Game	2		
+199	67	GITTEN LAUXY	1		Dinesh Vesra		High Sticking	2		
+200	67	HOPKINS SPICED LATTES	1		Brad Sarnell		Interference	2		
+201	67	GITTEN LAUXY	2		Spencer Langrock		Delay of Game	2		
+202	67	HOPKINS SPICED LATTES	2		Bradford Neumann		Interference	2		
+203	67	HOPKINS SPICED LATTES	2		Aaron Hopkins		Holding	2		
+204	67	GITTEN LAUXY	2		Michelle LaFramboise		Holding	2		
+205	67	GITTEN LAUXY	2		Joe Nudi III		Unsportsmanlike Conduct	2		
+206	68	THE MOOSE IS LOOSE	1		Mariam Mehter		High Sticking	2		
+207	68	GANGREEN	2		Chris Matroniano		Interference	2		
+208	68	GANGREEN	4		Dan Pall		Tripping	2		
+209	69	CARGO CULT	1	12:11	Mike Pawlo		High Sticking	2		
+210	69	ART OF DARKNESS	1	05:00	Art Chambers		Interference	2		
+211	69	ART OF DARKNESS	2	08:04			Too Many Men on the Ice	2		
+212	70	KINKY MEHTER MAIDS	1	08:10	Katy Bright		Tripping	2		
+213	70	TARA DOES TUCKER	1	05:30	Tom Zohlen		High Sticking	2		
+214	70	TARA DOES TUCKER	2	08:15	Dan Pall		Unsportsmanlike Conduct	2		
+215	70	KINKY MEHTER MAIDS	2	08:15	Joe Nudi III		Tripping	2		
+216	70	TARA DOES TUCKER	2	02:55	Luke LaViolet		Interference	2		
+217	70	TARA DOES TUCKER	2	02:40	Dan Pall		Checking	2		
+218	70	KINKY MEHTER MAIDS	2	01:01	Brad Sarnell		Unsportsmanlike Conduct	2		
+219	71	ART OF DARKNESS	1	10:19	Brett Schneider		High Sticking	2		
+220	71	ART OF DARKNESS	1	02:38	Chris Peterson		High Sticking	2		
+221	71	TARA DOES TUCKER	2	05:21	Dave Laux		High Sticking	2		
+222	72	CARGO CULT	1	08:29	Will Weiler		High Sticking	2		
+223	72	KINKY MEHTER MAIDS	2	23:00	Aaron Hopkins		Tripping	2		
+224	73	ART OF DARKNESS	1	24:34	Robert Kollenberg		High Sticking	2		
+225	73	KINKY MEHTER MAIDS	1	17:31	Joe Ulerich		Slashing	2		
+226	73	KINKY MEHTER MAIDS	2	24:00	Jason Gubi		Interference	2		
+227	73	ART OF DARKNESS	2	00:58	Bradford Neumann		Tripping	2		
+228	74	TARA DOES TUCKER	1				Too Many Men on the Ice	2		
+229	74	TARA DOES TUCKER	1		Aaron Danilack		Interference	2		
+230	74	CARGO CULT	2		Colin MacDougall		Tripping	2		
+231	74	TARA DOES TUCKER	2		Phil Karash		Tripping	2		
+232	75	TARA DOES TUCKER	1	00:05	Dan Pall		Unsportsmanlike Conduct	2		
+233	75	KINKY MEHTER MAIDS	2	20:36	Theo Weber		Holding	2		
+234	75	TARA DOES TUCKER	2	13:55	Tom Zohlen		High Sticking	2		
+235	75	KINKY MEHTER MAIDS	2	05:54	Chris Matroniano		Tripping	2		
+236	76	CARGO CULT	1	02:28	Kelly Mitchell		Tripping	2		
+237	76	CARGO CULT	2	08:14	George MacDougall		Tripping	2		
+238	76	CARGO CULT	2	05:20	Dave Zarneke		Interference	2		
+239	77	CARGO CULT	1	22:22	Aaron Bill		Slashing	2		
+240	78	ART OF DARKNESS	1	09:22	Art Chambers		Interference	2		
+241	80	KINKY MEHTER MAIDS	1	05:20	Colin Horner		Interference	2		
+242	80	KINKY MEHTER MAIDS	2	19:49	Paul Fajman		Interference	2		
+243	81	CARGO CULT	1	05:00	Luke Streng		Tripping	2		
+244	81	KINKY MEHTER MAIDS	1	02:25	Chris Matroniano		Slashing	2		
+245	81	KINKY MEHTER MAIDS	2	07:30	Colin Horner		Delay of Game	2		
+246	81	KINKY MEHTER MAIDS	2	00:45	Theo Weber		Throwing Stick	2		
+247	82	TARA DOES TUCKER	1		Aaron Danilack		High Sticking	2		
+248	82	TARA DOES TUCKER	1	03:32	Dan Pall		Tripping	2		
+249	82	TARA DOES TUCKER	2	24:09	Tara Laux		Tripping	2		
+250	82	ART OF DARKNESS	2	16:24	Tim Kamphaus		Roughing	2		
+251	82	TARA DOES TUCKER	2	11:24	Dan Pall		Tripping	2		
+252	82	ART OF DARKNESS	2	09:33	Sean Greeney		Roughing	2		
+253	82	TARA DOES TUCKER	2	01:21	Dan Pall		Delay of Game	2		
+254	82	ART OF DARKNESS	2	00:00	Tim Kamphaus		Roughing	2		
+255	82	TARA DOES TUCKER	2	00:00	Tom Zohlen		Roughing	2		
+256	83	TARA DOES TUCKER	1	23:29	David Horner		Tripping	2		
+257	83	KINKY MEHTER MAIDS	1	21:00			Too Many Men on the Ice	2		
+258	83	KINKY MEHTER MAIDS	2	20:50	Michael McVay		High Sticking	2		
+259	83	KINKY MEHTER MAIDS	2	14:41	Michael McVay		High Sticking	2		
+260	83	TARA DOES TUCKER	2	13:35	David Horner		Tripping	2		
+261	84	CARGO CULT	1	12:50	Shane Mitchell		High Sticking	2		
+262	84	ART OF DARKNESS	2	25:00	Tim Kamphaus		Delay of Game	2		
+263	84	CARGO CULT	2	25:00	Scott Baker		Delay of Game	2		
+264	84	ART OF DARKNESS	2	22:44	Andrew Anzano		Roughing	2		
+265	84	CARGO CULT	2	22:44	Luke Streng		Roughing	2		
+266	84	ART OF DARKNESS	2	02:34	Art Chambers		Tripping	2		
+267	85	LAVIOLET FEMMES	1	23:28			Too Many Men on the Ice	2		
+268	85	NEGRONOMICON	1	20:39	Patrick Flanigan		High Sticking	2		
+269	85	NEGRONOMICON	2	12:41	Andrew Anzano		High Sticking	2		
+270	87	HERB APPEAL	1	13:35	Ryan Mullady		Hooking	2		
+271	87	HERB APPEAL	1	00:19	Tim Kamphaus		Slashing	2		
+272	87	HERB APPEAL	2	09:29	Tim Kamphaus		Tripping	2		
+273	88	NEGRONOMICON	2	23:35	Patrick Flanigan		Tripping	2		
+274	89	NEGRONOMICON	1	14:46	Patrick Flanigan		Tripping	2		
+275	89	HERB APPEAL	1	12:31	Will Eger		Tripping	2		
+276	89	HERB APPEAL	2	16:42	Art Chambers		Tripping	2		
+277	89	NEGRONOMICON	2	00:20	Michael McVay		Holding	2		
+278	89	NEGRONOMICON	2	00:00	Dan Negron		Tripping	2		
+279	90	CARLOS DANGER'S QUINCEAÑERA	2	18:48	Ryan Mullady		High Sticking	2		
+280	91	CARLOS DANGER'S QUINCEAÑERA	2	03:13	Bradford Neumann		Game Misconduct	10		
+281	92	NEGRONOMICON	2	09:50	Patrick Flanigan		High Sticking	2		
+282	92	NEGRONOMICON	2	06:24	Tom Zohlen		Tripping	2		
+283	93	CARLOS DANGER'S QUINCEAÑERA	2	07:02	Joe Ulerich		Roughing	2		
+284	93	CARLOS DANGER'S QUINCEAÑERA	2	07:02	George MacDougall		Roughing	2		
+285	93	CARLOS DANGER'S QUINCEAÑERA	2	07:02	George MacDougall		Unsportsmanlike Conduct	2		
+286	94	HERB APPEAL	1	07:25	Art Chambers		Tripping	2		
+287	94	LAVIOLET FEMMES	1	05:39			Too Many Men on the Ice	2		
+288	94	LAVIOLET FEMMES	1	01:51	Bryan Egan		Interference	2		
+289	94	HERB APPEAL	1	00:07	Chris Conaway		Slashing	2		
+290	95	HERB APPEAL	2	14:08	Robert Kollenberg		Tripping	2		
+291	96	LAVIOLET FEMMES	1	10:08	Dan Pall		Interference	2		
+292	96	LAVIOLET FEMMES	1	07:12	Dan Pall		Unsportsmanlike Conduct	2		
+293	96	CARLOS DANGER'S QUINCEAÑERA	2	20:47	Erica Wong		Slashing	2		
+294	96	CARLOS DANGER'S QUINCEAÑERA	2	16:22	Deanna Weidenhammer		Hooking	2		
+295	96	CARLOS DANGER'S QUINCEAÑERA	2	05:12	George MacDougall		Interference	2		
+296	97	CARLOS DANGER'S QUINCEAÑERA	2	04:56	Aaron Bill		Tripping	2		
+297	98	NEGRONOMICON	1	00:58	Joe Ulerich		Tripping	2		
+298	98	LAVIOLET FEMMES	2	22:30	Chris Peterson		High Sticking	2		
+299	98	LAVIOLET FEMMES	2	21:51	Chris Peterson		Interference	2		
+300	100	CARLOS DANGER'S QUINCEAÑERA	2	01:00	John Lemen		Delay of Game	2		
+301	101	SITH HAPPENS	2	20:40	Tim Kamphaus		Interference	2		
+302	101	YELLOW-BELLIED PIRATE HOOKERS	2	12:42	Tina Polley		High Sticking	2		
+303	101	YELLOW-BELLIED PIRATE HOOKERS	2	11:15	Bradford Neumann		Interference	2		
+304	102	COMMUNIST PAR-TAY	1	17:04	Tom Zohlen		Tripping	2		
+305	102	THAT'S NO BROOM	1	06:33	Dan Negron		High Sticking	2		
+306	102	COMMUNIST PAR-TAY	2	24:02	Phil Karash		Holding	2		
+307	102	COMMUNIST PAR-TAY	2	07:21	Dave Zarneke		Interference	2		
+308	102	THAT'S NO BROOM	2	01:34	Amy Greeney		Tripping	2		
+309	103	COMMUNIST PAR-TAY	1	07:17	Tom Zohlen		Interference	2		
+310	104	YELLOW-BELLIED PIRATE HOOKERS	1	16:31	Andrew Anzano		Interference	2		
+311	104	THAT'S NO BROOM	2	09:11	Chris Peterson		Tripping	2		
+312	104	YELLOW-BELLIED PIRATE HOOKERS	2	05:09	Aaron Hopkins		Tripping	2		
+313	104	THAT'S NO BROOM	2	02:48	George MacDougall		Interference	2		
+314	105	THAT'S NO BROOM	1	19:30	Aaron Bill		Interference	2		
+315	105	THAT'S NO BROOM	1	06:40	Shane Mitchell		Tripping	2		
+316	105	THAT'S NO BROOM	1	01:25	Nick Kaufman		Tripping	2		
+317	105	THAT'S NO BROOM	2	13:45	Shane Mitchell		Interference	2		
+318	106	YELLOW-BELLIED PIRATE HOOKERS	2	03:06	Chris Polley		Tripping	2		
+319	107	COMMUNIST PAR-TAY	1	09:35	Dave Zarneke		Interference	2		
+320	108	YELLOW-BELLIED PIRATE HOOKERS	2	01:00	Andrew Anzano		Interference	2		
+321	109	YELLOW-BELLIED PIRATE HOOKERS	1	19:34	Bradford Neumann		Slashing	2		
+322	109	YELLOW-BELLIED PIRATE HOOKERS	1	09:13	Jason Gubi		High Sticking	2		
+323	109	YELLOW-BELLIED PIRATE HOOKERS	2	23:00	Brett Schneider		Holding the Stick	2		
+324	109	YELLOW-BELLIED PIRATE HOOKERS	2	02:49	Art Chambers		Tripping	2		
+325	110	SITH HAPPENS	1	20:55	Theo Weber		Tripping	2		
+326	110	THAT'S NO BROOM	1	18:38	George MacDougall		Hooking	2		
+327	110	SITH HAPPENS	1	13:59	Tim Kamphaus		Interference	2		
+328	110	THAT'S NO BROOM	1	00:33	Dan Pall		Unsportsmanlike Conduct	2		
+329	110	THAT'S NO BROOM	2	22:30	Dan Pall		Roughing	2		
+330	110	THAT'S NO BROOM	2	15:02	Dan Pall		Elbowing	2		
+331	111	COMMUNIST PAR-TAY	1	16:42	Mike Pawlo		Slashing	2		
+332	111	COMMUNIST PAR-TAY	2	02:56	Tom Zohlen		High Sticking	2		
+333	111	COMMUNIST PAR-TAY	2	00:49	Spencer Langrock		Cross-checking	2		
+334	112	THAT'S NO BROOM	1	16:00	George MacDougall		High Sticking	2		
+335	112	THAT'S NO BROOM	1	14:45	Dan Pall		Slashing	2		
+336	112	YELLOW-BELLIED PIRATE HOOKERS	1	07:03	Andrew Anzano		Slashing	2		
+337	112	YELLOW-BELLIED PIRATE HOOKERS	1	02:21	Art Chambers		Tripping	2		
+338	112	YELLOW-BELLIED PIRATE HOOKERS	2	22:45	Dave Laux		High Sticking	2		
+339	113	COMMUNIST PAR-TAY	1	15:33	Bryan Egan		Interference	2		
+340	113	THAT'S NO BROOM	2	11:11	Dan Pall		High Sticking	2		
+341	113	COMMUNIST PAR-TAY	2	02:59	Will Weiler		Tripping	2		
+342	114	YELLOW-BELLIED PIRATE HOOKERS	1	06:25			Too Many Men on the Ice	2		
+343	114	SITH HAPPENS	1	01:31	Tim Kamphaus		Roughing	2		
+344	114	YELLOW-BELLIED PIRATE HOOKERS	1	00:17			Interference	2		
+345	114	YELLOW-BELLIED PIRATE HOOKERS	2	25:00		Tara Laux	Delay of Game	2		
+346	114	SITH HAPPENS	2	25:00		Kelly Mitchell	Delay of Game	2		
+347	114	YELLOW-BELLIED PIRATE HOOKERS	2	14:30	Andrew Anzano		Interference	2		
+348	115	TOO MANY NICKS ON THE ICEFLOOR	1	06:00	Nick Riddlesberger		High Sticking	2		
+349	115	TOO MANY NICKS ON THE ICEFLOOR	1	02:50	Nick Keely		Tripping	2		
+350	116	TANKS FOR ASKING	1	03:51	Dan Negron		Tripping	2		
+351	116	BETTY WHITE'S KNIGHTS	2	12:56	John Slawinski		Tripping	2		
+352	116	BETTY WHITE'S KNIGHTS	2	11:06	Tim Kamphaus		Tripping	2		
+353	117	BETTY WHITE'S KNIGHTS	1	00:19	Nathan Hauke		High Sticking	2		
+354	117	BETTY WHITE'S KNIGHTS	2	17:53	Brian Lin		Tripping	2		
+355	118	TANKS FOR ASKING	1	05:20	Luke LaViolet		High Sticking	2		
+356	119	TANKS FOR ASKING	2	09:55	Art Chambers		Slashing	2		
+357	121	TANKS FOR ASKING	1	12:48	Spencer Langrock		Slashing	2		
+358	121	TANKS FOR ASKING	2	05:18	Dan Negron		Tripping	2		
+359	122	TANKS FOR ASKING	1	02:00	Chris Elliott		Slashing	2		
+360	122	BETTY WHITE'S KNIGHTS	2	02:00	Chris Conaway		Roughing	2		
+361	123	BETTY WHITE'S KNIGHTS	1	10:08	Amy Greeney		Tripping	2		
+362	123	TOO MANY NICKS ON THE ICEFLOOR	1		Paul Fajman		Tripping	2		
+363	124	SUNDAY NIGHT BALL-STARS	1	19:54	Logan Bair		Slashing	2		
+364	124	SUNDAY NIGHT BALL-STARS	1	15:41	Kelley Dai		High Sticking	2		
+365	124	SUNDAY NIGHT BALL-STARS	2	24:35	Logan Bair		Tripping	2		
+366	124	SUNDAY NIGHT BALL-STARS	2	20:26	AJ Bolyard		Tripping	2		
+367	124	JUST THE TIP-IN	2	20:05	Dave Laux		Tripping	2		
+368	125	REDUENAMI	1	00:42	Rob Gittens		Interference	2		
+369	126	SUNDAY NIGHT BALL-STARS	1	11:38	Tom Zohlen		Tripping	2		
+370	126	REDUENAMI	1	01:29	Joel Clark		Holding	2		
+371	126	REDUENAMI	2	11:13	Joel Clark		Interference	2		
+372	129	2 BRETTS 1 CUP	2	17:00	Milton Jones		Roughing	2		
+373	129	2 BRETTS 1 CUP	2	13:50	Milton Jones		Tripping	2		
+374	129	SUNDAY NIGHT BALL-STARS	2	07:50	Will Eger		Tripping	2		
+375	129	SUNDAY NIGHT BALL-STARS	2	04:35	Tom Zohlen		Slashing	2		
+376	129	2 BRETTS 1 CUP	2	02:12	Chris Conaway		Roughing	2		
+377	131	JUST THE TIP-IN	2	17:20	Mariam Mehter		High Sticking	2		
+378	132	REDUENAMI	1	21:10	Joel Clark		High Sticking	2		
+379	134	2 BRETTS 1 CUP	1	16:55	Milton Jones		Interference	2		
+380	134	SUNDAY NIGHT BALL-STARS	1	02:10	Tom Zohlen		Roughing	2		
+381	134	2 BRETTS 1 CUP	1	00:18	Bradford Neumann		Tripping	2		
+382	134	2 BRETTS 1 CUP	2	18:27	Milton Jones		Tripping	2		
+383	136	2 BRETTS 1 CUP	2	09:55	Nick Keely		Tripping	2		
+384	137	SUNDAY NIGHT BALL-STARS	1	21:52	Kelley Dai		High Sticking	2		
+385	137	JUST THE TIP-IN	2	04:00	Dave Laux		Interference	2		
+386	137	JUST THE TIP-IN	2	02:00	Dave Laux		Delay of Game	2		
+387	138	JUST THE TIP-IN	1	14:59			Too Many Men on the Ice	2		
+388	139	2 BRETTS 1 CUP	1	10:30	Tim Kamphaus		Tripping	2		
+389	140	LITTLE BLUE PILLS	1	20:38	Spencer Langrock		Tripping	2		
+390	140	RED ROCKETS	1	06:10	Trevor Pyle		High Sticking	2		
+391	140	LITTLE BLUE PILLS	1	02:15	David Horner		Interference	2		
+392	140	LITTLE BLUE PILLS	2	20:30	Sam Fenstermacher		High Sticking	2		
+393	140	RED ROCKETS	2	19:30	Andrew Anzano		Tripping	2		
+394	140	RED ROCKETS	2	14:35	Andrew Anzano		Interference	2		
+395	141	PAWL BEARERS	1	17:00	Brad Sarnell		Hooking	2		
+396	141	RETURN OF THE MAC	2	01:59	Patrick Flanigan		Interference	2		
+397	142	BRIGHT & HORNEY	1	12:30	Josh Blockstein		High Sticking	2		
+398	142	BRIGHT & HORNEY	2	09:47	Mickey Senate		Tripping	2		
+399	143	MEAN TANGERINE	2	11:00	Scott Marino		High Sticking	2		
+400	144	SKEWED BLUE	1	05:25	Justin Sawyer		Tripping	2		
+401	144	SKEWED BLUE	2	11:21	Justin Sawyer		High Sticking	2		
+402	145	🍆	1	07:30	Paul Fajman		Interference	2		
+403	145	MULLADY AND THE TRAMPS	1	00:20	Bradford Neumann		Slashing	2		
+404	145	MULLADY AND THE TRAMPS	2	15:43		Dave Laux	Too Many Men on the Ice	2		
+405	145	🍆	2	06:20	Aaron Bill		Tripping	2		
+406	146	BRIGHT & HORNEY	1	16:40	Josh Blockstein		High Sticking	2		
+407	146	BRIGHT & HORNEY	1	00:40			Too Many Men on the Ice	2		
+408	147	SKEWED BLUE	1	04:13	Brett Schneider		High Sticking	2		
+409	148	MULLADY AND THE TRAMPS	1	03:20	Dave Laux		Tripping	2		
+410	148	MULLADY AND THE TRAMPS	2	16:26	Tara Laux		High Sticking	2		
+411	149	MEAN TANGERINE	2	04:30	Dan Pall		High Sticking	2		
+412	149	🍆	2	04:30	Art Chambers		Unsportsmanlike Conduct	2		
+413	150	MULLADY AND THE TRAMPS	1	12:00	Aaron Hopkins		Tripping	2		
+414	150	BRIGHT & HORNEY	2	10:32	Lindsey Getches		High Sticking	2		
+415	150	BRIGHT & HORNEY	2	00:15	Mike Norman		High Sticking	2		
+416	151	MEAN TANGERINE	1	09:07	Danny Ferry		High Sticking	2		
+417	151	MEAN TANGERINE	2	12:14	Michelle LaFramboise		Interference	2		
+418	152	BRIGHT & HORNEY	1	16:20	Lindsey Getches		High Sticking	2		
+419	152	🍆	1	13:40	Art Chambers		Tripping	2		
+420	152	🍆	1	13:40	Ryan Schradin		Tripping	2		
+421	152	🍆	1	03:30	Ryan Schradin		Interference	2		
+422	152	🍆	2	00:24	Sean Moberg		Holding	2		
+423	153	MULLADY AND THE TRAMPS	1	12:02	Adam Greenstein		Slashing	2		
+424	153	MULLADY AND THE TRAMPS	1	10:23	Brett Schneider (Bort)		Interference	2		
+425	153	MULLADY AND THE TRAMPS	1	06:34	Nathan Centofanti		Tripping	2		
+426	153	MULLADY AND THE TRAMPS	2	15:39	Adam Greenstein		High Sticking	2		
+427	153	MEAN TANGERINE	2	05:02	Amy Greeney		Tripping	2		
+428	153	MEAN TANGERINE	2	00:03	Scott Marino		Interference	2		
+429	155	BRIGHT & HORNEY	1	15:50	Mike Norman		High Sticking	2		
+430	155	BRIGHT & HORNEY	1	03:30	Lindsey Getches		Slashing	2		
+431	155	BRIGHT & HORNEY	2	12:00	David Horner		Interference	2		
+432	155	MEAN TANGERINE	2	01:30	Dan Pall		Holding	2		
+433	156	SKEWED BLUE	1	04:15	Jason Gubi		High Sticking	2		
+434	156	SKEWED BLUE	1	02:15	Kate Van Essen		Tripping	2		
+435	157	MEAN TANGERINE	1	04:54	Billy Thomson		Interference	2		
+436	159	MEAN TANGERINE	1	15:48	Tim Kamphaus		High Sticking	2		
+437	159	SKEWED BLUE	1	14:10	Brian Randolph		High Sticking	2		
+438	159	MEAN TANGERINE	2	05:00	Dan Pall		Interference	2		
+439	160	MEAN TANGERINE	1	00:20	Scott Marino		High Sticking	2		
+440	160	🍆	2	16:39	Ryan Schradin		Interference	2		
+441	160	MEAN TANGERINE	2	03:06	Tim Kamphaus		High Sticking	2		
+442	160	MEAN TANGERINE	2	00:09	Dan Pall		Tripping	2		
+443	161	MULLADY AND THE TRAMPS	1	10:30	Adam Greenstein		High Sticking	2		
+444	161	BRIGHT & HORNEY	1	04:15	Spencer Langrock		Tripping	2		
+445	162	KYLO REN'S HIGH PANTS	1	04:16	Bradford Neumann		High Sticking	2		
+446	164	KYLO REN'S HIGH PANTS	2	02:04	Aaron Bill		Interference	2		
+447	164	VICTORIOUS SECRET	2	02:04	Aaron Hopkins		Holding	2		
+448	165	VANILLA ICE	1	14:55	Dave Laux		Tripping	2		
+449	165	GAME OVERMANN	1	07:04	Meredith Henkleman		High Sticking	2		
+450	165	VANILLA ICE	2	13:05	Danny Ferry		Slashing	2		
+451	165	GAME OVERMANN	2	05:05	Bill Woehlsch		High Sticking	2		
+452	165	VANILLA ICE	2	00:31	Danny Ferry		Roughing	2		
+453	167	KYLO REN'S HIGH PANTS	2	07:40	Sean Moberg		Tripping	2		
+454	168	GAME OVERMANN	1	11:39	Spencer Langrock		Tripping	2		
+455	169	KYLO REN'S HIGH PANTS	1	09:00	Ryan Mullady		High Sticking	2		
+456	170	VANILLA ICE	1	06:00	Doug Byrd		High Sticking	2		
+457	170	GAME OVERMANN	1	00:10	Craig Plunkett		Delay of Game	2		
+458	170	GAME OVERMANN	2	09:30	Ben Overmann		Elbowing	2		
+459	172	VICTORIOUS SECRET	1	13:10	Connor Rattey		High Sticking	2		
+460	173	KYLO REN'S HIGH PANTS	1	10:38	Ryan Mullady		High Sticking	2		
+461	173	KYLO REN'S HIGH PANTS	2	14:15	Rob Gittens		Interference	2		
+462	173	KYLO REN'S HIGH PANTS	2	06:46	Theo Weber		Interference	2		
+463	175	KYLO REN'S HIGH PANTS	1	15:44	Ryan Mullady		Hooking	2		
+464	175	VANILLA ICE	1	02:14	Danny Ferry		Tripping	2		
+465	175	KYLO REN'S HIGH PANTS	2	09:04	Theo Trigylidas		Tripping	2		
+466	176	JONES' BALLS EXPRESSWAY	2	21:27	Nick Keune		Tripping	2		
+467	176	DIRTY MIKE AND THE BOYS	2	14:12	Tara Laux		High Sticking	2		
+468	176	JONES' BALLS EXPRESSWAY	2	06:30	Milton Jones		Roughing	2		
+469	176	DIRTY MIKE AND THE BOYS	2	06:30	David Horner		Slashing	2		
+470	176	JONES' BALLS EXPRESSWAY	2	05:41	AJ Bolyard		Tripping	2		
+471	177	PECAN SANDIES	1	19:33	Aaron Bill		Roughing	2		
+472	177	JONES' BALLS EXPRESSWAY	1	08:52	Mickey Senate		Tripping	2		
+473	177	JONES' BALLS EXPRESSWAY	1	00:37	Brett Schneider (Bort)		Slashing	2		
+474	177	PECAN SANDIES	2	07:30	Katy Bright		High Sticking	2		
+475	178	DIRTY MIKE AND THE BOYS	1	11:06	Mike Pawlo		Tripping	2		
+476	178	BRAD BODS	2	07:07	Dan Negron		Interference	2		
+477	179	DIRTY MIKE AND THE BOYS	2	13:44	Mike Pawlo		High Sticking	2		
+478	180	JONES' BALLS EXPRESSWAY	2	18:15	Nick Keune		Tripping	2		
+479	180	JONES' BALLS EXPRESSWAY	2	11:03	Ryan Mullady		Tripping	2		
+480	180	BRAD BODS	2	04:19	Theo Weber	Nathan Centofanti	Tripping	2		
+481	181	BRAD BODS	1	15:00	Nathan Centofanti		High Sticking	2		
+482	181	PECAN SANDIES	1	04:30	Mickey Senate		Tripping	2		
+483	181	PECAN SANDIES	2	00:49	Meredith Henkleman		High Sticking	2		
+484	182	DIRTY MIKE AND THE BOYS	1	16:45	Mike Campbell		Roughing	2		
+485	182	BRAD BODS	1	14:31	Doug Byrd		High Sticking	2		
+486	182	BRAD BODS	1	14:31	Spencer Langrock		Tripping	2		
+487	182	BRAD BODS	1	06:09	Aaron Hopkins		High Sticking	2		
+488	182	DIRTY MIKE AND THE BOYS	2	19:00	David Cook		Interference	2		
+489	182	BRAD BODS	2	16:45	Ryan Mullady		Tripping	2		
+490	183	JONES' BALLS EXPRESSWAY	1	01:29	Steph Nitti		Tripping	2		
+491	183	JONES' BALLS EXPRESSWAY	2	16:20	AJ Bolyard		High Sticking	4		
+492	184	JONES' BALLS EXPRESSWAY	1	01:35	AJ Bolyard		Tripping	2		
+493	184	BRAD BODS	2	21:45	Spencer Langrock		Interference	2		
+494	184	JONES' BALLS EXPRESSWAY	2	08:17	Art Chambers		Tripping	2		
+495	185	DIRTY MIKE AND THE BOYS	1	10:00	Tom Zohlen		Interference	2		
+496	185	PECAN SANDIES	1	06:30	Art Chambers		Tripping	2		
+497	185	DIRTY MIKE AND THE BOYS	2	03:32	Katy Bright		High Sticking	2		
+498	186	PECAN SANDIES	2	00:07	Aaron Bill		Interference	2		
+499	187	JONES' BALLS EXPRESSWAY	1	07:20	Art Chambers		Tripping	2		
+500	187	JONES' BALLS EXPRESSWAY	1		Art Chambers		Tripping	2		
+501	187	DIRTY MIKE AND THE BOYS	2	18:00	Tom Zohlen		High Sticking	2		
+502	188	PECAN SANDIES	2	15:25	Tim Kamphaus		Goaltender Interference	2		
+503	189	JONES' BALLS EXPRESSWAY	1	10:50	Milton Jones		Throwing Stick	2		
+504	190	JONES' BALLS EXPRESSWAY	2	10:21	Chris Matroniano		High Sticking	2		
+505	190	BRAD BODS	2	07:30	Ryan Mullady		High Sticking	2		
+506	191	MAIZE RAGE	2	00:40	Ben Overmann		Hooking	2		0
+507	192	GUBI OR NOT GUBI	1	06:15	Alex Homme		High Sticking	2		1
+508	192	THE FIGHTING MONGOOSES	1	00:00	Spencer Langrock		Tripping	2		0
+509	193	THE FIGHTING MONGOOSES	2	13:05	Dan Negron		Interference	2		0
+510	193	1-800-382-5633	2	08:48	Eric Luttrell		Tripping	2		1
+511	194	GUBI OR NOT GUBI	1	15:00	Caleb Cobb		Too Many Men on the Ice	2		0
+512	194	GUBI OR NOT GUBI	2	14:00	Clarissa Perkins		High Sticking	2		0
+513	195	THE FIGHTING MONGOOSES	1	02:30	Dan Negron		Tripping	2		0
+514	195	THE FIGHTING MONGOOSES	2		Aaron Hopkins		Interference	2		0
+515	195	BLEACHED ICE HOLES	2		Danny Ferry		Interference	2		0
+516	196	1-800-382-5633	1	02:50	Jordan Woodswahl		Tripping	2		1
+517	197	BLEACHED ICE HOLES	1	07:50	Aaron Bill		High Sticking	2		0
+518	197	BLEACHED ICE HOLES	2	04:00	Nathan Centofanti		Tripping	2		0
+519	198	MAIZE RAGE	1	12:10	Ben Overmann		Interference	2		1
+520	199	1-800-382-5633	1	08:30	David Laux		Tripping	2		0
+521	200	THE FIGHTING MONGOOSES	1	13:00	Spencer Langrock		Slashing	2		1
+522	200	MAIZE RAGE	1	01:00	Rodney Jean		Interference	2		0
+523	200	THE FIGHTING MONGOOSES	2	15:40	Ryan Mullady		Tripping	2		0
+524	200	MAIZE RAGE	2	04:30	Bill Oehlschlager		Tripping	2		0
+525	202	1-800-382-5633	1	03:20	Josh Blockstein		Roughing	2		0
+526	202	1-800-382-5633	2	11:10	Chris Matroniano		Interference	2		0
+527	202	1-800-382-5633	2	07:40	Jordan Woodswahl		Tripping	2		1
+528	202	1-800-382-5633	2	02:00	John Utter		High Sticking	2		1

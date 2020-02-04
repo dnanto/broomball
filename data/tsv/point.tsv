@@ -1,0 +1,1130 @@
+id	match	team	period	time	shooter	assist1	assist2	goalie	EV	PP	SH	EN
+1	1	BROOM-SHAKA-LAKA	1		Sean Moberg	Andrew Anzano	Bryan Egan	Dan Piotrowski	1	0	0	0
+2	1	EMANCIPATION BROCLAMATION	1		John Lemen	Tom Zohlen		Phil Karash	1	0	0	0
+3	1	EMANCIPATION BROCLAMATION	2		Aaron Hopkins	Chris Conaway		Phil Karash	1	0	0	0
+4	1	BROOM-SHAKA-LAKA	2		Paul Fajman	Joe Ulerich		Dan Piotrowski	1	0	0	0
+5	1	EMANCIPATION BROCLAMATION	2		Dan McCabe	Aaron Hopkins		Phil Karash	1	0	0	0
+6	1	EMANCIPATION BROCLAMATION	2		Deanna Weidenhammer	Chris Conaway	Aaron Hopkins	Phil Karash	1	0	0	0
+7	1	BROOM-SHAKA-LAKA	2		Joe Ulerich	Lindsey Getches		Dan Piotrowski	1	0	0	0
+8	2	RED HOT BALLS	1		Spencer Langrock	Jordan Walerstein		James Cargo	1	0	0	0
+9	2	RED HOT BALLS	1		Adam Long	Spencer Langrock	Devon Berman	James Cargo	1	0	0	0
+10	2	RED HOT BALLS	1		Spencer Langrock	Devon Berman		James Cargo	1	0	0	0
+11	2	THE NIGHT'S WATCH	1		Mychal Ivancich	Jason Gubi	Dan Negron	Max Leitschuh	0	1	0	0
+12	2	THE NIGHT'S WATCH	2		Dan Pall	Brett Schneider		Max Leitschuh	1	0	0	0
+13	2	RED HOT BALLS	2		Spencer Langrock	Tim Kamphaus	Matt Liverette	James Cargo	1	0	0	0
+14	3	RED HOT BALLS	1		John Slawinski	Spencer Langrock		Phil Karash	1	0	0	0
+15	3	EMANCIPATION BROCLAMATION	1		John Lemen	Wendy Jason	Mike Pawlo	Max Leitschuh	0	1	0	0
+16	3	EMANCIPATION BROCLAMATION	1		Deanna Weidenhammer	Tom Zohlen	Chris Conaway	Max Leitschuh	1	0	0	0
+17	3	RED HOT BALLS	1		Colin MacDougall	Michelle LaFramboise		Phil Karash	1	0	0	0
+18	3	EMANCIPATION BROCLAMATION	1		Bradford Neumann	Mike Pawlo	Keri Rapalski	Max Leitschuh	1	0	0	0
+19	3	RED HOT BALLS	2		Colin MacDougall	Max Leitschuh		Phil Karash	1	0	0	0
+20	3	EMANCIPATION BROCLAMATION	2		Nick Keune	Deanna Weidenhammer	Chris Conaway	Max Leitschuh	1	0	0	0
+21	4	THE NIGHT'S WATCH	1		Dan Pall	Katie Bay		Phil Karash	1	0	0	0
+22	4	THE NIGHT'S WATCH	1		Dan Pall	Tara Laux	Brett Schneider	Phil Karash	1	0	0	0
+23	4	BROOM-SHAKA-LAKA	2		Joe Ulerich	Bryan Egan	Paul Fajman	James Cargo	0	1	0	0
+24	5	RED HOT BALLS	1		Adam Long	Colin MacDougall		Phil Karash	1	0	0	0
+25	5	BROOM-SHAKA-LAKA	2		Andrew Anzano			Max Leitschuh	1	0	0	0
+26	5	BROOM-SHAKA-LAKA	2		Joe Ulerich			Max Leitschuh	1	0	0	0
+27	5	BROOM-SHAKA-LAKA	2		Andrew Anzano	Lindsey Getches	Paul Fajman	Max Leitschuh	1	0	0	0
+28	5	RED HOT BALLS	2		Colin MacDougall			Phil Karash	1	0	0	0
+29	6	EMANCIPATION BROCLAMATION	1		Luke Streng	Keri Rapalski	Bradford Neumann	James Cargo	1	0	0	0
+30	6	THE NIGHT'S WATCH	1		David Horner	Dan Pall	Brett Schneider	Dan Piotrowski	1	0	0	0
+31	6	EMANCIPATION BROCLAMATION	2		Bradford Neumann	Luke Streng		James Cargo	1	0	0	0
+32	6	THE NIGHT'S WATCH	2		Brett Schneider	Dave Laux		Dan Piotrowski	1	0	0	0
+33	6	THE NIGHT'S WATCH	2		Brett Schneider	Dan Negron		Dan Piotrowski	1	0	0	0
+34	6	EMANCIPATION BROCLAMATION	2		Bradford Neumann			James Cargo	1	0	0	0
+35	6	THE NIGHT'S WATCH	3		Brett Schneider	Dan Pall	Tara Laux	Dan Piotrowski	1	0	0	0
+36	7	RED HOT BALLS	1		Colin MacDougall			James Cargo	1	0	0	0
+37	7	THE NIGHT'S WATCH	1		Dan Pall	David Horner		Spencer Langrock	1	0	0	0
+38	7	RED HOT BALLS	2		Colin MacDougall			James Cargo	1	0	0	0
+39	7	THE NIGHT'S WATCH	2		Dan Pall	David Horner		Spencer Langrock	1	0	0	0
+40	7	THE NIGHT'S WATCH	2		Brett Schneider			Spencer Langrock	1	0	0	0
+41	8	EMANCIPATION BROCLAMATION	1		Tom Zohlen			Phil Karash	1	0	0	0
+42	8	EMANCIPATION BROCLAMATION	1		Bradford Neumann			Phil Karash	1	0	0	0
+43	8	BROOM-SHAKA-LAKA	2		Joe Ulerich	Bryan Egan	Katy Bright	Dan Piotrowski	0	1	0	0
+44	8	EMANCIPATION BROCLAMATION	2		John Lemen	Chris Conaway	Bradford Neumann	Phil Karash	1	0	0	0
+45	8	BROOM-SHAKA-LAKA	2		Paul Fajman	Joe Ulerich		Dan Piotrowski	1	0	0	0
+46	8	BROOM-SHAKA-LAKA	2		Joe Ulerich	Dave Zarneke		Dan Piotrowski	1	0	0	0
+47	8	BROOM-SHAKA-LAKA	2		Andrew Anzano			Dan Piotrowski	1	0	0	0
+48	9	THE NIGHT'S WATCH	1		Dan Pall			Max Leitschuh	1	0	0	0
+49	9	THE NIGHT'S WATCH	1		Mychal Ivancich	Brad Sarnell		Max Leitschuh	1	0	0	0
+50	9	BROOM-SHAKA-LAKA	1		Joe Ulerich	Dave Zarneke		James Cargo	1	0	0	0
+51	9	BROOM-SHAKA-LAKA	1		Paul Fajman	Andrew Anzano	Lindsey Getches	James Cargo	1	0	0	0
+52	9	BROOM-SHAKA-LAKA	2		Paul Fajman	Joe Ulerich	Andrew Anzano	James Cargo	1	0	0	0
+53	9	BROOM-SHAKA-LAKA	2		Michael McVay	Amy Fenstermacher	Sean Moberg	James Cargo	1	0	0	0
+54	9	BROOM-SHAKA-LAKA	2		Joe Ulerich			James Cargo	1	0	0	0
+55	9	BROOM-SHAKA-LAKA	2		Joe Ulerich	Paul Fajman		James Cargo	1	0	0	0
+56	9	THE NIGHT'S WATCH	2		Dan Pall	Dave Laux	Brett Schneider	Max Leitschuh	0	1	0	0
+57	9	BROOM-SHAKA-LAKA	2		Joe Ulerich	Lindsey Getches	Paul Fajman	James Cargo	1	0	0	0
+58	9	THE NIGHT'S WATCH	2		Dan Pall	Brad Sarnell	Alexandra Eichel	Max Leitschuh	1	0	0	0
+59	9	BROOM-SHAKA-LAKA	2		Joe Ulerich			James Cargo	1	0	0	0
+60	10	EMANCIPATION BROCLAMATION	1		Tom Zohlen	Aaron Hopkins	Deanna Weidenhammer	Max Leitschuh	0	1	0	0
+61	10	EMANCIPATION BROCLAMATION	1		Tom Zohlen	Chris Conaway		Max Leitschuh	1	0	0	0
+62	10	RED HOT BALLS	2		Colin MacDougall	Jordan Walerstein	Chris Brooks	Dan Piotrowski	0	1	0	0
+63	10	RED HOT BALLS	2		Chris Brooks	Colin MacDougall		Dan Piotrowski	1	0	0	0
+64	10	RED HOT BALLS	3		Colin MacDougall	Max Leitschuh		Dan Piotrowski	1	0	0	1
+65	11	EMANCIPATION BROCLAMATION	1		Dan McCabe	Mike Pawlo	Bradford Neumann	James Cargo	0	1	0	0
+66	11	THE NIGHT'S WATCH	1		Dan Negron	Dan Pall		Dan Piotrowski	1	0	0	0
+67	11	THE NIGHT'S WATCH	2		David Horner	Jason Gubi		Dan Piotrowski	1	0	0	0
+68	11	THE NIGHT'S WATCH	2		Katie Bay	Brad Sarnell	Mychal Ivancich	Dan Piotrowski	1	0	0	0
+69	12	BROOM-SHAKA-LAKA	1		Joe Ulerich	Lindsey Getches	Andrew Anzano	Max Leitschuh	1	0	0	0
+70	12	BROOM-SHAKA-LAKA	1		Lindsey Getches	Joe Ulerich		Max Leitschuh	1	0	0	0
+71	12	BROOM-SHAKA-LAKA	1		Joe Ulerich			Max Leitschuh	1	0	1	0
+72	12	BROOM-SHAKA-LAKA	1		Joe Ulerich			Max Leitschuh	1	0	1	0
+73	12	RED HOT BALLS	2		Colin MacDougall	Devon Berman		Phil Karash	1	0	0	0
+74	12	RED HOT BALLS	2		John Slawinski	Colin MacDougall	Nichole Venious	Phil Karash	1	0	0	0
+75	12	RED HOT BALLS	2		Madeleine Mersky	Spencer Langrock		Phil Karash	1	0	0	0
+76	12	BROOM-SHAKA-LAKA	2		Joe Ulerich			Max Leitschuh	1	0	0	1
+77	13	RED HOT BALLS	1		Tim Kamphaus	Colin MacDougall		Phil Karash	1	0	0	0
+78	13	BROOM-SHAKA-LAKA	1		Joe Ulerich	Lindsey Getches		Max Leitschuh	1	0	0	0
+79	13	RED HOT BALLS	2		Spencer Langrock	John Slawinski		Phil Karash	1	0	1	0
+80	13	BROOM-SHAKA-LAKA	2		Joe Ulerich	Lindsey Getches		Max Leitschuh	1	0	0	0
+81	13	BROOM-SHAKA-LAKA	3		Joe Ulerich	Lindsey Getches		Max Leitschuh	1	0	0	0
+82	14	THE NIGHT'S WATCH	1		Mychal Ivancich			Dan Piotrowski	1	0	0	0
+83	14	THE NIGHT'S WATCH	1		Brett Schneider	David Horner		Dan Piotrowski	1	0	0	0
+84	14	EMANCIPATION BROCLAMATION	2		Aaron Hopkins	Keri Rapalski	Chris Conaway	James Cargo	1	0	0	0
+85	14	EMANCIPATION BROCLAMATION	2		Tom Zohlen	Deanna Weidenhammer	Chris Conaway	James Cargo	1	0	0	0
+86	14	EMANCIPATION BROCLAMATION	2		Bradford Neumann			James Cargo	1	0	0	0
+87	15	EMANCIPATION BROCLAMATION	1		Bradford Neumann	Chris Conaway	Megan Thomas	Phil Karash	1	0	0	0
+88	15	EMANCIPATION BROCLAMATION	1		Aaron Hopkins	Bradford Neumann	John Lemen	Phil Karash	1	0	0	0
+89	15	BROOM-SHAKA-LAKA	1		Dave Zarneke	Joe Ulerich	Sean Moberg	Dan Piotrowski	1	0	0	0
+90	15	EMANCIPATION BROCLAMATION	1		Bradford Neumann			Phil Karash	1	0	0	0
+91	15	BROOM-SHAKA-LAKA	2		Michael McVay	Andrew Anzano	Amy Fenstermacher	Dan Piotrowski	1	0	0	0
+92	15	EMANCIPATION BROCLAMATION	2		Luke Streng	Bradford Neumann		Phil Karash	1	0	0	0
+93	16	THE NIGHT'S WATCH	1		Mychal Ivancich				1	0	0	1
+94	16	RED HOT BALLS	1		Adam Long				1	0	0	1
+95	16	RED HOT BALLS	1		Colin MacDougall	Michelle LaFramboise	Max Leitschuh		1	0	0	1
+96	16	THE NIGHT'S WATCH	1		James Cargo	Brett Schneider			0	1	0	1
+97	16	THE NIGHT'S WATCH	1		David Horner				1	0	0	1
+98	16	THE NIGHT'S WATCH	1		Dan Negron	James Cargo	Brett Schneider		1	0	0	1
+99	16	THE NIGHT'S WATCH	2		David Horner	Dave Laux	Jason Gubi		1	0	0	1
+100	16	RED HOT BALLS	2		Max Leitschuh	Colin MacDougall	John Slawinski		1	0	0	1
+101	16	THE NIGHT'S WATCH	2		Brad Sarnell	Tara Laux	Dan Negron		1	0	0	0
+102	16	RED HOT BALLS	2		Adam Long				1	0	0	1
+103	16	RED HOT BALLS	2		Max Leitschuh	Colin MacDougall			1	0	0	1
+104	17	YELLOW FEVER	1		Brett Schneider	Dan Negron		James Cargo	1	0	0	0
+105	17	YELLOW FEVER	1		Ryan Powell	Brett Schneider	David Horner	James Cargo	1	0	0	0
+106	17	YELLOW FEVER	1		Joe Ulerich			James Cargo	1	0	0	0
+107	17	YELLOW FEVER	1		Joe Ulerich	Brett Schneider	David Horner	James Cargo	1	0	0	0
+108	17	YELLOW FEVER	2		Paul Fajman	Joe Ulerich	Jason Gubi	James Cargo	1	0	0	0
+109	17	YELLOW FEVER	2		Devon Berman	Brett Schneider		James Cargo	1	0	0	0
+110	18	50 SHADES OF NUDI	1		Joe Nudi III	Bradford Neumann		Sean Greeney	1	0	0	0
+111	18	50 SHADES OF NUDI	2		Bradford Neumann	Joe Nudi III		Sean Greeney	1	0	0	0
+112	18	50 SHADES OF NUDI	2		Bradford Neumann	Katy Bright		Sean Greeney	1	0	0	0
+113	18	PYROMANIACS	2		Mike Pawlo	John Slawinski	Dave Laux	Phil Karash	1	0	0	0
+114	19	PYROMANIACS	1		Dave Laux	John Slawinski		Ken Zinser	1	0	0	0
+115	19	YELLOW FEVER	2		Paul Fajman			Sean Greeney	1	0	0	0
+116	19	PYROMANIACS	3		Spencer Langrock	Mike Pawlo		Ken Zinser	1	0	0	1
+117	20	50 SHADES OF NUDI	1		Bradford Neumann	Savannah Fetterolf	Dinesh Vesra	James Cargo	1	0	0	0
+118	20	V FOR VERDE-TTA	1		Dan Pall	Kasey Kirby	Andrew Boddorff	Sean Greeney	0	1	0	0
+119	20	V FOR VERDE-TTA	1		Dan Pall	Kasey Kirby		Sean Greeney	1	0	0	0
+120	20	50 SHADES OF NUDI	2		Chris Conaway	Bradford Neumann		James Cargo	1	0	0	0
+121	20	V FOR VERDE-TTA	2		Kasey Kirby	Adam Long		Sean Greeney	1	0	0	0
+122	20	V FOR VERDE-TTA	2		Dan Pall			Sean Greeney	1	0	0	0
+123	20	50 SHADES OF NUDI	2		Bradford Neumann	Chris Matroniano	Joe Nudi III	James Cargo	1	0	0	0
+124	20	50 SHADES OF NUDI	2		Chris Matroniano	Scott Baker		James Cargo	1	0	0	0
+125	20	50 SHADES OF NUDI	2		Matt Liverette	Chris Matroniano		James Cargo	1	0	0	0
+126	20	50 SHADES OF NUDI	2		Bradford Neumann			James Cargo	1	0	0	1
+127	21	PYROMANIACS	1		George MacDougall			James Cargo	1	0	0	0
+128	21	V FOR VERDE-TTA	1		Andrew Boddorff	Kasey Kirby	Lauren Kirby	Sean Greeney	1	0	0	0
+129	21	PYROMANIACS	1		John Slawinski	Mike Pawlo		James Cargo	1	0	0	0
+130	21	PYROMANIACS	1		Spencer Langrock	John Slawinski	Will Weiler	James Cargo	1	0	0	0
+131	22	YELLOW FEVER	1		Brett Schneider	Dan Negron	Paul Fajman	Phil Karash	1	0	0	0
+132	22	YELLOW FEVER	1		Joe Ulerich	Tara Laux		Phil Karash	1	0	0	0
+133	22	YELLOW FEVER	2		Joe Ulerich			Phil Karash	0	1	0	0
+134	22	YELLOW FEVER	2		Brett Schneider	David Horner		Phil Karash	1	0	0	0
+135	23	PYROMANIACS	1		Colin MacDougall	Tara Laux		Phil Karash	1	0	0	0
+136	23	50 SHADES OF NUDI	1		Joe Nudi III	Bradford Neumann		Sean Greeney	1	0	0	0
+137	23	50 SHADES OF NUDI	2		Bradford Neumann	Dave Zarneke	Phil Karash	Sean Greeney	1	0	0	0
+138	23	50 SHADES OF NUDI	2		Bradford Neumann	Savannah Fetterolf	Dave Zarneke	Sean Greeney	1	0	0	0
+139	23	PYROMANIACS	2		Spencer Langrock	Brad Sarnell		Phil Karash	1	0	0	0
+140	23	PYROMANIACS	2		Spencer Langrock			Phil Karash	1	0	0	0
+141	23	50 SHADES OF NUDI	2		Joe Nudi III	Dave Zarneke	Chris Matroniano	Sean Greeney	1	0	0	0
+142	23	50 SHADES OF NUDI	2		Michael McVay			Sean Greeney	1	0	0	0
+143	24	YELLOW FEVER	1		Tom Zohlen	Joe Ulerich	David Horner	James Cargo	1	0	0	0
+144	24	YELLOW FEVER	2		Joe Ulerich	David Horner	Dan Negron	James Cargo	1	0	0	0
+145	24	V FOR VERDE-TTA	2		Dan Pall	Kasey Kirby	Andrew Boddorff	Ken Zinser	0	1	0	0
+146	24	YELLOW FEVER	2		Brett Schneider			James Cargo	1	0	0	0
+147	25	50 SHADES OF NUDI	1		Chris Matroniano			James Cargo	1	0	0	0
+148	25	V FOR VERDE-TTA	1		Kasey Kirby	Keri Rapalski	Andrew Boddorff	Phil Karash	1	0	0	0
+149	25	V FOR VERDE-TTA	1		Andrew Boddorff	Kasey Kirby	Keri Rapalski	Phil Karash	1	0	0	0
+150	25	50 SHADES OF NUDI	1		Bradford Neumann	Joe Nudi III		James Cargo	1	0	0	0
+151	25	50 SHADES OF NUDI	1		Chris Matroniano	Joe Nudi III		James Cargo	1	0	0	0
+152	25	50 SHADES OF NUDI	2		Bradford Neumann			James Cargo	1	0	0	0
+153	26	YELLOW FEVER	1		Joe Ulerich	Chris Brooks		Phil Karash	1	0	0	0
+154	26	YELLOW FEVER	1		David Horner	Dan Negron		Phil Karash	1	0	0	0
+155	26	PYROMANIACS	1		Spencer Langrock			Ken Zinser	1	0	0	0
+156	26	YELLOW FEVER	1		Joe Ulerich	Chris Brooks	Tom Zohlen	Phil Karash	1	0	0	0
+157	26	PYROMANIACS	1		John Slawinski	Colin MacDougall		Ken Zinser	1	0	0	0
+158	26	PYROMANIACS	2		Spencer Langrock	Amy Fenstermacher	Mike Pawlo	Ken Zinser	1	0	0	0
+159	26	YELLOW FEVER	2		Ryan Powell	Joe Ulerich	Devon Berman	Phil Karash	1	0	0	0
+160	27	YELLOW FEVER	1		Jason Gubi	Paul Fajman		Phil Karash	0	1	0	0
+161	27	YELLOW FEVER	1		Chris Brooks	David Horner	Brett Schneider	Phil Karash	1	0	0	0
+162	27	50 SHADES OF NUDI	1		Joe Nudi III	Michelle LaFramboise		Ken Zinser	1	0	0	0
+163	27	50 SHADES OF NUDI	2		Bradford Neumann	Joe Nudi III		Ken Zinser	1	0	0	0
+164	27	YELLOW FEVER	3		Paul Fajman			Phil Karash	1	0	0	1
+165	28	PYROMANIACS	1		Spencer Langrock			James Cargo	1	0	1	0
+166	28	PYROMANIACS	1		John Slawinski	Mike Pawlo		James Cargo	1	0	0	0
+167	28	V FOR VERDE-TTA	1		Kasey Kirby	Lindsey Getches		Phil Karash	1	0	0	0
+168	28	PYROMANIACS	1		Brad Sarnell	Dave Laux	Colin MacDougall	James Cargo	1	0	0	0
+169	28	PYROMANIACS	1		Deanna Weidenhammer	Will Weiler	Mike Pawlo	James Cargo	1	0	0	0
+170	28	PYROMANIACS	1		John Slawinski	Colin MacDougall		James Cargo	1	0	0	0
+171	28	V FOR VERDE-TTA	1		Nick Keune	Lauren Kirby	Kasey Kirby	Phil Karash	1	0	0	0
+172	28	PYROMANIACS	1		Brad Sarnell	Colin MacDougall		James Cargo	1	0	0	0
+173	28	PYROMANIACS	1		John Slawinski			James Cargo	1	0	0	0
+174	28	PYROMANIACS	2		John Slawinski	George MacDougall		James Cargo	1	0	0	0
+175	28	V FOR VERDE-TTA	2		Lauren Kirby	John Lemen		Phil Karash	0	1	0	0
+176	28	V FOR VERDE-TTA	2		Tim Kamphaus			Phil Karash	1	0	0	0
+177	28	V FOR VERDE-TTA	2		Kasey Kirby			Phil Karash	1	0	0	0
+178	29	YELLOW FEVER	1		Joe Ulerich	Tom Zohlen	Megan Thomas	James Cargo	1	0	0	0
+179	29	V FOR VERDE-TTA	1		Kasey Kirby	John Lemen		Ken Zinser	1	0	0	0
+180	29	YELLOW FEVER	2		David Horner			James Cargo	1	0	0	0
+181	29	YELLOW FEVER	2		Joe Ulerich			James Cargo	1	0	0	0
+182	29	V FOR VERDE-TTA	2		Kasey Kirby	Lindsey Getches		Ken Zinser	1	0	0	0
+183	29	YELLOW FEVER	2		Joe Ulerich	David Horner		James Cargo	1	0	0	1
+184	29	YELLOW FEVER	2		Joe Ulerich			James Cargo	1	0	0	1
+185	30	50 SHADES OF NUDI	2		Bradford Neumann	Joe Nudi III	Dinesh Vesra	Craig Miller	1	0	0	0
+186	31	YELLOW FEVER	2		Tom Zohlen			Phil Karash	1	0	0	0
+187	31	YELLOW FEVER	2		Joe Ulerich	Tom Zohlen	Chris Brooks	Phil Karash	1	0	0	0
+188	32	PYROMANIACS	1		Colin MacDougall			James Cargo	1	0	0	0
+189	32	PYROMANIACS	1		Spencer Langrock	Dave Laux		James Cargo	1	0	0	0
+190	32	V FOR VERDE-TTA	1		Dan Pall	Kasey Kirby		Craig Miller	1	0	0	0
+191	32	V FOR VERDE-TTA	2		Andrew Boddorff	Kasey Kirby	Dan Pall	Craig Miller	0	1	0	0
+192	32	PYROMANIACS	2		Spencer Langrock	Bryan Egan	Dave Laux	James Cargo	1	0	0	0
+193	32	V FOR VERDE-TTA	2		Kasey Kirby	Lindsey Getches		Craig Miller	1	0	0	0
+194	32	V FOR VERDE-TTA	2		Lauren Kirby	Dan Pall	Kasey Kirby	Craig Miller	1	0	0	0
+195	33	HOW TO TRAIN YOUR FRANCHISE	1	18:40	Joe Ulerich	Will Weiler		James Cargo	1	0	0	0
+196	33	BANANA GRAHAM BELLS	2	14:36	Brett Schneider	John Slawinski	Dave Zarneke	Phil Karash	1	0	0	0
+197	33	BANANA GRAHAM BELLS	2	12:20	Lauren Kirby	Kasey Kirby		Phil Karash	1	0	0	0
+198	33	BANANA GRAHAM BELLS	2	08:47	Lauren Kirby	Kasey Kirby		Phil Karash	1	0	1	0
+199	33	BANANA GRAHAM BELLS	2	03:45	Kasey Kirby	John Lemen		Phil Karash	1	0	0	0
+200	33	BANANA GRAHAM BELLS	2	02:08	Kasey Kirby	Tim Kamphaus		Phil Karash	1	0	1	0
+201	33	BANANA GRAHAM BELLS	2	00:37	John Slawinski	Brett Schneider		Phil Karash	1	0	0	0
+202	34	HOUSE BROOMATHEON	1	22:00	Andrew Anzano	Litah Miller		Jason Gubi	1	0	1	0
+203	34	OH, ME SO HORNER	1	12:55	Colin MacDougall	Sean Moberg	Keri Rapalski	Amy Greeney	1	0	0	0
+204	34	OH, ME SO HORNER	1	10:30	Joe Nudi III	Keri Rapalski	Colin MacDougall	Amy Greeney	1	0	0	0
+205	34	HOUSE BROOMATHEON	1	07:20	Bradford Neumann	Ronnie Patterson	Amy Greeney	Jason Gubi	1	0	0	0
+206	34	HOUSE BROOMATHEON	1	02:30	Bradford Neumann	Sandy Patterson		Jason Gubi	1	0	1	0
+207	34	OH, ME SO HORNER	2	20:05	Jason Gubi	Dinesh Vesra		Amy Greeney	1	0	0	0
+208	34	OH, ME SO HORNER	2	18:45	Colin MacDougall	Joe Nudi III	David Horner	Amy Greeney	1	0	0	0
+209	34	HOUSE BROOMATHEON	2	07:15	Bradford Neumann	Lindsey Getches		Jason Gubi	0	1	0	1
+210	34	OH, ME SO HORNER	2	04:20	Sean Moberg	Colin MacDougall		Amy Greeney	1	0	0	0
+211	34	HOUSE BROOMATHEON	2	00:39	Bradford Neumann	Ronnie Patterson		Jason Gubi	1	0	0	1
+212	34	OH, ME SO HORNER	3	01:00	Colin MacDougall	Joe Nudi III	David Horner	Amy Greeney	0	1	0	1
+213	35	HOW TO TRAIN YOUR FRANCHISE	1	22:10	Spencer Langrock	Theo Weber		Matt Liverette	1	0	0	0
+214	35	OH, ME SO HORNER	1	05:35	Megan Thomas	David Horner	Joe Nudi III	Phil Karash	1	0	0	0
+215	35	HOW TO TRAIN YOUR FRANCHISE	1	03:25	Andrew Anzano	Dan Pall		Matt Liverette	0	1	0	0
+216	35	OH, ME SO HORNER	2	14:30	Dan Negron			Phil Karash	1	0	0	0
+217	35	OH, ME SO HORNER	2	12:30	Aaron Hopkins	Colin MacDougall		Phil Karash	1	0	0	0
+218	35	OH, ME SO HORNER	2	08:07	Aaron Hopkins	Colin MacDougall	David Horner	Phil Karash	1	0	0	0
+219	35	OH, ME SO HORNER	2	06:52	Aaron Hopkins	Keri Rapalski	Colin MacDougall	Phil Karash	1	0	0	0
+220	35	OH, ME SO HORNER	2	04:30	Megan Thomas	Tom Zohlen	Sean Moberg	Phil Karash	1	0	0	0
+221	36	HOUSE BROOMATHEON	1	23:02	Bradford Neumann	Ronnie Patterson		James Cargo	1	0	0	0
+222	36	BANANA GRAHAM BELLS	1	16:45	Tim Kamphaus	Brett Schneider	Lauren Kirby	Paul Fajman	1	0	0	0
+223	36	HOUSE BROOMATHEON	1	08:10	Bradford Neumann	Michelle LaFramboise		James Cargo	1	0	0	0
+224	36	HOUSE BROOMATHEON	1	06:05	Lindsey Getches	Bradford Neumann		James Cargo	1	0	0	0
+225	36	BANANA GRAHAM BELLS	2	24:35	Kasey Kirby	Tim Kamphaus		Paul Fajman	1	0	0	0
+226	36	BANANA GRAHAM BELLS	2	23:38	Brett Schneider	Kasey Kirby		Paul Fajman	0	1	0	0
+227	36	BANANA GRAHAM BELLS	2	07:15	John Lemen	Kasey Kirby		Paul Fajman	0	1	0	0
+228	36	HOUSE BROOMATHEON	2	01:27	Bradford Neumann	Andrew Anzano		James Cargo	1	0	0	0
+229	36	BANANA GRAHAM BELLS	3	02:40	Brett Schneider			Paul Fajman	1	0	0	1
+230	37	HOW TO TRAIN YOUR FRANCHISE	1		David Horner	Dan Pall	Andrew Anzano	Chris Brooks	1	0	0	0
+231	37	HOUSE BROOMATHEON	1		Brad Sarnell	Adam Long	Lindsey Getches	Phil Karash	1	0	0	0
+232	37	HOW TO TRAIN YOUR FRANCHISE	1		Katy Bright	David Horner	Dan Pall	Chris Brooks	1	0	0	0
+233	37	HOW TO TRAIN YOUR FRANCHISE	1		Andrew Anzano			Chris Brooks	1	0	0	0
+234	37	HOUSE BROOMATHEON	2		Mike Pawlo	Ronnie Patterson		Phil Karash	1	0	0	0
+235	37	HOUSE BROOMATHEON	2		Bradford Neumann			Phil Karash	0	1	0	0
+236	37	HOW TO TRAIN YOUR FRANCHISE	2		Dan Pall			Chris Brooks	1	0	0	1
+237	37	HOUSE BROOMATHEON	2		Lindsey Getches	Brad Sarnell	Scott Baker	Phil Karash	1	0	0	0
+238	37	HOUSE BROOMATHEON	2		Mike Pawlo	Bradford Neumann		Phil Karash	1	0	0	0
+239	38	OH, ME SO HORNER	1	22:33	Aaron Hopkins	Dinesh Vesra	Colin MacDougall	James Cargo	1	0	0	0
+240	38	BANANA GRAHAM BELLS	1	08:10	Kasey Kirby	James Cargo			1	0	0	1
+241	38	BANANA GRAHAM BELLS	1	06:30	John Slawinski	Kasey Kirby			1	0	0	1
+242	38	OH, ME SO HORNER	2	19:00	Colin MacDougall			James Cargo	1	0	0	0
+243	38	OH, ME SO HORNER	2	13:27	Sean Moberg	Joe Nudi III	Kelly Mitchell	James Cargo	1	0	0	0
+244	38	OH, ME SO HORNER	2	11:30	Tom Zohlen	Dan Negron		James Cargo	1	0	0	0
+245	38	BANANA GRAHAM BELLS	2	08:50	Brett Schneider	Kasey Kirby	Nick Keune		1	0	0	1
+246	38	BANANA GRAHAM BELLS	2	05:33	Brett Schneider				1	0	1	1
+247	38	OH, ME SO HORNER	3	00:33	Colin MacDougall	Joe Nudi III		James Cargo	1	0	0	1
+248	39	OH, ME SO HORNER	1	21:00	Sean Moberg	Joe Nudi III		Paul Fajman	1	0	0	0
+249	39	HOUSE BROOMATHEON	1	14:52	Mike Pawlo				1	0	0	1
+250	39	HOUSE BROOMATHEON	1	03:21	Brett Schneider				1	0	1	1
+251	39	OH, ME SO HORNER	2	24:10	David Horner			Paul Fajman	1	0	0	0
+252	39	OH, ME SO HORNER	2	07:05	Dinesh Vesra	Colin MacDougall		Paul Fajman	1	0	0	0
+253	39	OH, ME SO HORNER	2	02:52	David Horner	Colin MacDougall		Paul Fajman	1	0	0	0
+254	40	HOW TO TRAIN YOUR FRANCHISE	1		Will Weiler	Theo Weber		James Cargo	1	0	0	0
+255	40	HOW TO TRAIN YOUR FRANCHISE	1		Tara Laux	Dave Laux	Spencer Langrock	James Cargo	1	0	0	0
+256	40	HOW TO TRAIN YOUR FRANCHISE	1		Tara Laux	Joe Ulerich	Dan Pall	James Cargo	1	0	0	0
+257	40	HOW TO TRAIN YOUR FRANCHISE	1	08:01	Joe Ulerich	Will Weiler		James Cargo	1	0	0	0
+258	40	HOW TO TRAIN YOUR FRANCHISE	1	04:16	Joe Ulerich	Dave Laux	Dan Pall	James Cargo	1	0	0	0
+259	40	HOW TO TRAIN YOUR FRANCHISE	2	17:47	Will Weiler	Spencer Langrock		James Cargo	1	0	0	0
+260	40	BANANA GRAHAM BELLS	2	15:10	Brett Schneider	Jenn Caulk	Tim Kamphaus	Phil Karash	1	0	0	0
+261	40	HOW TO TRAIN YOUR FRANCHISE	2	14:14	Katy Bright	Dave Laux	Joe Ulerich	James Cargo	1	0	0	0
+262	40	HOW TO TRAIN YOUR FRANCHISE	2	10:50	Will Weiler	Dan Pall	Katy Bright	James Cargo	1	0	0	0
+263	40	BANANA GRAHAM BELLS	2	02:05	Brett Schneider	Lauren Kirby		Phil Karash	1	0	0	0
+264	41	HOUSE BROOMATHEON	1	04:30	Brad Sarnell	Sandy Patterson	Aaron Bill	James Cargo	0	1	0	0
+265	41	BANANA GRAHAM BELLS	2	23:40	Brett Schneider	Kasey Kirby	Jenn Caulk	Paul Fajman	1	0	0	0
+266	41	HOUSE BROOMATHEON	2	21:32	Aaron Bill	Brad Sarnell	Lindsey Getches	James Cargo	1	0	0	0
+267	41	BANANA GRAHAM BELLS	2	01:49	Tim Kamphaus	Nick Keune		Paul Fajman	1	0	0	0
+268	41	BANANA GRAHAM BELLS	3	01:00	Kasey Kirby			Paul Fajman	1	0	0	0
+269	42	HOW TO TRAIN YOUR FRANCHISE	1	18:49	Dan Pall	Dave Laux	Spencer Langrock		1	0	0	1
+270	42	OH, ME SO HORNER	2	22:23	Sean Moberg	Colin MacDougall		Phil Karash	1	0	0	0
+271	42	HOW TO TRAIN YOUR FRANCHISE	2	15:03	Joe Ulerich	Paul Fajman			0	1	0	1
+272	42	OH, ME SO HORNER	2	04:26	Dinesh Vesra	Colin MacDougall	Joe Nudi III	Phil Karash	1	0	0	0
+273	43	HOUSE BROOMATHEON	1		Dan Negron	Luke LaViolet		Phil Karash	1	0	0	0
+274	43	HOUSE BROOMATHEON	1		Lindsey Getches	Brad Sarnell	Aaron Bill	Phil Karash	1	0	0	0
+275	43	HOW TO TRAIN YOUR FRANCHISE	1		Joe Ulerich			Paul Fajman	1	0	0	0
+276	43	HOW TO TRAIN YOUR FRANCHISE	1		Joe Ulerich			Paul Fajman	1	0	0	0
+277	43	HOUSE BROOMATHEON	1		Luke LaViolet	George MacDougall		Phil Karash	1	0	0	0
+278	43	HOW TO TRAIN YOUR FRANCHISE	1		Dave Laux			Paul Fajman	1	0	0	0
+279	43	HOW TO TRAIN YOUR FRANCHISE	2		Will Weiler	Katy Bright	Joe Ulerich	Paul Fajman	1	0	0	0
+280	44	BANANA GRAHAM BELLS	1	01:10	Tim Kamphaus	Kasey Kirby			1	0	0	1
+281	44	BANANA GRAHAM BELLS	2	07:01	Brett Schneider				1	0	0	1
+282	45	HOUSE BROOMATHEON	1	22:00	Lindsey Getches	George MacDougall			1	0	0	1
+283	45	OH, ME SO HORNER	1	13:13	Joe Nudi III	Colin MacDougall		Paul Fajman	1	0	0	0
+284	45	OH, ME SO HORNER	1	08:00	Dinesh Vesra	Colin MacDougall		Paul Fajman	1	0	0	0
+285	45	OH, ME SO HORNER	2	05:25	Colin MacDougall	Sean Moberg		Paul Fajman	1	0	0	1
+286	45	OH, ME SO HORNER	2	00:36	Aaron Hopkins	David Horner	Colin MacDougall	Paul Fajman	1	0	0	1
+287	45	OH, ME SO HORNER	2	00:26	Sean Moberg	Tom Zohlen		Paul Fajman	1	0	0	1
+288	46	HOW TO TRAIN YOUR FRANCHISE	1	24:30	Mychal Ivancich	Tara Laux		James Cargo	1	0	0	0
+289	46	BANANA GRAHAM BELLS	1	17:00	Kasey Kirby	John Slawinski		Phil Karash	1	0	0	0
+290	46	BANANA GRAHAM BELLS	1	16:14	Tim Kamphaus	Kasey Kirby	Dave Zarneke	Phil Karash	1	0	0	0
+291	46	HOW TO TRAIN YOUR FRANCHISE	1	15:25	Joe Ulerich			James Cargo	1	0	0	0
+292	46	BANANA GRAHAM BELLS	1	07:45	John Slawinski	Brett Schneider		Phil Karash	1	0	0	0
+293	46	BANANA GRAHAM BELLS	1	06:45	Brett Schneider	Tim Kamphaus	Mariam Mehter	Phil Karash	1	0	0	0
+294	46	HOW TO TRAIN YOUR FRANCHISE	2	21:45	Dave Laux	Tara Laux		James Cargo	1	0	0	0
+295	46	HOW TO TRAIN YOUR FRANCHISE	2	18:32	Andrew Anzano	Spencer Langrock		James Cargo	1	0	0	0
+296	46	HOW TO TRAIN YOUR FRANCHISE	2	17:47	Dan Pall	Joe Ulerich		James Cargo	1	0	0	0
+297	46	HOW TO TRAIN YOUR FRANCHISE	2	14:54	Katy Bright	Dave Laux	Joe Ulerich	James Cargo	1	0	0	0
+298	46	HOW TO TRAIN YOUR FRANCHISE	2	07:56	Joe Ulerich			James Cargo	1	0	0	0
+299	46	BANANA GRAHAM BELLS	2	06:51	Dave Zarneke	John Slawinski		Phil Karash	1	0	0	0
+300	46	BANANA GRAHAM BELLS	2	02:57	Dave Zarneke	Kasey Kirby		Phil Karash	1	0	0	0
+301	46	BANANA GRAHAM BELLS	2	01:13	Kasey Kirby	Tim Kamphaus		Phil Karash	1	0	0	0
+302	46	BANANA GRAHAM BELLS	2	00:24	Kasey Kirby	Jenn Caulk	Brett Schneider	Phil Karash	1	0	0	0
+303	47	OH, ME SO HORNER	1	23:20	David Horner	Joe Nudi III		James Cargo	1	0	0	0
+304	47	OH, ME SO HORNER	1	10:40	Joe Nudi III	Colin MacDougall		James Cargo	1	0	0	0
+305	47	OH, ME SO HORNER	2	13:44	Keri Rapalski			James Cargo	1	0	0	0
+306	47	BANANA GRAHAM BELLS	2	09:47	Dave Zarneke	John Slawinski	Brett Schneider		1	0	0	1
+307	47	BANANA GRAHAM BELLS	2	04:25	Tim Kamphaus	Kasey Kirby	Dave Zarneke		1	0	0	1
+308	47	OH, ME SO HORNER	2	01:27	Colin MacDougall	Joe Nudi III		James Cargo	1	0	0	1
+309	48	HOUSE BROOMATHEON	1	18:20	Scott Baker	Mike Pawlo	Paul Fajman	Theo Weber	1	0	0	0
+310	48	HOW TO TRAIN YOUR FRANCHISE	1	15:50	Spencer Langrock			Sean Greeney	1	0	0	0
+311	48	HOUSE BROOMATHEON	1	12:55	Mike Pawlo	Lindsey Getches		Theo Weber	1	0	0	0
+312	48	HOW TO TRAIN YOUR FRANCHISE	2	08:25	Andrew Anzano	Dan Negron	Dan Pall	Sean Greeney	1	0	0	0
+313	48	HOW TO TRAIN YOUR FRANCHISE	2	01:23	Tara Laux	Dan Pall		Sean Greeney	1	0	0	0
+314	49	GITTEN LAUXY	1		David Horner	Dinesh Vesra		Paul Seiffert	1	0	0	0
+315	49	GITTEN LAUXY	1		Spencer Langrock	Michelle LaFramboise	Michael McVay	Paul Seiffert	1	0	0	0
+316	49	GITTEN LAUXY	1		Spencer Langrock	Paul Fajman	Deanna Weidenhammer	Paul Seiffert	1	0	0	0
+317	49	GITTEN LAUXY	2		Tara Laux	Spencer Langrock	Dinesh Vesra	Paul Seiffert	1	0	0	0
+318	50	GANGREEN	1		Kara Brooks	Dan Pall	Joe Ulerich	Sean Greeney	1	0	0	0
+319	50	GANGREEN	1		Joe Ulerich	Dave Zarneke	Chris Brooks	Sean Greeney	1	0	0	0
+320	51	THE MOOSE IS LOOSE	1		Tim Kamphaus	Chris Matroniano		Phil Karash	1	0	0	0
+321	51	THE MOOSE IS LOOSE	1		Kasey Kirby	Lauren Kirby		Phil Karash	1	0	0	0
+322	51	THE MOOSE IS LOOSE	1		John Slawinski	Erica Wong	Lauren Kirby	Phil Karash	1	0	0	0
+323	51	GITTEN LAUXY	1		Michael McVay	Tara Laux		Ken Zinser	1	0	0	0
+324	51	THE MOOSE IS LOOSE	2		Mike Garlow	Kasey Kirby		Phil Karash	0	1	0	0
+325	51	THE MOOSE IS LOOSE	2		Mike Garlow	Kasey Kirby		Phil Karash	1	0	0	0
+326	51	GITTEN LAUXY	2		Paul Fajman	Jason Gubi	Phil Karash	Ken Zinser	0	1	0	0
+327	51	THE MOOSE IS LOOSE	2		Mike Garlow	Chris Matroniano	Kasey Kirby	Phil Karash	1	0	0	0
+328	52	HOPKINS SPICED LATTES	1		Chris Conaway	Brad Sarnell	Bradford Neumann	Paul Seiffert	1	0	0	0
+329	52	GANGREEN	1		Dan Pall	Kat Ulerich	Colin Christopher	Dan Piotrowski	1	0	0	0
+330	52	HOPKINS SPICED LATTES	2		Bradford Neumann			Paul Seiffert	1	0	0	0
+331	52	GANGREEN	2		Mychal Ivancich	Joe Ulerich	Dan Pall	Dan Piotrowski	1	0	0	0
+332	52	GANGREEN	2		Dan Pall	Mychal Ivancich	Dave Zarneke	Dan Piotrowski	1	0	0	0
+333	53	LARGE HALPERIN COLLIDER	1		George MacDougall	Amy Fenstermacher		Ken Zinser	0	1	0	0
+334	53	THE MOOSE IS LOOSE	2		Renée Lariviere	Kasey Kirby	Stephanie Taylor	Sean Greeney	1	0	0	0
+335	53	THE MOOSE IS LOOSE	2		Tim Kamphaus	Kasey Kirby		Sean Greeney	1	0	0	0
+336	54	GITTEN LAUXY	1		Dave Laux	David Horner		Dan Piotrowski	1	0	0	0
+337	54	GITTEN LAUXY	1		Dave Laux			Dan Piotrowski	1	0	0	0
+338	54	HOPKINS SPICED LATTES	1		Brett Schneider	Bradford Neumann	Tom Zohlen	Phil Karash	1	0	0	0
+339	54	GITTEN LAUXY	1		Michael McVay	Spencer Langrock		Dan Piotrowski	1	0	0	0
+340	54	HOPKINS SPICED LATTES	1		Bradford Neumann	Aaron Hopkins	Dan Piotrowski	Phil Karash	1	0	0	0
+341	54	HOPKINS SPICED LATTES	1		Tom Zohlen	Bradford Neumann	Kevin Cunningham	Phil Karash	0	1	0	0
+342	54	GITTEN LAUXY	1		David Horner	Paul Fajman	Deanna Weidenhammer	Dan Piotrowski	1	0	0	0
+343	54	GITTEN LAUXY	1		Paul Fajman	Deanna Weidenhammer		Dan Piotrowski	1	0	0	0
+344	54	GITTEN LAUXY	2		Spencer Langrock			Dan Piotrowski	1	0	0	0
+345	54	HOPKINS SPICED LATTES	2		Aaron Hopkins			Phil Karash	1	0	0	0
+346	54	HOPKINS SPICED LATTES	2		Brett Schneider			Phil Karash	1	0	0	0
+347	54	GITTEN LAUXY	2		Paul Fajman	David Horner		Dan Piotrowski	0	1	0	0
+348	55	THE MOOSE IS LOOSE	1		Tim Kamphaus	John Slawinski	Stephanie Taylor	Sean Greeney	1	0	0	0
+349	55	THE MOOSE IS LOOSE	1		Kasey Kirby			Sean Greeney	0	1	0	0
+350	55	THE MOOSE IS LOOSE	2		Mike Garlow	Kasey Kirby	Joey Tercero	Sean Greeney	1	0	0	0
+351	55	LARGE HALPERIN COLLIDER	2		George MacDougall	Mike Pawlo		Ken Zinser	0	1	0	0
+352	56	GANGREEN	1		Joe Ulerich	Dan Pall	Chris Brooks	Phil Karash	1	0	0	0
+353	56	GITTEN LAUXY	1		Paul Fajman	Joe Nudi III	David Horner	Paul Seiffert	1	0	0	0
+354	56	GITTEN LAUXY	2		Paul Fajman	Joe Nudi III	Michelle LaFramboise	Paul Seiffert	0	1	0	0
+355	56	GANGREEN	2		Chris Brooks	Joe Ulerich		Phil Karash	0	1	0	0
+356	56	GANGREEN	3		Joe Ulerich	Kara Brooks		Phil Karash	1	0	0	1
+357	57	THE MOOSE IS LOOSE	1		John Slawinski			Dan Piotrowski	1	0	0	0
+358	57	HOPKINS SPICED LATTES	1		Bradford Neumann			Ken Zinser	1	0	0	0
+359	57	THE MOOSE IS LOOSE	1		Tim Kamphaus	John Slawinski	Stephanie Taylor	Dan Piotrowski	0	1	0	0
+360	57	THE MOOSE IS LOOSE	1		Kasey Kirby	Mike Garlow		Dan Piotrowski	1	0	0	0
+361	57	HOPKINS SPICED LATTES	2		Bradford Neumann	Chris Conaway		Ken Zinser	1	0	0	0
+362	57	HOPKINS SPICED LATTES	2		Brett Schneider			Ken Zinser	1	0	0	0
+363	57	HOPKINS SPICED LATTES	2		Aaron Hopkins	Lindsey Getches		Ken Zinser	1	0	0	0
+364	57	HOPKINS SPICED LATTES	2		Bradford Neumann			Ken Zinser	1	0	0	1
+365	57	THE MOOSE IS LOOSE	2		John Slawinski	Kasey Kirby	Tim Kamphaus	Dan Piotrowski	1	0	0	0
+366	58	GANGREEN	1		Joe Ulerich	Andrew Boddorff		Ken Zinser	1	0	0	0
+367	58	GANGREEN	1		Mychal Ivancich	Joe Ulerich	Kat Ulerich	Ken Zinser	1	0	0	0
+368	58	GANGREEN	2		Joe Ulerich	Kara Brooks		Ken Zinser	1	0	0	0
+369	58	THE MOOSE IS LOOSE	2		Kasey Kirby	Joey Tercero		Paul Seiffert	1	0	0	0
+370	58	THE MOOSE IS LOOSE	2		Joey Tercero	Stephanie Taylor	Mike Garlow	Paul Seiffert	1	0	0	0
+371	59	LARGE HALPERIN COLLIDER	1		Adam Long	Colin MacDougall	George MacDougall	Phil Karash	1	0	0	0
+372	59	LARGE HALPERIN COLLIDER	1		Colin MacDougall	Bryan Egan	Amy Fenstermacher	Phil Karash	1	0	0	0
+373	59	GITTEN LAUXY	1		Joe Nudi III	Paul Fajman		Sean Greeney	1	0	0	0
+374	59	LARGE HALPERIN COLLIDER	2		Max Leitschuh	George MacDougall	Colin MacDougall	Phil Karash	1	0	0	0
+375	59	LARGE HALPERIN COLLIDER	2		George MacDougall	Colin MacDougall		Phil Karash	1	0	0	0
+376	59	LARGE HALPERIN COLLIDER	2		Adam Long	Mike Pawlo		Phil Karash	1	0	0	0
+377	59	LARGE HALPERIN COLLIDER	2		Sean Moberg	Colin MacDougall	George MacDougall	Phil Karash	1	0	0	0
+378	60	GANGREEN	1		Joe Ulerich	Mariam Mehter		Sean Greeney	1	0	0	0
+379	60	GANGREEN	1		Joe Ulerich			Sean Greeney	1	0	0	0
+380	60	GANGREEN	1		Dan Pall	Joe Ulerich		Sean Greeney	1	0	0	0
+381	60	GANGREEN	2		Mariam Mehter			Sean Greeney	1	0	0	0
+382	60	HOPKINS SPICED LATTES	2		Tom Zohlen	Keri Rapalski		Paul Seiffert	1	0	0	0
+383	61	LARGE HALPERIN COLLIDER	2		Colin MacDougall	Mike Pawlo		Dan Piotrowski	1	0	0	0
+384	61	LARGE HALPERIN COLLIDER	2		Colin MacDougall	Mike Pawlo	Max Leitschuh	Dan Piotrowski	1	0	0	0
+385	61	LARGE HALPERIN COLLIDER	2		Colin MacDougall	Rachel Pawlo		Dan Piotrowski	1	0	1	0
+386	62	GANGREEN	1		Joe Ulerich			Paul Seiffert	1	0	0	0
+387	62	THE MOOSE IS LOOSE	1		Joey Tercero				1	0	0	0
+388	62	THE MOOSE IS LOOSE	1		Kasey Kirby	Stephanie Taylor			1	0	0	0
+389	62	THE MOOSE IS LOOSE	1		John Slawinski	Mike Garlow	James Cargo		1	0	0	0
+390	62	THE MOOSE IS LOOSE	1		Kasey Kirby				1	0	0	0
+391	62	GANGREEN	2		Mychal Ivancich	Kara Brooks	Kat Ulerich	Paul Seiffert	1	0	0	0
+392	62	GANGREEN	2		Joe Ulerich	Chris Brooks		Paul Seiffert	1	0	0	0
+393	63	LARGE HALPERIN COLLIDER	1		Colin MacDougall	Sean Moberg		Phil Karash	1	0	0	0
+394	63	LARGE HALPERIN COLLIDER	1		Amy Fenstermacher	Adam Long		Phil Karash	1	0	0	0
+395	63	GITTEN LAUXY	2		Michelle LaFramboise	Spencer Langrock		Sean Greeney	1	0	0	0
+396	63	GITTEN LAUXY	2		Joe Nudi III	David Horner		Sean Greeney	1	0	0	0
+397	63	GITTEN LAUXY	3		David Horner	Joe Nudi III	Paul Fajman	Sean Greeney	1	0	1	1
+398	64	THE MOOSE IS LOOSE	1		Chris Matroniano	Kasey Kirby	Tim Kamphaus	Phil Karash	1	0	0	0
+399	64	THE MOOSE IS LOOSE	1		Kasey Kirby			Phil Karash	0	1	0	0
+400	64	THE MOOSE IS LOOSE	1		Erica Wong	Mike Garlow	Chris Matroniano	Phil Karash	1	0	0	0
+401	64	THE MOOSE IS LOOSE	1		Kasey Kirby	Chris Matroniano		Phil Karash	1	0	0	0
+402	64	THE MOOSE IS LOOSE	2		Kasey Kirby	Tim Kamphaus	Katherine Koleski	Phil Karash	1	0	0	0
+403	64	THE MOOSE IS LOOSE	2		Joey Tercero			Phil Karash	1	0	0	0
+404	64	THE MOOSE IS LOOSE	2		Kasey Kirby	Tim Kamphaus	Joey Tercero	Phil Karash	1	0	0	0
+405	64	THE MOOSE IS LOOSE	2		Tim Kamphaus			Phil Karash	1	0	0	1
+406	65	HOPKINS SPICED LATTES	1		John Lemen	Chris Conaway	Brett Schneider	Sean Greeney	1	0	0	0
+407	65	LARGE HALPERIN COLLIDER	1		Amy Fenstermacher	Sean Moberg		Dan Piotrowski	1	0	0	0
+408	65	LARGE HALPERIN COLLIDER	2		Sean Moberg	Amy Fenstermacher		Dan Piotrowski	1	0	0	0
+409	65	HOPKINS SPICED LATTES	2		Brett Schneider	Tom Zohlen	Lindsey Getches	Sean Greeney	1	0	0	0
+410	65	LARGE HALPERIN COLLIDER	3		Colin MacDougall			Dan Piotrowski	1	0	0	0
+411	66	GANGREEN	1		Joe Ulerich	Chris Brooks		Sean Greeney	1	0	0	0
+412	66	LARGE HALPERIN COLLIDER	1		Andrew Anzano	Colin MacDougall		Paul Seiffert	1	0	0	0
+413	66	GANGREEN	1		Dan Pall	Joe Ulerich		Sean Greeney	1	0	0	0
+414	66	GANGREEN	2		Colin Christopher	Dan Pall	Kat Ulerich	Sean Greeney	1	0	0	0
+415	66	GANGREEN	2		Joe Ulerich	Mariam Mehter		Sean Greeney	1	0	0	0
+416	67	GITTEN LAUXY	1		David Horner	Rob Gittens		Dan Piotrowski	1	0	0	0
+417	67	HOPKINS SPICED LATTES	1		Dan McCabe	Aaron Hopkins		Phil Karash	1	0	0	0
+418	67	GITTEN LAUXY	1		David Horner	Paul Fajman		Dan Piotrowski	1	0	0	0
+419	67	HOPKINS SPICED LATTES	2		Bradford Neumann			Phil Karash	1	0	0	0
+420	67	GITTEN LAUXY	2		Jason Gubi			Dan Piotrowski	0	1	0	0
+421	67	GITTEN LAUXY	2		Michelle LaFramboise	Tara Laux	David Horner	Dan Piotrowski	1	0	0	1
+422	68	THE MOOSE IS LOOSE	1		Joey Tercero	Kasey Kirby		Paul Seiffert	0	1	0	0
+423	68	GANGREEN	1		Dan Pall			Ken Zinser	1	0	0	0
+424	68	THE MOOSE IS LOOSE	4		Kasey Kirby	Joey Tercero		Paul Seiffert	0	1	0	0
+425	69	ART OF DARKNESS	1	16:24	Lindsey Getches			James Cargo	1	0	0	0
+426	69	CARGO CULT	1	04:04	Bryan Egan	Aaron Bill	Scott Baker	Sean Greeney	0	1	0	0
+427	69	CARGO CULT	1	01:23	Scott Baker	Mike Pawlo		Sean Greeney	1	0	0	0
+428	69	ART OF DARKNESS	2	24:30	Brett Schneider	Tim Kamphaus		James Cargo	1	0	0	0
+429	69	CARGO CULT	2	19:43	Mike Pawlo	Bryan Egan	Kelly Mitchell	Sean Greeney	1	0	0	0
+430	70	TARA DOES TUCKER	1	24:20	Dan Pall	Dave Laux	Tom Zohlen	Theo Weber	1	0	0	0
+431	70	KINKY MEHTER MAIDS	1	19:35	Joe Ulerich	Brad Sarnell		Amy Greeney	1	0	0	0
+432	70	KINKY MEHTER MAIDS	1	17:05	Joe Ulerich	Brad Sarnell	Jason Gubi	Amy Greeney	1	0	0	0
+433	70	KINKY MEHTER MAIDS	1	06:30	Joe Nudi III	Jason Gubi	Joe Ulerich	Amy Greeney	1	0	1	0
+434	70	KINKY MEHTER MAIDS	1	01:15	Joe Ulerich	Joe Nudi III		Amy Greeney	1	0	0	0
+435	70	TARA DOES TUCKER	1	00:36	Dan Pall	David Horner		Theo Weber	1	0	0	0
+436	70	KINKY MEHTER MAIDS	2	22:25	Joe Ulerich	Mariam Mehter	Brad Sarnell	Amy Greeney	1	0	0	0
+437	70	KINKY MEHTER MAIDS	2	19:40	Paul Fajman	Aaron Hopkins		Amy Greeney	1	0	0	0
+438	70	TARA DOES TUCKER	2	14:45	Dan Pall	David Horner	Mychal Ivancich	Theo Weber	1	0	0	0
+439	70	TARA DOES TUCKER	2	11:40	Dan Pall	Luke LaViolet	Tom Zohlen	Theo Weber	1	0	0	0
+440	70	TARA DOES TUCKER	2	09:30	Luke LaViolet	Spencer Langrock	Tina Polley	Theo Weber	1	0	0	0
+441	70	KINKY MEHTER MAIDS	2	01:01	Brad Sarnell	Jason Gubi	Mariam Mehter	Amy Greeney	0	1	0	0
+442	71	TARA DOES TUCKER	1	24:12	Luke LaViolet	Tom Zohlen	Dave Laux	Sean Greeney	1	0	0	0
+443	71	TARA DOES TUCKER	1	23:35	Chris Polley	Aaron Danilack	Sean Moberg	Sean Greeney	1	0	0	0
+444	71	TARA DOES TUCKER	1	18:10	Luke LaViolet	Aaron Danilack		Sean Greeney	1	0	0	0
+445	71	ART OF DARKNESS	1	13:35	Brett Schneider			Amy Greeney	1	0	0	0
+446	71	TARA DOES TUCKER	1	11:20	Dan Pall	Sean Moberg	Chris Polley	Sean Greeney	1	0	0	0
+447	71	TARA DOES TUCKER	1	09:20	David Horner	Luke LaViolet	Chris Polley	Sean Greeney	0	1	0	0
+448	71	TARA DOES TUCKER	1	04:50	Sean Moberg	Dan Pall	Dave Laux	Sean Greeney	1	0	0	0
+449	71	ART OF DARKNESS	2	15:12	Andrew Anzano	Sean Greeney		Amy Greeney	1	0	0	0
+450	72	CARGO CULT	1	20:40	Mike Pawlo	Shane Mitchell	Luke Streng	Theo Weber	1	0	0	0
+451	72	KINKY MEHTER MAIDS	1	18:10	Joe Ulerich	Brad Sarnell		James Cargo	1	0	0	0
+452	72	KINKY MEHTER MAIDS	1	13:08	Joe Ulerich	Michelle LaFramboise		James Cargo	1	0	0	0
+453	72	KINKY MEHTER MAIDS	1	02:28	Aaron Hopkins	Joe Nudi III	Jason Gubi	James Cargo	1	0	0	0
+454	72	CARGO CULT	2	22:12	Dave Zarneke	Will Weiler		Theo Weber	0	1	0	0
+455	72	KINKY MEHTER MAIDS	2	20:00	Joe Ulerich	Nick Keune	Colin Horner	James Cargo	1	0	0	0
+456	72	KINKY MEHTER MAIDS	2	18:53	Aaron Hopkins	Jason Gubi	Joe Nudi III	James Cargo	1	0	0	0
+457	72	CARGO CULT	2	12:20	Mike Pawlo			Theo Weber	1	0	0	0
+458	73	KINKY MEHTER MAIDS	1		Colin Horner			Sean Greeney	1	0	0	0
+459	73	KINKY MEHTER MAIDS	1		Joe Ulerich	Paul Fajman		Sean Greeney	1	0	0	0
+460	73	KINKY MEHTER MAIDS	1		Paul Fajman	Mariam Mehter	Colin Horner	Sean Greeney	1	0	0	0
+461	73	ART OF DARKNESS	2		Bradford Neumann	Brett Schneider		Theo Weber	1	0	0	0
+462	73	KINKY MEHTER MAIDS	2		Joe Ulerich			Sean Greeney	0	1	0	0
+463	74	TARA DOES TUCKER	1	21:01	David Horner	Tara Laux		James Cargo	1	0	0	0
+464	74	TARA DOES TUCKER	1	10:59	David Horner	Mychal Ivancich		James Cargo	1	0	0	0
+465	74	TARA DOES TUCKER	1	07:17	Dan Pall			James Cargo	1	0	0	0
+466	74	TARA DOES TUCKER	1	00:25	Spencer Langrock	Dan Negron		James Cargo	1	0	0	0
+467	74	TARA DOES TUCKER	2	24:09	Chris Polley	Luke LaViolet		James Cargo	1	0	0	0
+468	74	TARA DOES TUCKER	2	12:27	Tara Laux			James Cargo	1	0	0	0
+469	74	TARA DOES TUCKER	2	09:43	Tom Zohlen	Chris Polley		James Cargo	1	0	0	0
+470	74	TARA DOES TUCKER	2	08:18	Luke LaViolet	Dan Pall	Dave Laux	James Cargo	1	0	0	0
+471	75	KINKY MEHTER MAIDS	1		Joe Ulerich	Brad Sarnell		Amy Greeney	1	0	0	0
+472	75	TARA DOES TUCKER	1		John Lemen	Chris Polley	Luke LaViolet	Theo Weber	1	0	0	0
+473	75	KINKY MEHTER MAIDS	1		Chris Matroniano			Amy Greeney	1	0	0	0
+474	75	KINKY MEHTER MAIDS	2		Michael McVay	Jason Gubi		Amy Greeney	1	0	0	0
+475	75	KINKY MEHTER MAIDS	2		Joe Ulerich			Amy Greeney	0	1	0	0
+476	76	ART OF DARKNESS	1	23:31	Andrew Anzano	Dinesh Vesra		James Cargo	1	0	0	0
+477	76	ART OF DARKNESS	1	20:47	Lindsey Getches	John Slawinski		James Cargo	1	0	0	0
+478	76	CARGO CULT	1	14:00	Scott Baker	Mike Pawlo		Sean Greeney	1	0	0	0
+479	76	ART OF DARKNESS	1	10:45	Lindsey Getches	Brett Schneider		James Cargo	1	0	0	0
+480	76	ART OF DARKNESS	1	01:03	Art Chambers	Brian Rickert	Tim Kamphaus	James Cargo	0	1	0	0
+481	76	CARGO CULT	1	00:30	Bryan Egan	Kelly Mitchell	Mike Pawlo	Sean Greeney	1	0	0	0
+482	76	ART OF DARKNESS	2	17:00	Brett Schneider	Brian Rickert	Lindsey Getches	James Cargo	1	0	0	0
+483	77	CARGO CULT	1	23:15	Luke Streng			Colin Horner	1	0	0	0
+484	77	KINKY MEHTER MAIDS	2	03:32	Jason Gubi	Paul Fajman		James Cargo	1	0	0	0
+485	77	CARGO CULT	3	02:51	Mike Pawlo			Colin Horner	1	0	0	1
+486	78	ART OF DARKNESS	1		Bradford Neumann			Amy Greeney	1	0	0	0
+487	78	TARA DOES TUCKER	1		Tom Zohlen	Spencer Langrock		Sean Greeney	1	0	0	0
+488	78	ART OF DARKNESS	1		Bradford Neumann	Brett Schneider		Amy Greeney	1	0	0	0
+489	78	ART OF DARKNESS	1	03:40	Brett Schneider			Amy Greeney	1	0	0	0
+490	78	TARA DOES TUCKER	2	19:11	Spencer Langrock	Sean Moberg		Sean Greeney	1	0	0	0
+491	78	ART OF DARKNESS	2	08:15	Brett Schneider	Erica Wong		Amy Greeney	1	0	0	0
+492	78	TARA DOES TUCKER	2	07:48	Spencer Langrock			Sean Greeney	1	0	0	0
+493	79	TARA DOES TUCKER	1	10:43	Sean Moberg			James Cargo	1	0	0	0
+494	79	TARA DOES TUCKER	1	07:50	Dave Laux	Luke LaViolet	Tom Zohlen	James Cargo	1	0	0	0
+495	79	CARGO CULT	1	04:03	Mike Pawlo	Scott Baker	Luke Streng	Amy Greeney	1	0	0	0
+496	79	TARA DOES TUCKER	1	02:16	Spencer Langrock			James Cargo	1	0	0	0
+497	79	CARGO CULT	2	05:36	Dave Zarneke	Luke Streng		Amy Greeney	1	0	0	0
+498	79	TARA DOES TUCKER	2	04:25	Sean Moberg	David Horner	Luke LaViolet	James Cargo	1	0	0	0
+499	80	ART OF DARKNESS	1	17:10	Tim Kamphaus	Lindsey Getches		Theo Weber	1	0	0	0
+500	80	KINKY MEHTER MAIDS	1	07:00	Aaron Hopkins	Brad Sarnell	Paul Fajman	Sean Greeney	1	0	0	0
+501	80	ART OF DARKNESS	1	03:15	Andrew Anzano	John Slawinski		Theo Weber	1	0	0	0
+502	80	ART OF DARKNESS	2	10:42	Lindsey Getches	Brett Schneider	Robert Kollenberg	Theo Weber	1	0	0	0
+503	80	KINKY MEHTER MAIDS	2	04:59	Michael McVay	Katy Bright	Michelle LaFramboise	Sean Greeney	1	0	0	0
+504	81	KINKY MEHTER MAIDS	1	03:21	Michelle LaFramboise	Joe Ulerich	Jason Gubi	James Cargo	0	1	0	0
+505	81	KINKY MEHTER MAIDS	2	19:30	Kat Ulerich	Joe Nudi III	Joe Ulerich	James Cargo	1	0	0	0
+506	81	KINKY MEHTER MAIDS	2	18:00	Joe Ulerich	Brad Sarnell	Colin Horner	James Cargo	1	0	0	0
+507	81	KINKY MEHTER MAIDS	2	09:30	Joe Ulerich	Jason Gubi		James Cargo	1	0	0	0
+508	81	KINKY MEHTER MAIDS	2	04:45	Paul Fajman	Joe Ulerich		James Cargo	1	0	0	1
+509	81	KINKY MEHTER MAIDS	2	01:45	Katy Bright	Paul Fajman	Theo Weber	James Cargo	1	0	0	1
+510	82	TARA DOES TUCKER	1	12:29	Sean Moberg	Tara Laux		Sean Greeney	1	0	0	0
+511	82	TARA DOES TUCKER	1	04:15	David Horner			Sean Greeney	1	0	0	0
+512	82	ART OF DARKNESS	1	03:03	Tim Kamphaus			Amy Greeney	1	0	0	0
+513	82	TARA DOES TUCKER	2	16:05	Dan Pall	Aaron Danilack		Sean Greeney	0	1	0	0
+514	82	ART OF DARKNESS	2	12:32	Andrew Anzano	Tim Kamphaus		Amy Greeney	1	0	0	0
+515	82	TARA DOES TUCKER	2	04:19	Spencer Langrock	Chris Polley		Sean Greeney	1	0	0	0
+516	82	TARA DOES TUCKER	2	03:47	Sean Moberg	Luke LaViolet		Sean Greeney	1	0	0	1
+517	83	KINKY MEHTER MAIDS	1	24:35	Michael McVay	Paul Fajman		Amy Greeney	1	0	0	0
+518	83	TARA DOES TUCKER	1	19:20	Luke LaViolet	Sean Moberg	Tina Polley	Theo Weber	1	0	0	0
+519	83	KINKY MEHTER MAIDS	1	14:42	Colin Horner	Aaron Hopkins		Amy Greeney	1	0	0	0
+520	83	KINKY MEHTER MAIDS	1	11:38	Joe Ulerich	Chris Matroniano		Amy Greeney	1	0	0	0
+521	83	KINKY MEHTER MAIDS	1	02:12	Michael McVay	Colin Horner	Joe Ulerich	Amy Greeney	1	0	0	0
+522	83	KINKY MEHTER MAIDS	1	00:57	Katy Bright			Amy Greeney	1	0	0	0
+523	83	TARA DOES TUCKER	2	23:42	Luke LaViolet	Tara Laux	Chris Polley	Theo Weber	1	0	0	0
+524	83	KINKY MEHTER MAIDS	2	21:07	Colin Horner	Joe Ulerich		Amy Greeney	1	0	0	0
+525	83	TARA DOES TUCKER	2	17:49	Spencer Langrock	David Horner		Theo Weber	1	0	0	0
+526	83	TARA DOES TUCKER	2	10:17	Dan Pall	Luke LaViolet	Sean Moberg	Theo Weber	1	0	0	0
+527	84	CARGO CULT	1	22:10	Keri Rapalski	Dave Zarneke		Phil Karash	1	0	0	0
+528	84	CARGO CULT	1	18:20	Keri Rapalski	Spencer Langrock	Sean Moberg	Phil Karash	1	0	0	0
+529	84	CARGO CULT	1	04:27	Mike Pawlo	Luke Streng		Phil Karash	1	0	0	0
+530	84	CARGO CULT	2	19:31	Luke Streng	Keri Rapalski		Phil Karash	1	0	0	0
+531	84	ART OF DARKNESS	2	16:21	Bradford Neumann	Brett Schneider		James Cargo	1	0	0	0
+532	84	ART OF DARKNESS	2	09:21	Lindsey Getches	Bradford Neumann		James Cargo	1	0	0	0
+533	84	CARGO CULT	2	03:47	Mike Pawlo	Spencer Langrock		Phil Karash	1	0	0	0
+534	84	CARGO CULT	2	06:24	Mike Pawlo			Phil Karash	1	0	0	0
+535	84	ART OF DARKNESS	2	00:05	Brett Schneider			James Cargo	1	0	0	0
+536	85	NEGRONOMICON	1	08:12	Chris Matroniano	Kelly Mitchell	Shane Mitchell	James Cargo	1	0	0	0
+537	85	NEGRONOMICON	1	05:04	Michael McVay	Spencer Langrock		James Cargo	1	0	0	0
+538	85	NEGRONOMICON	1	02:40	Shane Mitchell	Jason Gubi		James Cargo	1	0	0	0
+539	85	NEGRONOMICON	2	16:41	Michael McVay	Dan Negron	Spencer Langrock	James Cargo	1	0	0	0
+540	85	LAVIOLET FEMMES	2	03:53	Dan Pall			Amy Greeney	1	0	0	0
+541	86	HERB APPEAL	1	15:12	Brett Schneider	Chris Conaway	David Horner	Theo Weber	1	0	0	0
+542	86	HERB APPEAL	1	10:15	Chris Conaway	Brett Schneider		Theo Weber	1	0	0	0
+543	86	HERB APPEAL	1	06:51	Brett Schneider	Lindsey Getches		Theo Weber	1	0	0	0
+544	87	HERB APPEAL	1	09:40	Brett Schneider			James Cargo	1	0	0	0
+545	87	HERB APPEAL	1	03:40	Paul Fajman	Chris Conaway	Jenn Caulk	James Cargo	1	0	0	0
+546	87	LAVIOLET FEMMES	2	00:38	Luke LaViolet	Aaron Hopkins		Dan Piotrowski	1	0	0	0
+547	88	NEGRONOMICON	1	18:00	Andrew Anzano	Patrick Flanigan	Jason Gubi	Theo Weber	1	0	0	0
+548	88	CARLOS DANGER'S QUINCEAÑERA	1	10:50	John Lemen	John Slawinski		Amy Greeney	1	0	0	0
+549	88	NEGRONOMICON	1	09:28	Dan Negron	Andrew Anzano		Theo Weber	1	0	0	0
+550	88	NEGRONOMICON	2	05:00	Joe Ulerich	Dan Negron		Theo Weber	1	0	0	0
+551	89	NEGRONOMICON	1	14:30	Michelle LaFramboise	Chris Matroniano	Dan Negron	Dan Piotrowski	1	0	0	0
+552	89	NEGRONOMICON	1	01:38	Joe Ulerich			Dan Piotrowski	1	0	0	0
+553	89	NEGRONOMICON	2	07:58	Joe Ulerich	Michelle LaFramboise	Chris Matroniano	Dan Piotrowski	1	0	0	0
+554	90	CARLOS DANGER'S QUINCEAÑERA	1	11:50	Scott Baker	Ryan Mullady			1	0	0	0
+555	90	LAVIOLET FEMMES	1	05:00	Aaron Hopkins	Keri Rapalski		Sean Greeney	1	0	0	0
+556	90	LAVIOLET FEMMES	2	08:18	Dan Pall	Aaron Hopkins	Nathan Hauke	Sean Greeney	1	0	0	0
+557	91	CARLOS DANGER'S QUINCEAÑERA	1		John Slawinski	Tara Laux		Dan Piotrowski	1	0	0	0
+558	91	HERB APPEAL	1		Lindsey Getches	Chris Conaway		Theo Weber	1	0	0	0
+559	91	HERB APPEAL	1		Tim Kamphaus	Paul Fajman	Lindsey Getches	Theo Weber	1	0	0	0
+560	91	HERB APPEAL	1		Brett Schneider	Paul Fajman		Theo Weber	1	0	0	0
+561	91	HERB APPEAL	1		Lindsey Getches	Paul Fajman		Theo Weber	1	0	0	0
+562	91	CARLOS DANGER'S QUINCEAÑERA	1		John Slawinski	Bradford Neumann		Dan Piotrowski	1	0	0	0
+563	91	HERB APPEAL	2		Ryan Mullady	Paul Fajman	Nick Keune	Theo Weber	1	0	0	0
+564	92	LAVIOLET FEMMES	1		Bryan Egan	Dan Pall	Luke LaViolet	Amy Fenstermacher	1	0	0	0
+565	92	NEGRONOMICON	1		Joe Ulerich	Chris Matroniano		James Cargo	1	0	0	0
+566	92	NEGRONOMICON	1		Joe Ulerich			James Cargo	1	0	0	0
+567	92	LAVIOLET FEMMES	1		Sean Moberg	Will Weiler	Keri Rapalski	Amy Fenstermacher	1	0	0	0
+568	92	NEGRONOMICON	2		Joe Ulerich	Dan Negron	Andrew Anzano	James Cargo	1	0	0	0
+569	92	LAVIOLET FEMMES	2		Dan Pall	Nathan Hauke	Luke LaViolet	Amy Fenstermacher	1	0	0	0
+570	93	CARLOS DANGER'S QUINCEAÑERA	1	12:08	John Lemen	Tara Laux	Scott Baker	Amy Greeney	1	0	0	0
+571	93	NEGRONOMICON	1	08:03	Tom Zohlen	Joe Ulerich		Theo Weber	1	0	0	0
+572	93	NEGRONOMICON	1	07:47	Andrew Anzano	Joe Ulerich		Theo Weber	1	0	0	0
+573	93	CARLOS DANGER'S QUINCEAÑERA	1	06:38	George MacDougall	John Slawinski		Amy Greeney	1	0	0	0
+574	93	CARLOS DANGER'S QUINCEAÑERA	2	10:08	John Slawinski	Chris Polley		Amy Greeney	1	0	0	0
+575	93	CARLOS DANGER'S QUINCEAÑERA	2	01:32	Erica Wong	Chris Polley	John Lemen	Amy Greeney	1	0	0	0
+576	94	LAVIOLET FEMMES	1	21:00	Brad Sarnell	Nathan Hauke		Dan Piotrowski	1	0	0	0
+577	94	LAVIOLET FEMMES	1	20:30	Sean Moberg			Dan Piotrowski	1	0	0	0
+578	94	LAVIOLET FEMMES	1	15:51	Brad Sarnell	Luke LaViolet		Dan Piotrowski	1	0	0	0
+579	95	HERB APPEAL	1	22:30	Tim Kamphaus	Brett Schneider		Amy Greeney	1	0	0	0
+580	95	HERB APPEAL	1	07:20	Paul Fajman	Tim Kamphaus		Amy Greeney	1	0	0	0
+581	95	NEGRONOMICON	2	21:05	Tom Zohlen	Shane Mitchell		Dan Piotrowski	1	0	0	0
+582	95	HERB APPEAL	2	07:08	Tim Kamphaus	Will Eger		Amy Greeney	1	0	0	0
+583	95	HERB APPEAL	2	00:18	David Horner			Amy Greeney	1	0	0	1
+584	96	CARLOS DANGER'S QUINCEAÑERA	1	18:51	George MacDougall	John Slawinski		James Cargo	1	0	0	0
+585	96	LAVIOLET FEMMES	1	15:01	Brad Sarnell	Dan Pall	Aaron Hopkins	Theo Weber	1	0	0	0
+586	96	CARLOS DANGER'S QUINCEAÑERA	1	09:07	Bradford Neumann	Paul Donohoo-Vallett		James Cargo	0	1	0	0
+587	96	CARLOS DANGER'S QUINCEAÑERA	1	05:17	Bradford Neumann	Tara Laux		James Cargo	0	1	0	0
+588	96	CARLOS DANGER'S QUINCEAÑERA	2	04:33	Bradford Neumann			James Cargo	1	0	1	1
+589	96	LAVIOLET FEMMES	2	01:03	Dan Pall	Nathan Hauke	Luke LaViolet	Theo Weber	1	0	0	0
+590	97	HERB APPEAL	1	18:57	Will Eger	Chris Conaway		Theo Weber	1	0	0	0
+591	97	HERB APPEAL	1	14:43	Lindsey Getches	David Horner		Theo Weber	1	0	0	0
+592	97	HERB APPEAL	1	13:40	Paul Fajman	Lindsey Getches	Chris Conaway	Theo Weber	1	0	0	0
+593	97	HERB APPEAL	1	07:30	Tim Kamphaus	Lindsey Getches		Theo Weber	1	0	0	0
+594	97	CARLOS DANGER'S QUINCEAÑERA	1	05:15	John Lemen	Chris Polley		Dan Piotrowski	1	0	0	0
+595	97	HERB APPEAL	1	01:19	Paul Fajman	Ryan Mullady	David Horner	Theo Weber	1	0	0	0
+596	97	HERB APPEAL	2	16:20	Lindsey Getches	Tim Kamphaus	Will Eger	Theo Weber	1	0	0	0
+597	97	HERB APPEAL	2	14:23	Ryan Mullady	Brett Schneider	Nick Keune	Theo Weber	1	0	0	0
+598	97	HERB APPEAL	2	13:17	David Horner	Will Eger	Lindsey Getches	Theo Weber	1	0	0	0
+599	97	CARLOS DANGER'S QUINCEAÑERA	2	10:47	Aaron Bill	Chris Polley		Dan Piotrowski	1	0	0	0
+600	97	CARLOS DANGER'S QUINCEAÑERA	2	08:25	John Slawinski	Erica Wong		Dan Piotrowski	1	0	0	0
+601	98	NEGRONOMICON	1	22:00	Jason Gubi	Tom Zohlen		James Cargo	1	0	0	0
+602	98	LAVIOLET FEMMES	1	04:25	Nathan Hauke			Amy Fenstermacher	1	0	0	0
+603	98	LAVIOLET FEMMES	2	24:30	Luke LaViolet	Dan Pall		Amy Fenstermacher	0	1	0	0
+604	98	NEGRONOMICON	2	22:35	Joe Ulerich	Jason Gubi	Nick Keely	James Cargo	1	0	0	0
+605	98	NEGRONOMICON	2	21:23	Dan Negron	Andrew Anzano	Savannah Fetterolf	James Cargo	0	1	0	0
+606	98	NEGRONOMICON	2	17:21	Andrew Anzano	Amy Greeney		James Cargo	1	0	0	0
+607	98	NEGRONOMICON	2	10:10	Michelle LaFramboise	Chris Matroniano		James Cargo	1	0	0	0
+608	98	LAVIOLET FEMMES	2	09:15	Keri Rapalski	Bryan Egan	Luke LaViolet	Amy Fenstermacher	1	0	0	0
+609	98	LAVIOLET FEMMES	2	08:35	Bonnie Coburn	Logan Bair		Amy Fenstermacher	1	0	0	0
+610	99	HERB APPEAL	1	20:10	Will Eger	Jenn Caulk	Paul Fajman	Amy Greeney	1	0	0	0
+611	99	HERB APPEAL	1	11:18	Lindsey Getches	Chris Conaway	Paul Fajman	Amy Greeney	1	0	0	0
+612	99	NEGRONOMICON	1	09:47	Spencer Langrock	Michael McVay	Dan Negron	Dan Piotrowski	1	0	0	0
+613	99	NEGRONOMICON	1	04:08	Michael McVay	Jason Gubi	Michelle LaFramboise	Dan Piotrowski	1	0	0	0
+614	99	HERB APPEAL	2	23:16	Paul Fajman	Chris Conaway	Dan Piotrowski	Amy Greeney	1	0	0	0
+615	99	HERB APPEAL	2	20:32	David Horner	Paul Fajman		Amy Greeney	1	0	0	0
+616	99	NEGRONOMICON	2	14:10	Jason Gubi	Michael McVay	Joe Ulerich	Dan Piotrowski	1	0	0	0
+617	99	NEGRONOMICON	2	04:02	Joe Ulerich	Tom Zohlen	Andrew Anzano	Dan Piotrowski	1	0	0	0
+618	99	NEGRONOMICON	3	18:18	Joe Ulerich	Michelle LaFramboise		Dan Piotrowski	1	0	0	0
+619	100	LAVIOLET FEMMES	1		Sean Moberg	Nathan Hauke	Luke LaViolet	Theo Weber	1	0	0	0
+620	100	LAVIOLET FEMMES	1		Brad Sarnell	Dan Pall	Stephanie Berman	Theo Weber	1	0	0	0
+621	100	LAVIOLET FEMMES	1		Brad Sarnell	Dan Pall	Nathan Hauke	Theo Weber	1	0	0	0
+622	100	CARLOS DANGER'S QUINCEAÑERA	2	02:11	John Lemen	John Slawinski		James Cargo	1	0	0	0
+623	100	LAVIOLET FEMMES	2	01:20	Logan Bair	Aaron Hopkins		Theo Weber	1	0	0	0
+624	101	SITH HAPPENS	1	23:10	John Slawinski			James Cargo	1	0	0	0
+625	101	YELLOW-BELLIED PIRATE HOOKERS	1	20:02	Bradford Neumann	Brett Schneider		Theo Weber	1	0	0	0
+626	101	SITH HAPPENS	1	10:41	Sean Moberg	Aaron Bill	David Horner	James Cargo	1	0	0	0
+627	101	YELLOW-BELLIED PIRATE HOOKERS	1	03:24	Jason Gubi	Aaron Hopkins	Bradford Neumann	Theo Weber	1	0	0	0
+628	101	SITH HAPPENS	2	07:41	Joe Nudi III			James Cargo	1	0	0	0
+629	102	THAT'S NO BROOM	1	15:04	Mychal Ivancich	Dan Pall		Phil Karash	0	1	0	0
+630	102	THAT'S NO BROOM	1	08:35	Colin MacDougall			Phil Karash	1	0	0	0
+631	102	COMMUNIST PAR-TAY	1	00:22	Keri Rapalski	Tom Zohlen		Sean Greeney	1	0	0	0
+632	102	COMMUNIST PAR-TAY	2	12:59	Savannah Fetterolf			Sean Greeney	1	0	0	0
+633	102	COMMUNIST PAR-TAY	2	08:37	Savannah Fetterolf	Tom Zohlen	Mike Pawlo	Sean Greeney	1	0	0	0
+634	102	THAT'S NO BROOM	2	03:24	George MacDougall	Colin MacDougall		Phil Karash	1	0	0	0
+635	102	COMMUNIST PAR-TAY	3	04:40	Mike Pawlo	Dave Zarneke		Sean Greeney	0	1	0	1
+636	103	SITH HAPPENS	1	12:30	Tim Kamphaus			Phil Karash	1	0	0	0
+637	103	SITH HAPPENS	1	00:49	Sean Moberg	Tim Kamphaus		Phil Karash	1	0	0	0
+638	103	COMMUNIST PAR-TAY	2	20:41	John Lemen	Mike Pawlo	Robert Kollenberg	Theo Weber	1	0	0	0
+639	103	COMMUNIST PAR-TAY	2	11:11	Keri Rapalski	Tom Zohlen		Theo Weber	1	0	0	0
+640	103	SITH HAPPENS	2	02:40	Tim Kamphaus	Joe Nudi III	David Horner	Phil Karash	1	0	0	0
+641	104	YELLOW-BELLIED PIRATE HOOKERS	1	22:43	Brett Schneider	Andrew Anzano		Sean Greeney	1	0	0	0
+642	104	YELLOW-BELLIED PIRATE HOOKERS	1	19:30	Brett Schneider	Bradford Neumann		Sean Greeney	1	0	0	0
+643	104	YELLOW-BELLIED PIRATE HOOKERS	1	17:30	Aaron Hopkins	Dave Laux	Rachael Wise	Sean Greeney	1	0	0	0
+644	104	YELLOW-BELLIED PIRATE HOOKERS	1	15:43	Bradford Neumann	Brett Schneider		Sean Greeney	1	0	1	0
+645	104	YELLOW-BELLIED PIRATE HOOKERS	1	09:54	Dinesh Vesra	Jason Gubi	Bradford Neumann	Sean Greeney	1	0	0	0
+646	104	THAT'S NO BROOM	1	07:57	Lindsey Getches	Colin MacDougall	Dan Negron	James Cargo	1	0	0	0
+647	104	THAT'S NO BROOM	2	17:32	Dan Pall			James Cargo	1	0	0	0
+648	104	YELLOW-BELLIED PIRATE HOOKERS	2	12:16	Tara Laux	Bradford Neumann	Brett Schneider	Sean Greeney	1	0	0	0
+649	104	THAT'S NO BROOM	2	10:57	Colin MacDougall	Chris Peterson		James Cargo	1	0	0	0
+650	105	THAT'S NO BROOM	1	10:55	Colin MacDougall	George MacDougall		Theo Weber	1	0	0	0
+651	105	SITH HAPPENS	1	08:15	John Slawinski			Sean Greeney	1	0	0	0
+652	105	SITH HAPPENS	2	19:30	John Slawinski			Sean Greeney	1	0	0	0
+653	105	SITH HAPPENS	2	11:58	Joe Nudi III	Tim Kamphaus	David Horner	Sean Greeney	1	0	1	0
+654	106	YELLOW-BELLIED PIRATE HOOKERS	1	23:31	Brett Schneider	Bradford Neumann	Jason Gubi	Phil Karash	1	0	0	0
+655	106	YELLOW-BELLIED PIRATE HOOKERS	1	18:45	Dave Laux	Chris Polley	Jason Gubi	Phil Karash	1	0	0	0
+656	106	YELLOW-BELLIED PIRATE HOOKERS	1	01:58	Aaron Hopkins	Bradford Neumann		Phil Karash	1	0	0	0
+657	106	COMMUNIST PAR-TAY	2	24:30	Dave Zarneke	Paul Fajman	Katy Bright	James Cargo	1	0	0	0
+658	106	COMMUNIST PAR-TAY	2	19:30	Paul Fajman	Keri Rapalski	Will Weiler	James Cargo	1	0	0	0
+659	106	COMMUNIST PAR-TAY	2	18:23	Mike Pawlo	Dave Zarneke	Katy Bright	James Cargo	1	0	0	0
+660	106	YELLOW-BELLIED PIRATE HOOKERS	2	16:15	Bradford Neumann			Phil Karash	1	0	0	0
+661	106	YELLOW-BELLIED PIRATE HOOKERS	2	09:36	Bradford Neumann	Amy Greeney	Brett Schneider	Phil Karash	1	0	0	0
+662	106	YELLOW-BELLIED PIRATE HOOKERS	2	09:16	Bradford Neumann	Brett Schneider	Andrew Anzano	Phil Karash	1	0	0	0
+663	106	YELLOW-BELLIED PIRATE HOOKERS	2	03:50	Brett Schneider	Andrew Anzano	Bradford Neumann	Phil Karash	1	0	0	0
+664	107	COMMUNIST PAR-TAY	1	10:49	Paul Fajman	Spencer Langrock		Theo Weber	1	0	0	0
+665	107	SITH HAPPENS	1	08:47	Adam Long	Sean Moberg	Joe Nudi III	Phil Karash	1	0	0	0
+666	107	SITH HAPPENS	2	12:57	Tim Kamphaus	Scott Baker	Joe Nudi III	Phil Karash	1	0	0	0
+667	108	THAT'S NO BROOM	1	15:00	Dan Pall	Michelle LaFramboise		James Cargo	1	0	0	0
+668	108	YELLOW-BELLIED PIRATE HOOKERS	1	10:45	Bradford Neumann	Chris Polley	Andrew Anzano	Sean Greeney	1	0	0	0
+669	108	YELLOW-BELLIED PIRATE HOOKERS	1	02:15	Brett Schneider	Andrew Anzano		Sean Greeney	1	0	0	0
+670	108	THAT'S NO BROOM	2	22:30	David Horner	Dan Pall		James Cargo	1	0	0	0
+671	108	YELLOW-BELLIED PIRATE HOOKERS	2	21:20	Bradford Neumann	Brett Schneider		Sean Greeney	1	0	0	0
+672	108	THAT'S NO BROOM	2	19:30	Amy Greeney	Michelle LaFramboise		James Cargo	1	0	0	0
+673	108	THAT'S NO BROOM	2	18:45	Dan Pall	Lindsey Getches		James Cargo	1	0	0	0
+674	108	THAT'S NO BROOM	2	17:20	Dan Pall			James Cargo	1	0	0	0
+675	108	YELLOW-BELLIED PIRATE HOOKERS	2	16:05	Brett Schneider	Bradford Neumann		Sean Greeney	1	0	0	0
+676	108	YELLOW-BELLIED PIRATE HOOKERS	2	13:35	Brett Schneider	Bradford Neumann		Sean Greeney	1	0	0	0
+677	108	YELLOW-BELLIED PIRATE HOOKERS	2	08:55	Brett Schneider	Bradford Neumann		Sean Greeney	1	0	0	0
+678	108	YELLOW-BELLIED PIRATE HOOKERS	2	00:22	Bradford Neumann			Sean Greeney	1	0	1	1
+679	109	YELLOW-BELLIED PIRATE HOOKERS	1	12:45	Bradford Neumann	Chris Polley	James Cargo	Phil Karash	1	0	0	0
+680	109	YELLOW-BELLIED PIRATE HOOKERS	1	10:24	Bradford Neumann	Brett Schneider		Phil Karash	1	0	0	0
+681	109	YELLOW-BELLIED PIRATE HOOKERS	1	05:15	Brett Schneider	Chris Polley		Phil Karash	1	0	0	0
+682	109	COMMUNIST PAR-TAY	2	11:55	Paul Fajman	Spencer Langrock		James Cargo	1	0	0	0
+683	109	COMMUNIST PAR-TAY	2	07:25	Paul Fajman	Mike Pawlo	Will Weiler	James Cargo	1	0	0	0
+684	110	SITH HAPPENS	1	09:43	Tim Kamphaus	David Horner		Sean Greeney	1	0	0	0
+685	110	THAT'S NO BROOM	1	04:41	George MacDougall	Colin MacDougall	Amy Greeney	Theo Weber	1	0	0	0
+686	110	SITH HAPPENS	1	01:30	David Horner	John Slawinski		Sean Greeney	1	0	0	0
+687	110	THAT'S NO BROOM	2	10:50	Brad Sarnell	Colin MacDougall	George MacDougall	Theo Weber	1	0	0	0
+688	110	THAT'S NO BROOM	2	06:50	Colin MacDougall	Dan Pall	Brad Sarnell	Theo Weber	1	0	0	0
+689	111	COMMUNIST PAR-TAY	1	21:57	Mike Pawlo	Bryan Egan		Theo Weber	1	0	0	0
+690	111	SITH HAPPENS	1	19:38	Tim Kamphaus	Shane Mitchell	David Horner	Phil Karash	1	0	0	0
+691	111	COMMUNIST PAR-TAY	1	04:31	Mike Pawlo	Paul Fajman	Dave Zarneke	Theo Weber	1	0	0	0
+692	111	COMMUNIST PAR-TAY	2	12:44	Spencer Langrock	Mariam Mehter	Will Weiler	Theo Weber	1	0	0	0
+693	111	COMMUNIST PAR-TAY	2	04:17	Paul Fajman	Mariam Mehter	Tom Zohlen	Theo Weber	1	0	0	1
+694	111	SITH HAPPENS	2	01:44	Scott Baker	Aaron Bill	Tim Kamphaus	Phil Karash	0	1	0	0
+695	111	SITH HAPPENS	2	00:17	David Horner	John Slawinski	Michelle LaFramboise	Phil Karash	0	1	0	0
+696	112	YELLOW-BELLIED PIRATE HOOKERS	2	23:00	Brett Schneider	Bradford Neumann	Andrew Anzano	Sean Greeney	1	0	0	0
+697	112	YELLOW-BELLIED PIRATE HOOKERS	2	21:10	Brett Schneider			Sean Greeney	1	0	0	0
+698	112	THAT'S NO BROOM	2	11:25	Brad Sarnell	George MacDougall		James Cargo	1	0	0	0
+699	112	THAT'S NO BROOM	2	09:20	Dan Pall	Brad Sarnell		James Cargo	1	0	0	0
+700	112	THAT'S NO BROOM	2	00:48	Nick Keune			James Cargo	1	0	0	0
+701	113	COMMUNIST PAR-TAY	1	13:40	Mike Pawlo	Katy Bright		Sean Greeney	1	0	0	0
+702	113	COMMUNIST PAR-TAY	1	11:25	Paul Fajman	Mike Pawlo	Katy Bright	Sean Greeney	1	0	0	0
+703	113	THAT'S NO BROOM	1	03:15	Mychal Ivancich			Phil Karash	1	0	0	0
+704	113	COMMUNIST PAR-TAY	2	14:30	Tom Zohlen	Keri Rapalski		Sean Greeney	1	0	0	0
+705	113	COMMUNIST PAR-TAY	2	08:00	Katy Bright	Mike Pawlo	Savannah Fetterolf	Sean Greeney	1	0	0	0
+706	113	COMMUNIST PAR-TAY	2	06:37	Spencer Langrock	Mike Pawlo		Sean Greeney	1	0	0	0
+707	113	COMMUNIST PAR-TAY	2	05:14	Bryan Egan	Tom Zohlen	Keri Rapalski	Sean Greeney	1	0	0	0
+708	113	THAT'S NO BROOM	2	00:30	Dan Pall			Phil Karash	1	0	0	0
+709	114	YELLOW-BELLIED PIRATE HOOKERS	1	23:15	Jason Gubi	Brett Schneider		Theo Weber	1	0	0	0
+710	114	YELLOW-BELLIED PIRATE HOOKERS	1	20:51	Dave Laux	Brett Schneider		Theo Weber	1	0	0	0
+711	114	SITH HAPPENS	1	17:20	David Horner	Erica Wong		James Cargo	1	0	0	0
+712	114	SITH HAPPENS	1	02:55	Scott Baker	Kelly Mitchell		James Cargo	1	0	0	0
+713	114	SITH HAPPENS	1	02:11	David Horner	Erica Wong	Tim Kamphaus	James Cargo	1	0	0	0
+714	114	YELLOW-BELLIED PIRATE HOOKERS	2	22:29	Brett Schneider			Theo Weber	1	0	0	0
+715	114	SITH HAPPENS	2	06:55	Joe Nudi III	David Horner		James Cargo	1	0	0	0
+716	114	YELLOW-BELLIED PIRATE HOOKERS	2	04:45	Tara Laux	Andrew Anzano		Theo Weber	1	0	0	0
+717	114	YELLOW-BELLIED PIRATE HOOKERS	3	02:10	Jason Gubi	Tara Laux	Brett Schneider	Theo Weber	1	0	0	1
+718	115	TANKS FOR ASKING	1	07:29	Mariam Mehter			Paul Fajman	1	0	0	0
+719	115	TANKS FOR ASKING	1	01:59	Luke LaViolet	Art Chambers		Paul Fajman	0	1	0	0
+720	115	TOO MANY NICKS ON THE ICEFLOOR	2	16:40	Ryan Mullady	Nick Riddlesberger	Bradford Neumann	Spencer Langrock	1	0	0	0
+721	115	TOO MANY NICKS ON THE ICEFLOOR	2	14:53	Nick Riddlesberger	Sean Moberg		Spencer Langrock	1	0	0	0
+722	115	TANKS FOR ASKING	2	04:14	Mariam Mehter	Mike Pawlo		Paul Fajman	1	0	0	0
+723	116	BETTY WHITE'S KNIGHTS	1	23:25	Tim Kamphaus	Scott Baker	Will Weiler	Spencer Langrock	1	0	0	0
+724	116	TANKS FOR ASKING	1	10:11	Mike Pawlo	Lindsey Getches		Ryan Schradin	1	0	0	0
+725	116	BETTY WHITE'S KNIGHTS	2	17:17	Nathan Hauke			Spencer Langrock	1	0	0	0
+726	116	BETTY WHITE'S KNIGHTS	2	16:40	Brian Lin	Tim Kamphaus	Erica Wong	Spencer Langrock	1	0	0	0
+727	116	TANKS FOR ASKING	2	04:10	Mike Pawlo	Chris Elliott		Ryan Schradin	1	0	0	0
+728	117	TOO MANY NICKS ON THE ICEFLOOR	1	10:20	Bradford Neumann			Ryan Schradin	1	0	0	0
+729	117	BETTY WHITE'S KNIGHTS	1	05:40	Tim Kamphaus	Scott Baker		Paul Fajman	1	0	0	0
+730	117	TOO MANY NICKS ON THE ICEFLOOR	2	23:50	Ryan Mullady	Bradford Neumann		Ryan Schradin	0	1	0	0
+731	117	BETTY WHITE'S KNIGHTS	2	22:30	Brian Lin	Tim Kamphaus	David Horner	Paul Fajman	1	0	0	0
+732	117	TOO MANY NICKS ON THE ICEFLOOR	2	16:53	Bradford Neumann	Nick Keune	Michael McVay	Ryan Schradin	0	1	0	0
+733	117	BETTY WHITE'S KNIGHTS	2	11:11	Jason Gubi	Sarah Schradin	Nathan Hauke	Paul Fajman	1	0	0	0
+734	118	TOO MANY NICKS ON THE ICEFLOOR	1	22:10	Ryan Mullady	Dave Zarneke	Sean Moberg	Spencer Langrock	1	0	0	0
+735	118	TANKS FOR ASKING	1	11:58	Mike Pawlo	Lindsey Getches	Art Chambers	Mike Silber	1	0	0	0
+736	118	TOO MANY NICKS ON THE ICEFLOOR	1	00:44	Nick Keely	Dave Zarneke	Katy Bright	Spencer Langrock	1	0	0	0
+737	118	TANKS FOR ASKING	2	13:40	Mike Pawlo	Mariam Mehter	Christine Lenardson	Mike Silber	1	0	0	0
+738	118	TANKS FOR ASKING	2	08:49	Brett Schneider	Dan Negron	Mike Pawlo	Mike Silber	1	0	0	0
+739	119	TANKS FOR ASKING	1	09:05	Brett Schneider			Ryan Schradin	1	0	0	0
+740	119	TANKS FOR ASKING	2	00:05	Brett Schneider			Ryan Schradin	1	0	0	1
+741	120	BETTY WHITE'S KNIGHTS	1	06:10	John Slawinski	Jason Gubi	Nathan Hauke	Mike Silber	1	0	0	0
+742	120	BETTY WHITE'S KNIGHTS	1	05:13	Brian Lin			Mike Silber	1	0	0	0
+743	120	BETTY WHITE'S KNIGHTS	1	03:57	Brian Lin			Mike Silber	1	0	0	0
+744	120	BETTY WHITE'S KNIGHTS	1	02:01	Nathan Hauke	Chris Conaway		Mike Silber	1	0	0	0
+745	120	BETTY WHITE'S KNIGHTS	1	00:02	David Horner	Jason Gubi		Mike Silber	1	0	0	0
+746	120	BETTY WHITE'S KNIGHTS	2	16:53	Chris Conaway	Jason Gubi	David Horner	Mike Silber	1	0	0	0
+747	120	BETTY WHITE'S KNIGHTS	2	13:47	Nathan Hauke			Mike Silber	1	0	0	0
+748	120	TOO MANY NICKS ON THE ICEFLOOR	2	09:02	Ryan Mullady	Paul Fajman	Tris Golden	Ryan Schradin	1	0	0	0
+749	120	BETTY WHITE'S KNIGHTS	2	06:29	Tim Kamphaus	Nathan Hauke		Mike Silber	1	0	0	0
+750	121	TOO MANY NICKS ON THE ICEFLOOR	1	11:00	Sean Moberg	Rob Gittens	Paul Fajman	Mike Pawlo	0	1	0	0
+751	121	TOO MANY NICKS ON THE ICEFLOOR	1	00:25	Sean Moberg	Nick Riddlesberger	Dave Zarneke	Mike Pawlo	1	0	0	0
+752	121	TANKS FOR ASKING	2	21:08	Shane Mitchell	Dan Negron		Mike Silber	1	0	0	0
+753	121	TANKS FOR ASKING	2	10:30	Brett Schneider	Mariam Mehter	Luke LaViolet	Mike Silber	1	0	0	0
+754	122	TANKS FOR ASKING	1	19:30	Brett Schneider	Mike Pawlo		Ryan Schradin	1	0	0	0
+755	122	BETTY WHITE'S KNIGHTS	1	04:20	Nathan Hauke	David Horner	Jason Gubi	Spencer Langrock	1	0	0	0
+756	122	BETTY WHITE'S KNIGHTS	2	22:55	Dave Laux	Chris Conaway	David Horner	Spencer Langrock	1	0	0	0
+757	123	BETTY WHITE'S KNIGHTS	1	13:53	Jason Gubi			Mike Silber	1	0	0	0
+758	123	BETTY WHITE'S KNIGHTS	1		Tim Kamphaus			Mike Silber	1	0	0	0
+759	123	BETTY WHITE'S KNIGHTS	1		John Slawinski			Mike Silber	1	0	0	0
+760	123	BETTY WHITE'S KNIGHTS	2		Tim Kamphaus	Dave Laux	Chris Conaway	Mike Silber	1	0	0	0
+761	123	BETTY WHITE'S KNIGHTS	2	03:03	Chris Conaway			Mike Silber	1	0	0	0
+762	124	SUNDAY NIGHT BALL-STARS	1	20:00	James Cargo	Steph Nitti	Rehanna Parent	Mike Silber	1	0	0	0
+763	124	SUNDAY NIGHT BALL-STARS	1	15:00	Chris Conaway	Steph Nitti	AJ Bolyard	Mike Silber	1	0	0	0
+764	124	JUST THE TIP-IN	1	10:59	Stephanie Hopkins	Michael McVay	Dave Laux	Ryan Schradin	1	0	0	0
+765	124	SUNDAY NIGHT BALL-STARS	1	04:07	Logan Bair	Tom Zohlen	Rehanna Parent	Mike Silber	1	0	0	0
+766	124	SUNDAY NIGHT BALL-STARS	2	21:51	Logan Bair			Mike Silber	1	0	0	0
+767	124	JUST THE TIP-IN	2	15:33	Dan Negron	Luke LaViolet	Michael McVay	Ryan Schradin	1	0	0	0
+768	124	SUNDAY NIGHT BALL-STARS	2	13:51	Rehanna Parent	Logan Bair	Nick Keune	Mike Silber	1	0	0	0
+769	125	2 BRETTS 1 CUP	1	17:14	Brett Schneider (Bort)	Tim Kamphaus		Sean Greeney	1	0	0	0
+770	125	2 BRETTS 1 CUP	1	15:47	Scott Baker	Bradford Neumann		Sean Greeney	1	0	0	0
+771	125	REDUENAMI	1	10:00	Paul Fajman	David Horner	Mickey Senate	Theo Weber	1	0	0	0
+772	125	REDUENAMI	1	05:00	David Horner	Paul Fajman	Sean Greeney	Theo Weber	1	0	0	0
+773	125	2 BRETTS 1 CUP	2	11:50	Bradford Neumann			Sean Greeney	1	0	0	0
+774	125	2 BRETTS 1 CUP	2	00:10	Brett Schneider			Sean Greeney	1	0	0	1
+775	126	REDUENAMI	1	16:45	Paul Fajman			Ryan Schradin	1	0	0	0
+776	126	SUNDAY NIGHT BALL-STARS	2	08:40	Joe Hughes	Chris Matroniano		Sean Greeney	1	0	0	0
+777	127	2 BRETTS 1 CUP	1	21:05	Brett Schneider	Theo Weber		Mike Silber	1	0	0	0
+778	127	2 BRETTS 1 CUP	1	16:50	Amy Greeney	Bradford Neumann	Brett Schneider	Mike Silber	1	0	0	0
+779	127	2 BRETTS 1 CUP	1	16:20	Milton Jones	Bradford Neumann	Scott Baker	Mike Silber	1	0	0	0
+780	127	2 BRETTS 1 CUP	1	00:35	Nick Keely	Milton Jones	Bradford Neumann	Mike Silber	1	0	0	0
+781	127	2 BRETTS 1 CUP	2	13:50	Bradford Neumann	Milton Jones		Mike Silber	1	0	0	0
+782	127	2 BRETTS 1 CUP	2	05:16	Bradford Neumann	Scott Baker	Art Chambers	Mike Silber	1	0	0	0
+783	127	2 BRETTS 1 CUP	2	04:00	Cassie Jones	Art Chambers		Mike Silber	1	0	0	0
+784	127	JUST THE TIP-IN	2	03:02	Spencer Langrock	Michael McVay		Theo Weber	1	0	0	0
+785	128	JUST THE TIP-IN	1	21:31	Nathan Hauke			Sean Greeney	1	0	0	0
+786	128	REDUENAMI	1	08:59	Justin Sawyer	Paul Fajman	Lindsey Getches	Mike Silber	1	0	0	0
+787	128	REDUENAMI	2	21:32	Dave Zarneke	Paul Fajman		Mike Silber	1	0	0	0
+788	128	JUST THE TIP-IN	2	16:40	Tara Laux	Nathan Hauke		Sean Greeney	1	0	0	0
+789	128	JUST THE TIP-IN	2	07:01	Spencer Langrock	Mariam Mehter		Sean Greeney	1	0	0	0
+790	128	JUST THE TIP-IN	2	03:15	Luke LaViolet	Dan Negron		Sean Greeney	1	0	0	0
+791	129	SUNDAY NIGHT BALL-STARS	1	17:14	Will Eger	Spencer Langrock	Chris Matroniano	Theo Weber	1	0	0	0
+792	129	2 BRETTS 1 CUP	1	14:41	Brett Schneider	Nick Keely		James Cargo	1	0	0	0
+793	129	2 BRETTS 1 CUP	1	11:45	Bradford Neumann	Brett Schneider	Tris Golden	James Cargo	1	0	0	0
+794	129	SUNDAY NIGHT BALL-STARS	1	01:40	Spencer Langrock	David Horner		Theo Weber	1	0	0	0
+795	129	SUNDAY NIGHT BALL-STARS	2	19:20	Rehanna Parent	Chris Conaway		Theo Weber	1	0	0	0
+796	129	SUNDAY NIGHT BALL-STARS	2	13:25	Will Eger	Dan Negron	David Horner	Theo Weber	1	0	0	0
+797	129	2 BRETTS 1 CUP	2	11:23	Brett Schneider	Mariam Mehter		James Cargo	1	0	0	0
+798	129	2 BRETTS 1 CUP	2	05:00	Tim Kamphaus	Brett Schneider	Mariam Mehter	James Cargo	1	0	0	0
+799	130	2 BRETTS 1 CUP	1	15:00	Brett Schneider			Sean Greeney	1	0	0	0
+800	130	2 BRETTS 1 CUP	1	10:00	Brett Schneider	Bradford Neumann	Theo Weber	Sean Greeney	1	0	0	0
+801	130	2 BRETTS 1 CUP	2	12:00	Bradford Neumann	Brett Schneider		Sean Greeney	1	0	0	0
+802	130	2 BRETTS 1 CUP	2	07:00	Bradford Neumann			Sean Greeney	1	0	0	0
+803	131	JUST THE TIP-IN	1	20:00	Ryan Mullady	Dave Laux	Michael McVay	Theo Weber	1	0	0	0
+804	131	SUNDAY NIGHT BALL-STARS	1	14:00	Logan Bair			Mike Silber	1	0	0	0
+805	131	SUNDAY NIGHT BALL-STARS	2	03:00	Logan Bair	AJ Bolyard		Mike Silber	1	0	0	0
+806	132	SUNDAY NIGHT BALL-STARS	1	15:20	Chris Matroniano	Logan Bair	Will Eger	Sean Greeney	1	0	0	0
+807	132	SUNDAY NIGHT BALL-STARS	1	05:40	Tom Zohlen	Will Eger		Sean Greeney	1	0	0	0
+808	132	REDUENAMI	2	12:06	Paul Fajman	David Horner		Ryan Schradin	1	0	0	0
+809	132	REDUENAMI	2	03:00	Lindsey Getches	Tal Fortgang	David Horner	Ryan Schradin	1	0	0	0
+810	133	2 BRETTS 1 CUP	1	13:50	Cassie Jones	Milton Jones	Brett Schneider	Mike Silber	1	0	0	0
+811	133	2 BRETTS 1 CUP	1	10:23	Cassie Jones	Brett Schneider (Bort)	Tim Kamphaus	Mike Silber	1	0	0	0
+812	133	2 BRETTS 1 CUP	1	08:32	Brett Schneider	Tim Kamphaus	Theo Weber	Mike Silber	1	0	0	0
+813	133	JUST THE TIP-IN	2	20:28	Tara Laux			Theo Weber	1	0	0	0
+814	133	2 BRETTS 1 CUP	2	18:27	Bradford Neumann	Brett Schneider	Cassie Jones	Mike Silber	1	0	0	0
+815	133	2 BRETTS 1 CUP	2	10:05	Brett Schneider			Mike Silber	1	0	0	0
+816	133	2 BRETTS 1 CUP	2	02:21	Brett Schneider	Bradford Neumann		Mike Silber	1	0	0	0
+817	133	2 BRETTS 1 CUP	2	01:32	Brett Schneider	Bradford Neumann		Mike Silber	1	0	0	0
+818	134	SUNDAY NIGHT BALL-STARS	1	16:21	Steph Nitti	Tom Zohlen		Theo Weber	1	0	0	0
+819	134	2 BRETTS 1 CUP	1	07:43	Milton Jones	Mariam Mehter		Ryan Schradin	1	0	0	0
+820	134	SUNDAY NIGHT BALL-STARS	2	16:42	Tom Zohlen			Theo Weber	1	0	0	0
+821	134	2 BRETTS 1 CUP	2	10:40	Bradford Neumann			Ryan Schradin	1	0	0	0
+822	134	2 BRETTS 1 CUP	2	09:31	Bradford Neumann	Jason Gubi		Ryan Schradin	1	0	0	0
+823	135	JUST THE TIP-IN	2	20:45	Aaron Hopkins	Luke LaViolet	Mariam Mehter	Sean Greeney	1	0	0	0
+824	135	REDUENAMI	2	19:40	Paul Fajman	Brian Whitty	Lindsey Getches	Mike Silber	1	0	0	0
+825	136	REDUENAMI	1	23:30	Tal Fortgang	Paul Fajman	Lindsey Getches	Theo Weber	1	0	0	0
+826	136	REDUENAMI	2	17:40	Tal Fortgang	David Horner	Justin Sawyer	Theo Weber	1	0	0	0
+827	136	2 BRETTS 1 CUP	2	03:55	Brett Schneider			Sean Greeney	1	0	0	0
+828	137	JUST THE TIP-IN	1	12:15	Spencer Langrock	Sean Moberg		Ryan Schradin	1	0	0	0
+829	137	SUNDAY NIGHT BALL-STARS	1	09:06	Nick Keune	Steph Nitti		Mike Silber	1	0	0	0
+830	137	JUST THE TIP-IN	1	01:50	Katy Bright	Spencer Langrock	Luke LaViolet	Ryan Schradin	1	0	0	0
+831	137	JUST THE TIP-IN	2	16:10	Sean Moberg	Dan Negron	Stephanie Hopkins	Ryan Schradin	1	0	0	0
+832	137	JUST THE TIP-IN	2	05:35	Luke LaViolet	Spencer Langrock		Ryan Schradin	1	0	0	0
+833	138	JUST THE TIP-IN	1	05:00	Sean Moberg	Ryan Mullady		Sean Greeney	1	0	0	0
+834	138	JUST THE TIP-IN	2	15:40	Michael McVay	Dave Laux		Sean Greeney	1	0	0	0
+835	138	JUST THE TIP-IN	2	05:10	Katy Bright	Spencer Langrock		Sean Greeney	1	0	0	0
+836	138	REDUENAMI	2	03:20	Justin Sawyer	Paul Fajman	Tal Fortgang	Mike Silber	1	0	0	0
+837	138	JUST THE TIP-IN	2	00:06	Luke LaViolet			Sean Greeney	1	0	0	1
+838	139	2 BRETTS 1 CUP	1	13:40	Brett Schneider (Bort)	Jason Gubi		Ryan Schradin	1	0	0	0
+839	139	2 BRETTS 1 CUP	1	02:55	Brett Schneider (Bort)	Brett Schneider	Scott Baker	Ryan Schradin	1	0	0	0
+840	139	SUNDAY NIGHT BALL-STARS	1	06:10	Dave Laux	Spencer Langrock	Tara Laux		1	0	0	0
+841	139	SUNDAY NIGHT BALL-STARS	1	04:00	Tom Zohlen	Dave Laux			1	0	0	0
+842	140	RED ROCKETS	1	10:30	Tom Zohlen	Joe Ulerich		James Cargo	1	0	0	0
+843	140	RED ROCKETS	1	08:30	Andrew Anzano	Tom Zohlen	Sean Moberg	James Cargo	1	0	0	0
+844	140	RED ROCKETS	1	02:15	Joe Ulerich	Katy Bright	Chris Polley	James Cargo	0	1	0	0
+845	140	LITTLE BLUE PILLS	2	06:15	Spencer Langrock	Will Eger		Sean Greeney	1	0	0	0
+846	140	LITTLE BLUE PILLS	2	01:10	Spencer Langrock	David Horner		Sean Greeney	1	0	0	0
+847	141	PAWL BEARERS	1	18:57	Lindsey Getches	Paul Fajman		Sean Greeney	1	0	0	0
+848	141	PAWL BEARERS	1	04:28	Bradford Neumann	Brad Sarnell		Sean Greeney	1	0	0	0
+849	141	PAWL BEARERS	1	00:15	Paul Fajman			Sean Greeney	1	0	0	0
+850	141	PAWL BEARERS	2	05:22	Savannah Fetterolf	Dan Pall	John Lemen	Sean Greeney	1	0	0	0
+851	141	RETURN OF THE MAC	2	02:53	Brett Schneider	Chris Conaway	Erica Wong	Phil Karash	1	0	0	0
+852	141	PAWL BEARERS	2	01:02	Brad Sarnell	Bradford Neumann		Sean Greeney	0	1	0	0
+853	142	🍆	1	06:16	Sean Moberg	Brett Schneider	Aaron Bill	Spencer Langrock	1	0	0	0
+854	142	🍆	2	17:01	Jim Kruggel	Sean Moberg		Spencer Langrock	1	0	0	0
+855	142	BRIGHT & HORNEY	2	15:26	David Horner	Katy Bright		David Cook	1	0	0	0
+856	142	BRIGHT & HORNEY	2	13:05	Greg Esser	Olivia Bobrowsky	Josh Blockstein	David Cook	1	0	0	0
+857	142	🍆	2	03:41	Brett Schneider	Paul Fajman		Spencer Langrock	1	0	0	0
+858	143	MULLADY AND THE TRAMPS	2	15:30	Bradford Neumann	Stephanie Hopkins		David Cook	1	0	0	0
+859	143	MEAN TANGERINE	2	09:40	Kasey Kirby	Joe Nudi III		Dan Piotrowski	1	0	1	0
+860	143	MULLADY AND THE TRAMPS	2	02:42	Stephanie Hopkins	Aaron Hopkins		David Cook	1	0	0	0
+861	143	MULLADY AND THE TRAMPS	2	00:35	Bradford Neumann			David Cook	1	0	0	0
+862	144	BRIGHT & HORNEY	1	06:27	Lindsey Getches			Sean Greeney	1	0	0	0
+863	144	SKEWED BLUE	1	01:38	Joe Ulerich	Nick Keely		Spencer Langrock	1	0	0	0
+864	144	SKEWED BLUE	2	02:36	Joe Ulerich	Oleg Fastovsky		Spencer Langrock	1	0	0	0
+865	145	MULLADY AND THE TRAMPS	1	13:15	Bradford Neumann	Dave Laux		Ryan Schradin	1	0	0	0
+866	145	MULLADY AND THE TRAMPS	2	04:10	Dave Laux	Ryan Mullady	John Lemen	Ryan Schradin	1	0	0	0
+867	145	🍆	2	00:40	Tris Golden	Scott Baker	Paul Fajman	Dan Piotrowski	1	0	0	0
+868	145	MULLADY AND THE TRAMPS	2	00:17	Dave Laux	Bradford Neumann		Ryan Schradin	1	0	0	1
+869	146	BRIGHT & HORNEY	1	04:30	Luke LaViolet	David Horner	Brad Sarnell	David Cook	1	0	0	0
+870	146	MEAN TANGERINE	2	16:14	Dan Pall	Kasey Kirby		Spencer Langrock	0	1	0	0
+871	146	MEAN TANGERINE	2	13:30	Kasey Kirby	Joe Nudi III		Spencer Langrock	1	0	0	0
+872	146	MEAN TANGERINE	2	09:30	Tim Kamphaus	Kasey Kirby	Dan Pall	Spencer Langrock	1	0	0	0
+873	146	MEAN TANGERINE	2	02:10	Amy Greeney	Joe Nudi III	Kasey Kirby	Spencer Langrock	1	0	0	0
+874	147	SKEWED BLUE	1	11:30	Brian Randolph	Nick Keely	Amy Greeney	Ryan Schradin	1	0	0	0
+875	148	SKEWED BLUE	2	15:15	Nick Riddlesberger			Dan Piotrowski	0	1	0	0
+876	148	MULLADY AND THE TRAMPS	2	10:00	Nathan Centofanti	Aaron Hopkins	Dan Piotrowski	Sean Greeney	1	0	0	0
+877	148	SKEWED BLUE	2	04:35	Dave Zarneke	Oleg Fastovsky	Joe Ulerich	Dan Piotrowski	1	0	0	0
+878	148	MULLADY AND THE TRAMPS	2	01:47	Bradford Neumann			Sean Greeney	1	0	0	0
+879	149	MEAN TANGERINE	1	08:25	Tim Kamphaus	Amy Greeney		Ryan Schradin	1	0	0	0
+880	149	🍆	1	08:00	Brett Schneider	Paul Fajman	Scott Baker	David Cook	1	0	0	0
+881	149	🍆	2	13:10	Brett Schneider			David Cook	1	0	0	0
+882	149	🍆	2	03:10	Paul Fajman	Brett Schneider	Scott Baker	David Cook	1	0	0	0
+883	149	🍆	2	00:35	Sean Moberg			David Cook	1	0	0	1
+884	150	MULLADY AND THE TRAMPS	1	07:48	Dave Laux	Ryan Mullady		Spencer Langrock	1	0	0	0
+885	150	BRIGHT & HORNEY	2	14:52	Luke LaViolet	David Horner	Lindsey Getches	Dan Piotrowski	1	0	0	0
+886	150	BRIGHT & HORNEY	2	07:35	Dan Negron	Katy Bright	Brad Sarnell	Dan Piotrowski	1	0	0	0
+887	151	SKEWED BLUE	1	16:40	Joe Ulerich	Chris Brooks	Dave Zarneke	David Cook	1	0	0	0
+888	151	SKEWED BLUE	2	16:52	Oleg Fastovsky	Chris Brooks	Sean Greeney	David Cook	1	0	0	0
+889	151	SKEWED BLUE	2	09:27	Joe Ulerich			David Cook	1	0	0	0
+890	152	🍆	2	10:22	Sean Moberg	Art Chambers	Will Weiler	Spencer Langrock	1	0	0	0
+891	152	🍆	2	04:30	Tris Golden	Brett Schneider	Paul Fajman	Spencer Langrock	1	0	0	0
+892	152	BRIGHT & HORNEY	2	03:00	Mike Norman	Luke LaViolet	Josh Blockstein	Ryan Schradin	1	0	0	0
+893	152	BRIGHT & HORNEY	2	00:15	Spencer Langrock	Dan Negron	Lindsey Getches	Ryan Schradin	0	1	0	0
+894	153	MEAN TANGERINE	1	09:40	Whitney Russell	Kasey Kirby		Dan Piotrowski	0	1	0	0
+895	153	MULLADY AND THE TRAMPS	1	03:45	Stephanie Hopkins	Brett Schneider (Bort)		David Cook	1	0	0	0
+896	153	MULLADY AND THE TRAMPS	1	00:34	John Lemen	Brett Schneider (Bort)		David Cook	1	0	0	0
+897	153	MEAN TANGERINE	2	01:27	Kasey Kirby	Danny Ferry	Chris Peterson	Dan Piotrowski	1	0	0	0
+898	154	SKEWED BLUE	1	11:00	Joe Ulerich	Jon Hollm		Ryan Schradin	1	0	0	0
+899	154	🍆	1	07:30	Sean Moberg	Paul Fajman	Scott Baker	Sean Greeney	1	0	0	0
+900	154	SKEWED BLUE	1	06:25	Joe Ulerich	Nick Keely		Ryan Schradin	1	0	0	0
+901	154	🍆	2	01:57	Paul Fajman	Brett Schneider		Sean Greeney	1	0	0	0
+902	155	BRIGHT & HORNEY	1	12:00	Luke LaViolet	David Horner	Lindsey Getches	David Cook	1	0	0	0
+903	155	MEAN TANGERINE	1	05:30	Kasey Kirby	Joe Nudi III	Danny Ferry	Spencer Langrock	1	0	0	0
+904	155	MEAN TANGERINE	2	11:10	Kasey Kirby	Joe Nudi III		Spencer Langrock	0	1	0	0
+905	155	MEAN TANGERINE	2	09:40	Kasey Kirby	Michelle LaFramboise		Spencer Langrock	1	0	0	0
+906	155	BRIGHT & HORNEY	2	07:00	Luke LaViolet	Spencer Langrock	David Horner	David Cook	1	0	0	0
+907	155	BRIGHT & HORNEY	2	01:20	Luke LaViolet	Spencer Langrock	Josh Blockstein	David Cook	0	1	0	0
+908	156	SKEWED BLUE	1	16:15	Justin Sawyer	Oleg Fastovsky	Nick Riddlesberger	Dan Piotrowski	1	0	0	0
+909	156	SKEWED BLUE	1	05:05	Nick Riddlesberger	Joe Ulerich		Dan Piotrowski	1	0	0	0
+910	157	MEAN TANGERINE	1	09:07	Tim Kamphaus	Kasey Kirby	Michelle LaFramboise	Spencer Langrock	1	0	0	0
+911	157	MEAN TANGERINE	1	08:31	Kasey Kirby	Danny Ferry	Michelle LaFramboise	Spencer Langrock	1	0	0	0
+912	157	MEAN TANGERINE	1	03:55	Kasey Kirby	Danny Ferry	Michelle LaFramboise	Spencer Langrock	1	0	1	0
+913	157	BRIGHT & HORNEY	2	09:47	Brad Sarnell	Luke LaViolet	Spencer Langrock	David Cook	1	0	0	0
+914	157	BRIGHT & HORNEY	2	07:52	David Horner	Dan Negron	Lindsey Getches	David Cook	1	0	0	0
+915	157	BRIGHT & HORNEY	2	06:28	Mickey Senate	David Horner	Luke LaViolet	David Cook	1	0	0	0
+916	157	MEAN TANGERINE	2	04:42	Michelle LaFramboise	Kasey Kirby		Spencer Langrock	1	0	0	0
+917	158	🍆	1	05:18	Sean Moberg	Scott Baker		Dan Piotrowski	1	0	0	0
+918	158	🍆	2	16:47	Will Weiler	Paul Fajman	Sean Moberg	Dan Piotrowski	1	0	0	0
+919	159	MEAN TANGERINE	1	17:35	Joe Nudi III	Kasey Kirby		Dan Piotrowski	1	0	0	0
+920	159	MEAN TANGERINE	1	15:40	Tim Kamphaus	Whitney Russell		Dan Piotrowski	1	0	0	0
+921	159	SKEWED BLUE	1	10:05	Joe Ulerich	Nick Riddlesberger		David Cook	1	0	0	0
+922	159	MEAN TANGERINE	1	02:50	Joe Nudi III	Kasey Kirby		Dan Piotrowski	1	0	0	0
+923	159	MEAN TANGERINE	2	12:55	Joe Nudi III	Kasey Kirby		Dan Piotrowski	1	0	0	0
+924	159	MEAN TANGERINE	2	12:20	Kasey Kirby	Dan Pall		Dan Piotrowski	1	0	0	0
+925	159	SKEWED BLUE	2	04:40	Oleg Fastovsky	Kate Van Essen	Dave Zarneke	David Cook	0	1	0	0
+926	159	MEAN TANGERINE	2	00:16	Danny Ferry	Tim Kamphaus		Dan Piotrowski	1	0	0	1
+927	160	MEAN TANGERINE	1	06:35	Michelle LaFramboise	Kasey Kirby		Ryan Schradin	1	0	0	0
+928	160	🍆	1	05:30	Nick Keune	Paul Fajman		David Cook	1	0	0	0
+929	160	MEAN TANGERINE	1	03:45	Kasey Kirby	Danny Ferry		Ryan Schradin	1	0	0	0
+930	160	MEAN TANGERINE	2	15:28	Danny Ferry	Kasey Kirby	Dan Pall	Ryan Schradin	0	1	0	0
+931	160	MEAN TANGERINE	2	11:40	Kasey Kirby	Joe Nudi III		Ryan Schradin	1	0	0	0
+932	160	MEAN TANGERINE	2	05:40	Dan Pall	Kasey Kirby	Danny Ferry	Ryan Schradin	1	0	0	0
+933	160	🍆	2	01:19	Sean Moberg	Brett Schneider	Aaron Bill	David Cook	0	1	0	0
+934	160	🍆	2	00:03	Aaron Bill	Brett Schneider		David Cook	0	1	0	0
+935	161	MULLADY AND THE TRAMPS	1	03:30	Jason Gubi	Brett Schneider	Dave Laux	Michael McVay	0	1	0	0
+936	161	BRIGHT & HORNEY	1	01:40	Luke LaViolet	Brad Sarnell		Dan Piotrowski	1	0	0	0
+937	161	BRIGHT & HORNEY	2	13:10	David Horner			Dan Piotrowski	1	0	0	0
+938	161	MULLADY AND THE TRAMPS	2	11:21	Dan Piotrowski	Jason Gubi	Stephanie Hopkins	Michael McVay	1	0	0	0
+939	161	BRIGHT & HORNEY	2	09:30	Lindsey Getches	David Horner	Brad Sarnell	Dan Piotrowski	1	0	0	0
+940	162	KYLO REN'S HIGH PANTS	1	10:22	Bradford Neumann	Nathan Hauke		Theo Weber	1	0	0	0
+941	162	KYLO REN'S HIGH PANTS	2	02:06	Bradford Neumann	Nathan Hauke		Theo Weber	1	0	0	0
+942	162	VANILLA ICE	2	00:03	Danny Ferry	Michael McVay	Nick Riddlesberger	Mickey Senate	1	0	0	0
+943	163	GAME OVERMANN	2	05:50	Spencer Langrock	David Horner		David Cook	1	0	0	0
+944	164	KYLO REN'S HIGH PANTS	1	12:39	Nathan Hauke	Scott Baker		David Cook	1	0	0	0
+945	164	KYLO REN'S HIGH PANTS	1	01:12	Sean Moberg	Aaron Bill		David Cook	1	0	0	0
+946	165	VANILLA ICE	1	09:10	Doug Byrd			Sean Greeney	1	0	0	0
+947	165	VANILLA ICE	1	00:10	Luke LaViolet	Josh Blockstein	Nick Riddlesberger	Sean Greeney	1	0	0	0
+948	165	GAME OVERMANN	1	13:59	Spencer Langrock			Mickey Senate	1	0	0	0
+949	166	VICTORIOUS SECRET	1	10:01	Paul Fajman			Mickey Senate	1	0	0	0
+950	166	VANILLA ICE	1	03:41	Nick Riddlesberger	Josh Blockstein	Dave Laux	David Cook	1	0	0	0
+951	166	VANILLA ICE	2	15:04	Nick Riddlesberger			David Cook	1	0	0	0
+952	166	VANILLA ICE	2	10:52	Luke LaViolet	Nick Riddlesberger		David Cook	1	0	0	0
+953	166	VANILLA ICE	2	02:31	Nick Riddlesberger	Danny Ferry	Dave Laux	David Cook	1	0	0	0
+954	167	GAME OVERMANN	1	01:46	Ben Overmann	Kasey Kirby	Tom Zohlen	Theo Weber	1	0	0	0
+955	167	GAME OVERMANN	2	16:48	Kasey Kirby	Tom Zohlen		Theo Weber	1	0	0	0
+956	168	VICTORIOUS SECRET	1	09:15	Brett Schneider	Aaron Hopkins		Sean Greeney	0	1	0	0
+957	168	GAME OVERMANN	1	07:35	Tom Zohlen			David Cook	1	0	0	0
+958	168	GAME OVERMANN	1	02:50	Jason Gubi	Spencer Langrock		David Cook	1	0	0	0
+959	168	GAME OVERMANN	2	16:40	Kasey Kirby	David Horner	Jason Gubi	David Cook	1	0	0	0
+960	168	GAME OVERMANN	2	13:40	Kasey Kirby	David Horner		David Cook	1	0	0	0
+961	168	GAME OVERMANN	2	07:12	Kasey Kirby	Tom Zohlen		David Cook	1	0	0	0
+962	168	VICTORIOUS SECRET	2	04:25	Brett Schneider	Mariam Mehter	Nik Moy	Sean Greeney	1	0	0	0
+963	169	KYLO REN'S HIGH PANTS	1	06:17	Sean Moberg	Ryan Mullady		Mickey Senate	1	0	0	0
+964	169	KYLO REN'S HIGH PANTS	2	06:01	Bradford Neumann			Mickey Senate	1	0	0	0
+965	169	VANILLA ICE	2	02:03	Danny Ferry	John Lemen		Mike Silber	1	0	0	0
+966	170	VANILLA ICE	1		Katy Bright	Danny Ferry		Sean Greeney	1	0	0	0
+967	170	GAME OVERMANN	1		Kasey Kirby	David Horner	Nick Keune	Mickey Senate	1	0	0	0
+968	170	GAME OVERMANN	1		Kasey Kirby			Mickey Senate	1	0	0	0
+969	170	GAME OVERMANN	1		Kasey Kirby	Craig Plunkett	Tom Zohlen	Mickey Senate	1	0	0	0
+970	170	GAME OVERMANN	2		Dan Negron	Kasey Kirby	David Horner	Mickey Senate	1	0	0	0
+971	170	GAME OVERMANN	2		Kasey Kirby	Craig Plunkett		Mickey Senate	1	0	0	0
+972	171	KYLO REN'S HIGH PANTS	1		Nathan Centofanti	Bradford Neumann		David Cook	1	0	0	0
+973	171	KYLO REN'S HIGH PANTS	1		Bradford Neumann	Sean Moberg	Theo Trigylidas	David Cook	1	0	0	0
+974	171	VICTORIOUS SECRET	2		Aaron Hopkins	Brett Schneider	Lindsey Getches	Mike Silber	1	0	0	0
+975	171	KYLO REN'S HIGH PANTS	2		Scott Baker	Bradford Neumann		David Cook	1	0	0	0
+976	172	VANILLA ICE	1	07:24	Danny Ferry	Tris Golden		David Cook	1	0	0	0
+977	172	VANILLA ICE	1	03:25	Connor Rattey	Danny Ferry		David Cook	1	0	0	0
+978	172	VANILLA ICE	1	00:47	Luke LaViolet			David Cook	1	0	0	0
+979	172	VANILLA ICE	2	16:38	Nick Riddlesberger	Danny Ferry		David Cook	1	0	0	0
+980	172	VICTORIOUS SECRET	2	15:50	Paul Fajman	Lindsey Getches			1	0	0	0
+981	172	VANILLA ICE	2	07:03	Danny Ferry	Nick Riddlesberger		David Cook	1	0	0	0
+982	172	VANILLA ICE	2	05:48	Nick Riddlesberger	Dave Laux	Danny Ferry	David Cook	1	0	0	0
+983	172	VANILLA ICE	2	04:17	Nick Riddlesberger	Paul Donohoo-Vallett		David Cook	1	0	0	0
+984	172	VANILLA ICE	2	00:53	Josh Blockstein	Nick Riddlesberger	John Lemen	David Cook	1	0	0	0
+985	172	VICTORIOUS SECRET	2	00:05	Paul Fajman	Brett Schneider			1	0	0	0
+986	173	KYLO REN'S HIGH PANTS	1	02:56	Nathan Hauke	Sean Moberg	Nathan Centofanti	Sean Greeney	1	0	0	0
+987	173	KYLO REN'S HIGH PANTS	2	16:41	Nathan Hauke			Sean Greeney	1	0	0	0
+988	173	GAME OVERMANN	2	15:48	Kasey Kirby	Ben Overmann	Spencer Langrock	Theo Weber	1	0	0	0
+989	173	GAME OVERMANN	2	13:33	Kasey Kirby	Craig Plunkett		Theo Weber	0	1	0	0
+990	173	GAME OVERMANN	2	09:34	Kasey Kirby	Jason Gubi		Theo Weber	1	0	0	0
+991	173	KYLO REN'S HIGH PANTS	2	08:27	Nathan Hauke	Theo Trigylidas		Sean Greeney	1	0	0	0
+992	174	GAME OVERMANN	1		David Horner	Jason Gubi		David Cook	1	0	0	0
+993	174	GAME OVERMANN	1		David Horner			David Cook	1	0	0	0
+994	174	GAME OVERMANN	1		Brian Lin	Spencer Langrock		David Cook	1	0	0	0
+995	174	GAME OVERMANN	1		David Horner	Kasey Kirby		David Cook	1	0	0	0
+996	174	GAME OVERMANN	1		Nick Keune	Kasey Kirby	David Horner	David Cook	1	0	0	0
+997	174	VICTORIOUS SECRET	2		Aaron Hopkins	Paul Fajman	Morgan Quijano	Sean Greeney	1	0	0	0
+998	175	KYLO REN'S HIGH PANTS	1		Bradford Neumann	Nathan Hauke	Sean Moberg	Mickey Senate	1	0	0	0
+999	175	KYLO REN'S HIGH PANTS	1		Bradford Neumann			Mickey Senate	1	0	1	0
+1000	175	KYLO REN'S HIGH PANTS	1		Bradford Neumann	Rob Gittens		Mickey Senate	0	1	0	0
+1001	175	VANILLA ICE	2		Nick Riddlesberger	Danny Ferry	Dave Laux	Theo Weber	0	1	0	0
+1002	175	KYLO REN'S HIGH PANTS	2		Theo Trigylidas	Sean Moberg	Nathan Hauke	Mickey Senate	1	0	0	0
+1003	175	KYLO REN'S HIGH PANTS	2		Bradford Neumann	Ryan Mullady		Mickey Senate	1	0	0	0
+1004	176	JONES' BALLS EXPRESSWAY	1	09:06	Brett Schneider	Cassie Jones	AJ Bolyard	David Cook	1	0	0	0
+1005	176	JONES' BALLS EXPRESSWAY	1	06:41	Brett Schneider	Milton Jones		David Cook	1	0	0	0
+1006	176	JONES' BALLS EXPRESSWAY	1	02:03	Brett Schneider	Milton Jones		David Cook	1	0	0	0
+1007	176	DIRTY MIKE AND THE BOYS	2	22:55	Tal Fortgang	Tom Zohlen	Tara Laux	Mike Silber	1	0	0	0
+1008	176	DIRTY MIKE AND THE BOYS	2	20:37	Ben Overmann	Paul Fajman	Dave Laux	Mike Silber	1	0	0	0
+1009	176	JONES' BALLS EXPRESSWAY	2	18:05	Brett Schneider	Milton Jones		David Cook	1	0	0	0
+1010	176	DIRTY MIKE AND THE BOYS	2	16:00	Tom Zohlen	Tara Laux		Mike Silber	1	0	0	0
+1011	176	JONES' BALLS EXPRESSWAY	2	13:15	Cassie Jones	Brett Schneider	AJ Bolyard	David Cook	1	0	0	0
+1012	176	JONES' BALLS EXPRESSWAY	2	10:33	Brett Schneider	Cassie Jones		David Cook	1	0	0	0
+1013	176	JONES' BALLS EXPRESSWAY	2	08:52	Rehanna Parent			David Cook	1	0	0	0
+1014	176	DIRTY MIKE AND THE BOYS	2	05:11	Tom Zohlen	Tal Fortgang	Paul Fajman	Mike Silber	1	0	0	0
+1015	176	JONES' BALLS EXPRESSWAY	2	03:30	Brett Schneider	Chris Matroniano	Steph Nitti	David Cook	1	0	0	0
+1016	177	JONES' BALLS EXPRESSWAY	1	11:50	Art Chambers	AJ Bolyard	Milton Jones	Sean Greeney	1	0	0	0
+1017	178	BRAD BODS	1	15:56	Bradford Neumann	Aaron Hopkins		Jason Gubi	1	0	0	0
+1018	178	BRAD BODS	2	16:30	Bradford Neumann	Meredith Henkleman		Jason Gubi	1	0	0	0
+1019	178	DIRTY MIKE AND THE BOYS	2	07:05	Brian Lin	Tara Laux	Tom Zohlen	Theo Weber	1	0	0	0
+1020	178	BRAD BODS	2	05:00	Bradford Neumann			Jason Gubi	1	0	0	0
+1021	178	DIRTY MIKE AND THE BOYS	2	00:09	Tom Zohlen	David Horner	Jason Gubi	Theo Weber	1	0	0	0
+1022	179	DIRTY MIKE AND THE BOYS	1	17:13	Tom Zohlen			Sean Greeney	1	0	0	0
+1023	179	PECAN SANDIES	1	11:31	Scott Baker	Dave Zarneke	Nathan Hauke	David Cook	1	0	0	0
+1024	179	DIRTY MIKE AND THE BOYS	2	20:07	Dave Laux	Will Eger	David Horner	Sean Greeney	1	0	0	0
+1025	179	DIRTY MIKE AND THE BOYS	2	18:29	Tom Zohlen	Tara Laux		Sean Greeney	1	0	0	0
+1026	179	DIRTY MIKE AND THE BOYS	2	07:07	Mike Pawlo	Tara Laux		Sean Greeney	1	0	0	0
+1027	179	DIRTY MIKE AND THE BOYS	2	01:55	Will Eger	Tara Laux		Sean Greeney	1	0	0	1
+1028	179	PECAN SANDIES	2	01:11	Scott Baker			David Cook	1	0	0	0
+1029	179	PECAN SANDIES	2	00:01	Scott Baker			David Cook	1	0	0	0
+1030	180	JONES' BALLS EXPRESSWAY	2	16:23	Brett Schneider	Laurie Harow		Theo Weber	1	0	0	0
+1031	180	BRAD BODS	2	06:20	Lindsey Getches	Bradford Neumann	Aaron Hopkins	Mike Silber	1	0	0	0
+1032	180	BRAD BODS	2	02:25	Bradford Neumann			Mike Silber	1	0	1	0
+1033	181	BRAD BODS	1	00:50	Aaron Hopkins	Brian Whitty	Doug Byrd	Sean Greeney	1	0	0	0
+1034	181	BRAD BODS	2	23:30	Doug Byrd	Ryan Mullady		Sean Greeney	1	0	0	0
+1035	181	BRAD BODS	2	03:30	Lindsey Getches	Nathan Centofanti	Aaron Hopkins	Sean Greeney	1	0	0	0
+1036	182	BRAD BODS	1	16:40	Bradford Neumann	Spencer Langrock		David Cook	0	1	0	0
+1037	182	BRAD BODS	1	05:10	Spencer Langrock	Dan Negron	Bradford Neumann	David Cook	1	0	1	0
+1038	182	BRAD BODS	2	22:20	Bradford Neumann			David Cook	1	0	0	0
+1039	182	BRAD BODS	2	19:30	Spencer Langrock	Ryan Mullady	Bradford Neumann	David Cook	0	1	0	0
+1040	182	DIRTY MIKE AND THE BOYS	2	16:30	Nick Riddlesberger	David Horner	Paul Fajman	Theo Weber	0	1	0	0
+1041	182	BRAD BODS	2	14:20	Spencer Langrock	Ryan Mullady	Bradford Neumann	David Cook	1	0	0	0
+1042	182	BRAD BODS	2	02:20	Bradford Neumann	Aaron Hopkins		David Cook	1	0	1	0
+1043	182	BRAD BODS	2	01:25	Spencer Langrock	Theo Weber		David Cook	1	0	0	0
+1044	183	PECAN SANDIES	1	06:30	Tara Laux	Sean Moberg	Scott Baker	Mike Silber	1	0	0	0
+1045	184	JONES' BALLS EXPRESSWAY	1	10:15	Brett Schneider			Theo Weber	1	0	0	0
+1046	184	JONES' BALLS EXPRESSWAY	1	09:15	AJ Bolyard	Brett Schneider		Theo Weber	1	0	0	0
+1047	184	BRAD BODS	2	05:30	Aaron Hopkins	Lindsey Getches	Ryan Mullady	Mike Silber	1	0	0	1
+1048	185	DIRTY MIKE AND THE BOYS	1	14:15	Dave Laux	Tom Zohlen		Mike Silber	1	0	0	0
+1049	185	DIRTY MIKE AND THE BOYS	1	11:30	Brian Lin	Katy Bright	Paul Fajman	Mike Silber	1	0	0	0
+1050	185	DIRTY MIKE AND THE BOYS	1	05:30	Dave Laux	Paul Fajman		Mike Silber	1	0	0	0
+1051	185	PECAN SANDIES	1	03:41	Nathan Hauke	Scott Baker		David Cook	1	0	0	0
+1052	185	DIRTY MIKE AND THE BOYS	1	01:48	Brian Lin	Jason Gubi	Katy Bright	Mike Silber	1	0	0	0
+1053	185	DIRTY MIKE AND THE BOYS	2	20:00	Paul Fajman	Jason Gubi	Dave Laux	Mike Silber	1	0	0	0
+1054	185	PECAN SANDIES	2	00:24	Nathan Hauke	Scott Baker	Art Chambers	David Cook	1	0	0	0
+1055	186	PECAN SANDIES	1	16:45	Sean Moberg	Nathan Hauke		Theo Weber	1	0	0	0
+1056	186	BRAD BODS	1	11:53	Nathan Centofanti	Bradford Neumann	Lindsey Getches	Sean Greeney	1	0	0	0
+1057	186	BRAD BODS	1	07:10	Doug Byrd	Lindsey Getches		Sean Greeney	1	0	0	0
+1058	186	BRAD BODS	1	03:30	Lindsey Getches	Ryan Mullady		Sean Greeney	1	0	0	0
+1059	186	BRAD BODS	1	00:10	Bradford Neumann	Doug Byrd	Dan Negron	Sean Greeney	1	0	0	0
+1060	186	PECAN SANDIES	2	16:45	Sean Moberg	Luke LaViolet	Tris Golden	Theo Weber	1	0	0	0
+1061	186	BRAD BODS	2	06:24	Bradford Neumann	Brian Whitty		David Cook	1	0	0	0
+1062	186	PECAN SANDIES	2	05:30	Nathan Hauke	John Lemen	Tris Golden	Theo Weber	1	0	0	0
+1063	186	PECAN SANDIES	2	01:25	Sean Moberg	Luke LaViolet	Aaron Bill	Theo Weber	1	0	0	0
+1064	186	PECAN SANDIES	2	01:02	Nathan Hauke	Sean Moberg	Scott Baker	Theo Weber	1	0	0	0
+1065	187	JONES' BALLS EXPRESSWAY	1	20:45	Chris Matroniano			David Cook	1	0	0	0
+1066	187	JONES' BALLS EXPRESSWAY	1	09:10	Brett Schneider			David Cook	1	0	0	0
+1067	187	JONES' BALLS EXPRESSWAY	1	08:10	Brett Schneider (Bort)	AJ Bolyard	Steph Nitti	David Cook	1	0	0	0
+1068	187	JONES' BALLS EXPRESSWAY	1	02:30	Nick Keune	Chris Matroniano	Steph Nitti	David Cook	1	0	0	0
+1069	187	JONES' BALLS EXPRESSWAY	2	12:15	Brett Schneider			David Cook	1	0	0	0
+1070	188	BRAD BODS	1	22:25	Aaron Hopkins	Lindsey Getches	Bradford Neumann	Mike Silber	1	0	0	0
+1071	188	BRAD BODS	2	00:09	Lindsey Getches	Aaron Hopkins	Dan Negron	Mike Silber	1	0	0	1
+1072	189	JONES' BALLS EXPRESSWAY	1	22:15	Brett Schneider	Steph Nitti	Art Chambers	David Cook	1	0	0	0
+1073	189	JONES' BALLS EXPRESSWAY	1	07:42	Brett Schneider	AJ Bolyard		David Cook	1	0	0	0
+1074	189	JONES' BALLS EXPRESSWAY	1	04:57	Milton Jones			David Cook	1	0	0	0
+1075	189	JONES' BALLS EXPRESSWAY	1	03:43	Milton Jones	Steph Nitti	AJ Bolyard	David Cook	1	0	0	0
+1076	189	DIRTY MIKE AND THE BOYS	1	00:23	Michael McVay	Tara Laux	Tom Zohlen	Mike Silber	1	0	0	0
+1077	189	JONES' BALLS EXPRESSWAY	1	22:44	Brett Schneider	Steph Nitti		David Cook	1	0	0	0
+1078	189	JONES' BALLS EXPRESSWAY	1	14:47	Brett Schneider (Bort)			David Cook	1	0	0	0
+1079	189	JONES' BALLS EXPRESSWAY	1	13:36	Nick Keune			David Cook	1	0	0	0
+1080	189	JONES' BALLS EXPRESSWAY	1	01:21	Milton Jones	Brett Schneider (Bort)	Nick Keune	David Cook	1	0	0	0
+1081	190	JONES' BALLS EXPRESSWAY	1	22:36	Milton Jones	Brett Schneider		Theo Weber	1	0	0	0
+1082	190	BRAD BODS	1	13:48	Spencer Langrock	Bradford Neumann		Mike Silber	1	0	0	0
+1083	190	BRAD BODS	1	12:31	Spencer Langrock	Aaron Hopkins	Dan Negron	Mike Silber	1	0	0	0
+1084	190	JONES' BALLS EXPRESSWAY	2	22:37	Brett Schneider	Nick Keune		Theo Weber	1	0	0	0
+1085	190	BRAD BODS	2	12:40	Bradford Neumann	Theo Weber		Mike Silber	1	0	0	0
+1086	191	BLEACHED ICE HOLES	1	11:05	Nick Riddlesberger	Danny Ferry		David Cook	1	0	0	0
+1087	191	MAIZE RAGE	1	07:15	Brett Schneider	Ben Overmann		Mickey Senate	1	0	0	0
+1088	191	MAIZE RAGE	1	00:50	Sean Moberg	Brett Schneider		Mickey Senate	1	0	0	0
+1089	191	MAIZE RAGE	2	11:00	Brett Schneider	Lindsey Getches		Mickey Senate	1	0	0	0
+1090	191	MAIZE RAGE	2	01:37	Sean Moberg	Brett Schneider	Lindsey Getches	Mickey Senate	1	0	0	0
+1091	191	MAIZE RAGE	2	01:06	Lindsey Getches	James Kruggel		Mickey Senate	1	0	0	0
+1092	192	THE FIGHTING MONGOOSES	1	05:15	Spencer Langrock	Chris Peterson		Mike Silber	0	1	0	0
+1093	192	THE FIGHTING MONGOOSES	2	15:40	Dan Negron	Aaron Hopkins		Mike Silber	1	0	0	0
+1094	193	THE FIGHTING MONGOOSES	2	06:34	Aaron Hopkins	Theo Trigylidas	Dan Negron	Sean Greeney	0	1	0	0
+1095	193	THE FIGHTING MONGOOSES	2	00:35	Dan Negron				1	0	0	1
+1096	194	BLEACHED ICE HOLES	1	10:25	Danny Ferry	Kasey Kirby	Aaron Bill	Sean Greeney	1	0	0	0
+1097	194	GUBI OR NOT GUBI	1	08:55	Nathan Hauke	Reeves Hollar		Mickey Senate	1	0	0	0
+1098	194	GUBI OR NOT GUBI	1	01:30	Nathan Hauke	Madison Sampson	Jason Gubi	Mickey Senate	1	0	0	0
+1099	194	BLEACHED ICE HOLES	2	06:20	Scott Baker			Sean Greeney	1	0	0	0
+1100	194	BLEACHED ICE HOLES	2	06:00	Kasey Kirby	Scott Baker		Sean Greeney	1	0	0	0
+1101	195	BLEACHED ICE HOLES	1	13:24	Kasey Kirby	Nick Riddlesberger		Theo Weber	1	0	0	0
+1102	195	BLEACHED ICE HOLES	1	04:29	Nick Riddlesberger			Theo Weber	1	0	0	0
+1103	195	BLEACHED ICE HOLES	2	17:50	Kasey Kirby	Nick Riddlesberger		Theo Weber	1	0	0	0
+1104	196	MAIZE RAGE	1	16:13	Sean Moberg	Rodney Jean		Sean Greeney	1	0	0	0
+1105	196	MAIZE RAGE	1	15:35	Tim Stout	Sean Moberg		Sean Greeney	1	0	0	0
+1106	196	1-800-382-5633	1	12:12	Chris Matroniano	Michael McVay		David Cook	1	0	0	0
+1107	196	MAIZE RAGE	1	02:48	Luke LaViolet	Sean Moberg		Sean Greeney	0	1	0	0
+1108	196	MAIZE RAGE	2	12:44	Brett Schneider	Lindsey Getches		Sean Greeney	1	0	0	0
+1109	196	1-800-382-5633	2	00:44	Brian Lin	David Horner		David Cook	1	0	0	1
+1110	197	1-800-382-5633	1	11:00	Michael McVay	Josh Blockstein	David Horner	Mickey Senate	1	0	0	0
+1111	197	BLEACHED ICE HOLES	1	00:10	Aaron Bill	Nick Riddlesberger		Sean Greeney	1	0	0	0
+1112	197	1-800-382-5633	2	17:50	David Horner			Mickey Senate	1	0	0	0
+1113	197	1-800-382-5633	2	15:30	David Horner			Mickey Senate	1	0	0	0
+1114	197	1-800-382-5633	2	07:30	Isaac Rattey	David Horner	Katy McVay	Mickey Senate	1	0	0	0
+1115	197	1-800-382-5633	2	02:00	Connor Rattey			Mickey Senate	1	0	0	0
+1116	198	GUBI OR NOT GUBI	1	10:50	Paul Donohoo-Vallett	Clarissa Perkins		David Cook	0	1	0	0
+1117	198	GUBI OR NOT GUBI	1	17:08	Nathan Hauke	Bradford Neumann	Brett Schneider (Bort)	David Cook	1	0	0	0
+1118	198	MAIZE RAGE	2	04:05	James Kruggel	Luke LaViolet		Mike Silber	1	0	0	0
+1119	198	GUBI OR NOT GUBI	2	01:16	Nathan Hauke	Brett Schneider (Bort)		David Cook	1	0	0	0
+1120	199	GUBI OR NOT GUBI	1	04:20	Alex Homme	Reeves Hollar	Paul Donohoo-Vallett	Sean Greeney	1	0	0	0
+1121	199	GUBI OR NOT GUBI	2	08:53	Bradford Neumann			Sean Greeney	1	0	0	0
+1122	200	MAIZE RAGE	1	12:10	Brett Schneider	Sean Moberg	Lindsey Getches	Theo Weber	0	1	0	0
+1123	200	MAIZE RAGE	2	00:08	Lindsey Getches	Brett Schneider			1	0	0	0
+1124	201	GUBI OR NOT GUBI	2	06:10	Brett Schneider (Bort)	Bradford Neumann			0	1	0	0
+1125	201	GUBI OR NOT GUBI	2	01:55	Nathan Hauke				0	1	0	0
+1126	201	1-800-382-5633	2	00:20	Michael McVay	Eric Luttrell	David Laux		1	0	0	0
+1127	202	BLEACHED ICE HOLES	2	17:05	Kasey Kirby	Kayla			1	0	0	0
+1128	202	BLEACHED ICE HOLES	2	08:22	Danny Ferry				1	0	0	0
+1129	202	BLEACHED ICE HOLES	2	06:25	Scott Baker	Kasey Kirby			1	0	0	0
