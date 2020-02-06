@@ -19,11 +19,12 @@ v1 <-
     EVG = sum(G), EVA = sum(A), 
     PPG = sum(PPG), PPA = sum(PPA), 
     SHG = sum(SHG), SHA = sum(SHA), 
+    GWG = sum(GWG),
     PIM = sum(PIM)
   ) %>%
   mutate(
-    P = EVG + EVA + PPG + PPA + SHG + SHA,
-    G = EVG + PPG + SHG,
+    P = EVG + EVA + PPG + PPA + SHG + SHA + GWG,
+    G = EVG + PPG + SHG + GWG,
     A = EVA + PPA + SHA
   )
 
@@ -37,8 +38,9 @@ v2
 
 ```{r overall}
 bind_rows(v1, v2) %>% 
-  select(player, P, G, A, EVG, EVA, PPG, PPA, SHG, SHA, PIM) %>%
+  select(player, P, G, A, EVG, EVA, EVA1, EVA2, PPG, PPA, PPA1, PPA2, SHG, SHA, SHA1, SHA2, PEN, PIM) %>%
+  replace(is.na(.), 0) %>%
   group_by(player) %>%
   summarise_all(sum) %>%
-  arrange(desc(P), desc(EVG), desc(PPG), desc(SHG), desc(EVA), desc(SHA), desc(PPA), PIM)
+  arrange(desc(P)) 
 ```

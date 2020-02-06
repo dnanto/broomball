@@ -19,7 +19,7 @@ con <- DBI::dbConnect(RSQLite::SQLite(), "stats.db")
 
 res <- 
   DBI::dbSendQuery(
-    con, "SELECT * FROM point as p JOIN match as m ON p.match = m.id WHERE year = ? AND season = ?;", 
+    con, "SELECT * FROM point as x JOIN match as y ON x.match = y.id WHERE year = ? AND season = ?;", 
     param = list(params$year, params$season)
   )
 df.point <- DBI::dbFetch(res) %>% select(week, game, 3:13)
@@ -27,25 +27,97 @@ DBI::dbClearResult(res)
 
 res <- 
   DBI::dbSendQuery(
-    con, "SELECT * FROM penalty as p JOIN match as m ON p.match = m.id WHERE year = ? AND season = ?;", 
+    con, "SELECT * FROM penalty as x JOIN match as y ON x.match = y.id WHERE year = ? AND season = ?;", 
     param = list(params$year, params$season)
   )
 df.penalty <- DBI::dbFetch(res) %>% select(week, game, 3:11)
 DBI::dbClearResult(res)
 
+res <- 
+  DBI::dbSendQuery(
+    con, "SELECT * FROM shot as x JOIN match as y ON x.match = y.id WHERE year = ? AND season = ?;", 
+    param = list(params$year, params$season)
+  )
+df.shot <- DBI::dbFetch(res) %>% select(week, game, 3:11)
+DBI::dbClearResult(res)
+
 DBI::dbDisconnect(con)
 ```
 
-### Stat
+### Career (Season)
 
 ```{r, ranking}
-overall.2(df.point, df.penalty) %>% datatableize()
+overall.2(df.point, df.penalty) %>% 
+  mutate(A1 = EVA1 + PPA1 + SHA1, A2 = EVA2 + PPA2 + SHA2) %>%
+  select(player, P, G, A, A1, A2, PEN, PIM) %>%
+  arrange(desc(P)) %>%
+  datatableize()
+```
+
+### Goalie
+
+```{r}
+x <- 
+  group_by(df.shot, week, game, period, goalie) %>% 
+  summarise_at("SH", sum) %>% 
+  ungroup()
+
+y <-
+  filter(df.point, EN == 0 & !is.na(goalie)) %>% 
+  count(week, game, period, goalie, name = "GA")
+
+z <- 
+  merge(x, y, by = c("week", "game", "period", "goalie"), suffixes = c("", ".y"), all.x = T) %>%
+  replace(is.na(.), 0) %>%
+  mutate(`SV%` = sprintf("%0.2f%%", (SH - GA) / SH * 100))
+
+x <- spread(select(z, -GA, -`SV%`), period, SH) %>% mutate(total = rowSums(.[4:ncol(.)]))
+y <- spread(select(z, -SH, -`SV%`), period, GA) %>% mutate(total = rowSums(.[4:ncol(.)]))
+z <- spread(select(z, -GA, -SH), period, `SV%`) %>% mutate(total = sprintf("%0.2f%%", (x$total - y$total) / x$total * 100))
+
+nx <- ncol(x) - 3 - 1
+ny <- ncol(y) - 3 - 1
+nz <- ncol(z) - 3 - 1
+
+y <- y[4:ncol(y)]
+z <- z[4:ncol(z)]
+
+bind_cols(x, y, z) %>%
+DT::datatable(
+  style = "bootstrap",
+  class = "table-bordered table-striped table-hover responsive",
+  filter = list(position = "top"),
+  rownames = F,
+  container = htmltools::withTags(
+    table(
+      class = "display",
+      thead(
+        tr(
+          th(rowspan = 2, "week"),
+          th(rowspan = 2, "game"),
+          th(rowspan = 2, "goalie"),
+          th(colspan = nx + 1, "SH"),
+          th(colspan = ny + 1, "GA"),
+          th(colspan = nz + 1, "SV%")
+        ),
+        tr(lapply(c(1:nx, "total", 1:ny, "total", 1:nz, "total"), th))
+      )
+    )
+  )
+)
 ```
 
 ### Assist
 
 ```{r, assist}
-datatableize(df.point)
+DT::datatable(
+  df.point,
+  style = "bootstrap",
+  class = "table-bordered table-striped table-hover responsive",
+  filter = list(position = "top"),
+  rownames = F,
+  options(list(autoWidth = F))
+)
 ```
 
 ### Penalty
