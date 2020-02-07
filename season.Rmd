@@ -10,12 +10,25 @@ params:
 
 ```{r, setup, include=F}
 library(tidyverse)
+library(visNetwork)
 source("season.R")
-knitr::opts_chunk$set(echo = F)
+knitr::opts_chunk$set(echo = F, fig.width = 10)
 ```
 
 ```{r query}
-con <- DBI::dbConnect(RSQLite::SQLite(), "stats.db")
+con <- DBI::dbConnect(RSQLite::SQLite(), "stats.sdb")
+
+sql <- "
+  SELECT * FROM roster as x JOIN team as y ON x.team = y.id AND x.team IN (
+    SELECT team1 FROM match WHERE year = ? AND season = ? UNION ALL 
+    SELECT team2 FROM match WHERE year = ? AND season = ?
+  );
+"
+res <- DBI::dbSendQuery(con, sql, param = list(params$year, params$season, params$year, params$season))
+df.roster <- DBI::dbFetch(res)
+DBI::dbClearResult(res)
+
+df.color <- distinct(df.roster, team, color)
 
 res <- 
   DBI::dbSendQuery(
@@ -44,19 +57,57 @@ DBI::dbClearResult(res)
 DBI::dbDisconnect(con)
 ```
 
+### Results
+
+```{r results}
+df.score <- count(df.point, week, game, team) %>% merge(df.color, sort = F)
+df.team1 <- filter(df.score, row_number() %% 2 == 0)
+df.team2 <- filter(df.score, row_number() %% 2 == 1) %>% select(team, color, n)
+df.score <-
+  bind_cols(df.team1, df.team2) %>% 
+  select(week, game, color, team, n, n1, team1, color1) %>% 
+  setNames(c("week", "game", "color1", "team1", "n1", "n2", "team2", "color2")) %>%
+  arrange(week, game)
+
+datatableize(df.score)
+```
+
+### Standing
+
+```{r, standing}
+df.standing <-
+  mutate(
+    df.score, 
+    r1 = if_else(n1 == n2, "T", ifelse(n1 < n2, "L", "W")),
+    r2 = if_else(n1 == n2, "T", ifelse(n2 < n1, "L", "W"))
+  )
+bind_rows(
+  rename(count(df.standing, team1, r1), team = team1, r = r1),
+  rename(count(df.standing, team2, r2), team = team2, r = r2)
+) %>%
+  spread(r, n) %>%
+  bind_rows(data.frame(team = character(), W = integer(), `T` = integer(), L = integer(), stringsAsFactors = F)) %>%
+  replace(is.na(.), 0) %>%
+  merge(df.color, sort = F) %>%
+  select(team, color, W, `T`, L) %>%
+  arrange(L, desc(`T`), desc(W)) %>%
+  datatableize()
+```
+
 ### Career (Season)
 
-```{r, ranking}
+```{r, career}
 overall.2(df.point, df.penalty) %>% 
   mutate(A1 = EVA1 + PPA1 + SHA1, A2 = EVA2 + PPA2 + SHA2) %>%
-  select(player, P, G, A, A1, A2, PEN, PIM) %>%
+  merge(select(df.roster, team, player, color), sort = F) %>%
+  select(player, team, color, P, G, A, A1, A2, PEN, PIM) %>%
   arrange(desc(P)) %>%
   datatableize()
 ```
 
 ### Goalie
 
-```{r}
+```{r, goalie}
 x <- 
   group_by(df.shot, week, game, period, goalie) %>% 
   summarise_at("SH", sum) %>% 
@@ -67,7 +118,7 @@ y <-
   count(week, game, period, goalie, name = "GA")
 
 z <- 
-  merge(x, y, by = c("week", "game", "period", "goalie"), suffixes = c("", ".y"), all.x = T) %>%
+  merge(x, y, by = c("week", "game", "period", "goalie"), suffixes = c("", ".y"), all.x = T, sort = F) %>%
   replace(is.na(.), 0) %>%
   mutate(`SV%` = sprintf("%0.2f%%", (SH - GA) / SH * 100))
 
@@ -78,12 +129,16 @@ z <- spread(select(z, -GA, -SH), period, `SV%`) %>% mutate(total = sprintf("%0.2
 nx <- ncol(x) - 3 - 1
 ny <- ncol(y) - 3 - 1
 nz <- ncol(z) - 3 - 1
-
 y <- y[4:ncol(y)]
 z <- z[4:ncol(z)]
 
-bind_cols(x, y, z) %>%
+df.goalie <- 
+  bind_cols(x, y, z) %>%
+  merge(select(df.roster, team, player, color), all.x = T, by.x = "goalie", by.y = "player", sort = F) %>%
+  select(goalie, team, color, week, game, everything())
+
 DT::datatable(
+  df.goalie,
   style = "bootstrap",
   class = "table-bordered table-striped table-hover responsive",
   filter = list(position = "top"),
@@ -93,9 +148,11 @@ DT::datatable(
       class = "display",
       thead(
         tr(
+          th(rowspan = 2, "goalie"),
+          th(rowspan = 2, "team"),
+          th(rowspan = 2, "color"),
           th(rowspan = 2, "week"),
           th(rowspan = 2, "game"),
-          th(rowspan = 2, "goalie"),
           th(colspan = nx + 1, "SH"),
           th(colspan = ny + 1, "GA"),
           th(colspan = nz + 1, "SV%")
@@ -107,17 +164,36 @@ DT::datatable(
 )
 ```
 
-### Assist
+### Assist Network
 
-```{r, assist}
-DT::datatable(
-  df.point,
-  style = "bootstrap",
-  class = "table-bordered table-striped table-hover responsive",
-  filter = list(position = "top"),
-  rownames = F,
-  options(list(autoWidth = F))
-)
+```{r assist_network}
+df.edges <-
+  bind_rows(
+    mutate(rename(select(df.point, assist1, shooter), from = assist1, to = shooter), type = "A1") %>%
+      mutate(from = if_else(is.na(from), to, from)) %>%
+      mutate(type = if_else(from == to, "A0", type)),
+    drop_na(mutate(rename(select(df.point, assist2, assist1), from = assist2, to = assist1), type = "A2"), from)
+  ) %>%
+  rownames_to_column("label") %>%
+  mutate(
+    type = if_else(is.na(from) & type == "A1", "A0", type), 
+    dashes = type == "A2",
+    width = 2
+  )
+
+df.nodes <- 
+  data.frame(id = unique(sort(c(pull(df.edges, from), pull(df.edges, to))))) %>%
+  mutate(label = id) %>%
+  merge(df.roster, by.x = "id", by.y = "player", all.x = T, sort = F)
+
+visNetwork(df.nodes, df.edges, background = "lightgrey") %>%
+  visEdges(arrows = list(to = list(enabled = T)))
+```
+
+### Assist Table
+
+```{r, assist_table}
+datatableize(df.point)
 ```
 
 ### Penalty
