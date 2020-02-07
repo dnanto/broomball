@@ -3,20 +3,21 @@ title: "Capitol Broomball"
 author: "Stats Department"
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 params:
-  db: "stats.db"
-  year: 2020
-  season: 24
+  db: "stats.sdb"
+  year: 2019
+  season: 23
+  out: NULL
 ---
 
 ```{r, setup, include=F}
 library(tidyverse)
 library(visNetwork)
-source("season.R")
+source("stats.R")
 knitr::opts_chunk$set(echo = F, fig.width = 10)
 ```
 
 ```{r query}
-con <- DBI::dbConnect(RSQLite::SQLite(), "stats.sdb")
+con <- DBI::dbConnect(RSQLite::SQLite(), params$db)
 
 sql <- "
   SELECT * FROM roster as x JOIN team as y ON x.team = y.id AND x.team IN (
@@ -35,7 +36,9 @@ res <-
     con, "SELECT * FROM point as x JOIN match as y ON x.match = y.id WHERE year = ? AND season = ?;", 
     param = list(params$year, params$season)
   )
-df.point <- DBI::dbFetch(res) %>% select(week, game, 3:13)
+df.point <- DBI::dbFetch(res)
+df.match <- distinct(df.point, week, game, team1, team2)
+df.point <- select(df.point, week, game, 3:13)
 DBI::dbClearResult(res)
 
 res <- 
@@ -59,22 +62,26 @@ DBI::dbDisconnect(con)
 
 ### Results
 
-```{r results}
-df.score <- count(df.point, week, game, team) %>% merge(df.color, sort = F)
-df.team1 <- filter(df.score, row_number() %% 2 == 0)
-df.team2 <- filter(df.score, row_number() %% 2 == 1) %>% select(team, color, n)
+```{r}
+df.score <- count(df.point, week, game, team) %>% arrange(week, game)
 df.score <-
-  bind_cols(df.team1, df.team2) %>% 
-  select(week, game, color, team, n, n1, team1, color1) %>% 
-  setNames(c("week", "game", "color1", "team1", "n1", "n2", "team2", "color2")) %>%
-  arrange(week, game)
+  bind_cols(
+    select(merge(df.match, df.score, by.x = c("week", "game", "team1"), by.y = c("week", "game", "team"), all.x = T), -team2),
+    select(merge(df.match, df.score, by.x = c("week", "game", "team2"), by.y = c("week", "game", "team"), all.x = T), -team1)
+  ) %>%
+  merge(df.color, by.x = "team1", by.y = "team") %>%
+  merge(df.color, by.x = "team2", by.y = "team", suffixes = c("", "2")) %>%
+  replace(is.na(.), 0) %>%
+  setNames(c("team2", "team1", "week", "game", "n1", "week1", "game1", "n2", "color1", "color2")) %>%
+  arrange(week, game) %>%
+  select(week, game, team1, color1, n1, n2, color2, team2, -week1, -game1)
 
 datatableize(df.score)
 ```
 
 ### Standing
 
-```{r, standing}
+```{r}
 df.standing <-
   mutate(
     df.score, 
@@ -85,6 +92,9 @@ bind_rows(
   rename(count(df.standing, team1, r1), team = team1, r = r1),
   rename(count(df.standing, team2, r2), team = team2, r = r2)
 ) %>%
+  group_by(team, r) %>%
+  summarise(n = sum(n)) %>%
+  ungroup() %>%
   spread(r, n) %>%
   bind_rows(data.frame(team = character(), W = integer(), `T` = integer(), L = integer(), stringsAsFactors = F)) %>%
   replace(is.na(.), 0) %>%
@@ -200,5 +210,11 @@ datatableize(df.point)
 
 ```{r, penalty}
 datatableize(df.penalty)
+```
+
+### Roster
+
+```{r}
+datatableize(df.roster)
 ```
 

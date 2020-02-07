@@ -1,7 +1,7 @@
 ```{r, setup}
 library(tidyverse)
 library(openxlsx)
-source("season.R")
+source("stats.R")
 ```
 
 ```{r read}
