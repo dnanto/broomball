@@ -75,8 +75,8 @@ tables <-
   list.files("data/xlsx", full.names = T) %>%
   enframe(name = NULL, value = "path") %>%
   arrange(path) %>%
-  mutate(name = basename(path)) %>%
-  filter(!startsWith(name, "~")) %>%
+  mutate(name = basename(path)) %>% 
+  filter(str_detect(name, "^\\d+-\\d+.xlsx$")) %>%
   separate("name", c("year", "season"), extra = "drop") %>%
   apply(1, function(row) process_book(row["path"]))
 
@@ -93,7 +93,7 @@ df.team <- bind_rows(df.team.1, df.team.2)
 
 df.roster.1 <- read_tsv("data/tsv/roster.tsv", col_types = "cc")
 df.roster.2 <- bind_rows(lapply(tables, function(df) df[["roster"]]))
-df.roster <- bind_rows(df.roster.1, df.roster.2)
+df.roster <- bind_rows(df.roster.1, df.roster.2) %>% select(-color)
 
 df.match.1 <- read_tsv("data/tsv/match.tsv", col_types = "icciiiicct")
 df.match.2 <- lapply(tables, function(df) df[["match"]]) %>% bind_rows()
@@ -139,15 +139,13 @@ df.penalty <-
 
 df.lstat <- read_tsv("data/tsv/lstat.tsv", col_types = "icciiiiiiiiiiiiiiii")
 
-if (file.exists("stats.db")) file.remove("stats.db")
-con <- DBI::dbConnect(RSQLite::SQLite(), "stats.db")
-read_file("stats.sql") %>% DBI::dbExecute(con, .)
-DBI::dbWriteTable(con, "player", df.player)
-DBI::dbWriteTable(con, "team", df.team)
-DBI::dbWriteTable(con, "roster", df.roster)
-DBI::dbWriteTable(con, "match", df.match)
-DBI::dbWriteTable(con, "shot", df.shot)
-DBI::dbWriteTable(con, "point", df.point)
-DBI::dbWriteTable(con, "penalty", df.penalty)
-DBI::dbWriteTable(con, "lstat", df.lstat)
+con <- DBI::dbConnect(RSQLite::SQLite(), "stats.sdb")
+DBI::dbAppendTable(con, "player", df.player)
+DBI::dbAppendTable(con, "team", df.team)
+DBI::dbAppendTable(con, "roster", df.roster)
+DBI::dbAppendTable(con, "match", df.match)
+DBI::dbAppendTable(con, "shot", df.shot)
+DBI::dbAppendTable(con, "point", df.point)
+DBI::dbAppendTable(con, "penalty", df.penalty)
+DBI::dbAppendTable(con, "lstat", df.lstat)
 DBI::dbDisconnect(con)

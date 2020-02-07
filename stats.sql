@@ -2,7 +2,7 @@ PRAGMA foreign_keys = ON;
 
 -- Schema: stats
 --   stats
-ATTACH "stats.db" AS "stats";
+ATTACH "stats.sdb" AS "stats";
 BEGIN;
 CREATE TABLE "stats"."player"(
   "id" TEXT PRIMARY KEY NOT NULL
@@ -10,12 +10,17 @@ CREATE TABLE "stats"."player"(
 CREATE TABLE "stats"."team"(
   "id" TEXT PRIMARY KEY NOT NULL,
   "captain" TEXT,
+  "co-captain" TEXT,
   "color" TEXT NOT NULL,
   CONSTRAINT "fk_team_player1"
     FOREIGN KEY("captain")
+    REFERENCES "player"("id"),
+  CONSTRAINT "fk_team_player2"
+    FOREIGN KEY("co-captain")
     REFERENCES "player"("id")
 );
 CREATE INDEX "stats"."team.fk_team_player1_idx" ON "team" ("captain");
+CREATE INDEX "stats"."team.fk_team_player2_idx" ON "team" ("co-captain");
 CREATE TABLE "stats"."match"(
   "id" INTEGER PRIMARY KEY NOT NULL,
   "team1" TEXT NOT NULL,
@@ -40,7 +45,7 @@ CREATE TABLE "stats"."shot"(
   "id" INTEGER PRIMARY KEY NOT NULL,
   "match" INTEGER NOT NULL,
   "team" TEXT NOT NULL,
-  "goalie" TEXT NOT NULL,
+  "goalie" TEXT,
   "period" INTEGER,
   "SH" INTEGER DEFAULT 0,
   CONSTRAINT "fk_shots_player1"
@@ -60,7 +65,7 @@ CREATE TABLE "stats"."point"(
   "id" INTEGER PRIMARY KEY NOT NULL,
   "match" INTEGER NOT NULL,
   "team" TEXT NOT NULL,
-  "period" INTEGER NOT NULL,
+  "period" INTEGER,
   "time" TEXT,
   "shooter" TEXT NOT NULL,
   "assist1" TEXT,
@@ -112,7 +117,7 @@ CREATE TABLE "stats"."penalty"(
   "id" INTEGER PRIMARY KEY NOT NULL,
   "match" INTEGER NOT NULL,
   "team" TEXT NOT NULL,
-  "period" INTEGER NOT NULL,
+  "period" INTEGER,
   "time" TEXT,
   "player" TEXT,
   "server" TEXT,
@@ -185,3 +190,4 @@ CREATE TABLE "stats"."lstat"(
 CREATE INDEX "stats"."lstat.fk_lstats_team1_idx" ON "lstat" ("team");
 CREATE INDEX "stats"."lstat.fk_lstats_player1_idx" ON "lstat" ("player");
 COMMIT;
+
