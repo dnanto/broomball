@@ -5,7 +5,7 @@ source("season.R")
 ```
 
 ```{r read}
-con <- DBI::dbConnect(RSQLite::SQLite(), "stats.db")
+con <- DBI::dbConnect(RSQLite::SQLite(), "stats.sdb")
 df.point <- DBI::dbReadTable(con, "point")
 df.lstat <- DBI::dbReadTable(con, "lstat")
 df.penalty <- DBI::dbReadTable(con, "penalty")
