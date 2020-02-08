@@ -7,7 +7,7 @@ todo: explain data entry format...
 
 example:
 ```
-./season.R data/2019-22.xlsx
+time ( ./build.sh && ./season.sh && ./career.R && ./index.R )
 ```
 
 ## dependencies
