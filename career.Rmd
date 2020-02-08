@@ -1,7 +1,14 @@
-```{r, setup}
+---
+title: "Career"
+author: "Stats Department"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+---
+
+```{r setup, include=F}
 library(tidyverse)
 library(openxlsx)
 source("stats.R")
+knitr::opts_chunk$set(echo = F)
 ```
 
 ```{r read}
@@ -9,16 +16,15 @@ con <- DBI::dbConnect(RSQLite::SQLite(), "stats.sdb")
 df.point <- DBI::dbReadTable(con, "point")
 df.lstat <- DBI::dbReadTable(con, "lstat")
 df.penalty <- DBI::dbReadTable(con, "penalty")
+df.player <- DBI::dbReadTable(con, "player")
 DBI::dbDisconnect(con)
 ```
 
-```{r type-1}
-v1 <-
+```{r career}
+df.type1 <-
   group_by(df.lstat, player) %>%
   summarise(
-    EVG = sum(G), EVA = sum(A), 
-    PPG = sum(PPG), PPA = sum(PPA), 
-    SHG = sum(SHG), SHA = sum(SHA), 
+    EVG = sum(G), EVA = sum(A), PPG = sum(PPG), PPA = sum(PPA), SHG = sum(SHG), SHA = sum(SHA), 
     GWG = sum(GWG),
     PIM = sum(PIM)
   ) %>%
@@ -28,19 +34,13 @@ v1 <-
     A = EVA + PPA + SHA
   )
 
-v1
-```
+df.type2 <- overall.2(df.point, df.penalty)
 
-```{r type-2}
-v2 <- overall.2(df.point, df.penalty)
-v2
-```
-
-```{r overall}
-bind_rows(v1, v2) %>% 
-  select(player, P, G, A, EVG, EVA, EVA1, EVA2, PPG, PPA, PPA1, PPA2, SHG, SHA, SHA1, SHA2, PEN, PIM) %>%
+bind_rows(rename(df.player, player = id), df.type1, df.type2) %>% 
+  select(player, P, G, A, PEN, PIM) %>%
   replace(is.na(.), 0) %>%
   group_by(player) %>%
   summarise_all(sum) %>%
-  arrange(desc(P)) 
+  arrange(desc(P)) %>%
+  datatableize()
 ```

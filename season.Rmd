@@ -1,11 +1,11 @@
 ---
-title: "Capitol Broomball"
+title: "Season"
 author: "Stats Department"
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 params:
   db: "stats.sdb"
-  year: 2019
-  season: 23
+  year: 2020
+  season: 24
   out: NULL
 ---
 
@@ -15,6 +15,8 @@ library(visNetwork)
 source("stats.R")
 knitr::opts_chunk$set(echo = F, fig.width = 10)
 ```
+
+## Stats: `r unname(iso_season[as.character(params$season)])`, `r params$year`
 
 ```{r query}
 con <- DBI::dbConnect(RSQLite::SQLite(), params$db)
@@ -167,7 +169,7 @@ DT::datatable(
           th(colspan = ny + 1, "GA"),
           th(colspan = nz + 1, "SV%")
         ),
-        tr(lapply(c(1:nx, "total", 1:ny, "total", 1:nz, "total"), th))
+        tr(lapply(c(1:nx, "∑", 1:ny, "∑", 1:nz, "∑"), th))
       )
     )
   )
