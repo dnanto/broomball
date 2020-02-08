@@ -1,0 +1,26 @@
+---
+title: "Capitol Broomball"
+author: "Stats Department"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+---
+
+```{r setup, include=F}
+library(tidyverse)
+source("stats.R")
+knitr::opts_chunk$set(echo = F)
+```
+
+```{r}
+list.files(pattern = "^\\d+-\\d+\\.html$") %>%
+  enframe(name = NULL, value = "path") %>%
+  separate(path, c("year", "season"), sep = "[-.]", extra = "drop", remove = F) %>%
+  mutate(
+    path = paste0("[link](", path, ")"),
+    season = recode(season, !!!iso_season)
+  ) %>%
+  mutate_at("season", factor, levels = c("Spring", "Summer", "Autumn", "Winter")) %>%
+  spread(season, path) %>%
+  knitr::kable()
+```
+
+[Career Stats](career.html)
