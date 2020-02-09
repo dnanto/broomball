@@ -28,16 +28,13 @@ df.type1 <-
     GWG = sum(GWG),
     PIM = sum(PIM)
   ) %>%
-  mutate(
-    P = EVG + EVA + PPG + PPA + SHG + SHA + GWG,
-    G = EVG + PPG + SHG + GWG,
-    A = EVA + PPA + SHA
-  )
+  mutate(P = EVG + EVA, G = EVG, A = EVA)
 
 df.type2 <- overall.2(df.point, df.penalty)
 
 bind_rows(rename(df.player, player = id), df.type1, df.type2) %>% 
-  select(player, P, G, A, PEN, PIM) %>%
+  mutate_at("player", as.factor) %>%
+  select(player, P, G, A, PIM) %>%
   replace(is.na(.), 0) %>%
   group_by(player) %>%
   summarise_all(sum) %>%
