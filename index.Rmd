@@ -55,5 +55,9 @@ DBI::dbDisconnect(con)
 
 ### Database
 
-- [SQLite Database](stats.sql)
+- [SQLite Database](stats.sdb)
 - [ER Model](stats.mwb)
+
+### Acknowledgements
+
+Thanks to everyone for recording stats during clock duty and to Paul Fajman for maintaining the first stats database!
