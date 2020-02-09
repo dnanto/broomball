@@ -4,8 +4,8 @@ author: "Stats Department"
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 params:
   db: "stats.sdb"
-  year: 2020
-  season: 24
+  year: 2018
+  season: 23
   out: NULL
 ---
 
@@ -16,7 +16,7 @@ source("stats.R")
 knitr::opts_chunk$set(echo = F, fig.width = 10)
 ```
 
-## Stats: `r unname(iso_season[as.character(params$season)])`, `r params$year`
+## Stats: `r unname(iso_season[as.character(params$season)])` `r params$year`
 
 ```{r query}
 con <- DBI::dbConnect(RSQLite::SQLite(), params$db)
@@ -119,61 +119,22 @@ overall.2(df.point, df.penalty) %>%
 
 ### Goalie
 
-```{r, goalie}
-x <- 
-  group_by(df.shot, week, game, period, goalie) %>% 
-  summarise_at("SH", sum) %>% 
+```{r}
+df.sh <-
+  mutate(df.shot, team = if_else(team == team1, team2, team1)) %>%
+  group_by(week, game, goalie, team) %>%
+  summarise_at("SH", sum) %>%
   ungroup()
 
-y <-
-  filter(df.point, EN == 0 & !is.na(goalie)) %>% 
-  count(week, game, period, goalie, name = "GA")
+df.ga <-
+  filter(df.point, EN == 0 & !is.na(goalie)) %>%
+  count(week, game, goalie, name = "GA")
 
-z <- 
-  merge(x, y, by = c("week", "game", "period", "goalie"), suffixes = c("", ".y"), all.x = T, sort = F) %>%
-  replace(is.na(.), 0) %>%
-  mutate(`SV%` = sprintf("%0.2f%%", (SH - GA) / SH * 100))
-
-x <- spread(select(z, -GA, -`SV%`), period, SH) %>% mutate(total = rowSums(.[4:ncol(.)]))
-y <- spread(select(z, -SH, -`SV%`), period, GA) %>% mutate(total = rowSums(.[4:ncol(.)]))
-z <- spread(select(z, -GA, -SH), period, `SV%`) %>% mutate(total = sprintf("%0.2f%%", (x$total - y$total) / x$total * 100))
-
-nx <- ncol(x) - 3 - 1
-ny <- ncol(y) - 3 - 1
-nz <- ncol(z) - 3 - 1
-y <- y[4:ncol(y)]
-z <- z[4:ncol(z)]
-
-df.goalie <- 
-  bind_cols(x, y, z) %>%
-  merge(select(df.roster, team, player, color), all.x = T, by.x = "goalie", by.y = "player", sort = F) %>%
-  select(goalie, team, color, week, game, everything())
-
-DT::datatable(
-  df.goalie,
-  style = "bootstrap",
-  class = "table-bordered table-striped table-hover responsive",
-  filter = list(position = "top"),
-  rownames = F,
-  container = htmltools::withTags(
-    table(
-      class = "display",
-      thead(
-        tr(
-          th(rowspan = 2, "goalie"),
-          th(rowspan = 2, "team"),
-          th(rowspan = 2, "color"),
-          th(rowspan = 2, "week"),
-          th(rowspan = 2, "game"),
-          th(colspan = nx + 1, "SH"),
-          th(colspan = ny + 1, "GA"),
-          th(colspan = nz + 1, "SV%")
-        ),
-        tr(lapply(c(1:nx, "∑", 1:ny, "∑", 1:nz, "∑"), th))
-      )
-    )
-  )
-)
+merge(df.sh, df.ga, by = c("week", "game", "goalie"), all.x = T, sort = F) %>%
+  mutate_at("GA", replace_na, 0) %>%
+  mutate(`SV%` = sprintf("%0.2f%%", (SH - GA) / SH * 100)) %>%
+  arrange(week, game) %>%
+  datatableize()
 ```
 
 ### Assist Network
