@@ -75,7 +75,7 @@ df.score <-
   merge(df.color, by.x = "team2", by.y = "team", suffixes = c("", "2")) %>%
   replace(is.na(.), 0) %>%
   setNames(c("team2", "team1", "week", "game", "n1", "week1", "game1", "n2", "color1", "color2")) %>%
-  arrange(week, game) %>%
+  arrange(desc(week), desc(game)) %>%
   select(week, game, team1, color1, n1, n2, color2, team2, -week1, -game1)
 
 datatableize(df.score)
@@ -133,7 +133,7 @@ df.ga <-
 merge(df.sh, df.ga, by = c("week", "game", "goalie"), all.x = T, sort = F) %>%
   mutate_at("GA", replace_na, 0) %>%
   mutate(`SV%` = sprintf("%0.2f%%", (SH - GA) / SH * 100)) %>%
-  arrange(week, game) %>%
+  arrange(desc(week), desc(game)) %>%
   datatableize()
 ```
 
@@ -166,13 +166,13 @@ visNetwork(df.nodes, df.edges, background = "lightgrey") %>%
 ### Assist Table
 
 ```{r, assist_table}
-datatableize(df.point)
+datatableize(arrange(df.point, desc(week), desc(game)))
 ```
 
 ### Penalty
 
 ```{r, penalty}
-datatableize(df.penalty)
+datatableize(arrange(df.penalty, desc(week), desc(game)))
 ```
 
 ### Roster

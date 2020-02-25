@@ -53,7 +53,8 @@ process_book <- function(path)
     mutate_at(c("period", "duration"), function(ele) suppressWarnings(as.integer(ele))) %>%
     mutate_at("scored", as.logical)
   tables$shot <- 
-    mutate(tables$shot, team = recode(color, !!!color_to_team)) %>% 
+    with(tables, shot[map_lgl(shot, ~ !all(is.na(.)))]) %>%
+    mutate(team = recode(color, !!!color_to_team)) %>% 
     gather("period", "SH", -c("sheet", "week", "game", "shot", "color", "goalie", "team")) %>% 
     arrange(sheet) %>%
     mutate(year = tokens[1], season = tokens[2]) %>%
