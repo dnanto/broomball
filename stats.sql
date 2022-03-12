@@ -26,7 +26,7 @@ CREATE TABLE "stats"."match"(
   "team1" TEXT NOT NULL,
   "team2" TEXT NOT NULL,
   "year" INTEGER NOT NULL,
-  "season" INTEGER NOT NULL,
+  "season" REAL NOT NULL,
   "week" INTEGER NOT NULL,
   "game" INTEGER NOT NULL,
   "rink" TEXT,
@@ -190,4 +190,3 @@ CREATE TABLE "stats"."lstat"(
 CREATE INDEX "stats"."lstat.fk_lstats_team1_idx" ON "lstat" ("team");
 CREATE INDEX "stats"."lstat.fk_lstats_player1_idx" ON "lstat" ("player");
 COMMIT;
-

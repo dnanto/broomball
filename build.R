@@ -36,31 +36,32 @@ process_book <- function(path)
   color_to_team <- setNames(team$team, team$color)
   
   # extract year and season from the basename
-  tokens <- as.integer(str_split_fixed(str_remove(basename(path), ".xlsx"), "[-\\.]", 2))
+  tokens <- str_split_fixed(str_remove(basename(path), ".xlsx"), "[-\\.]", 2)
   
   tables$match <-
     mutate(
       tables$match,
       home = recode(home, !!!color_to_team), away = recode(away, !!!color_to_team),
-      year = tokens[1], season = tokens[2]
+      year = as.integer(tokens[1]), season = as.numeric(tokens[2])
     ) %>%
     rename(team1 = home, team2 = away)
   tables$point <- 
-    mutate(tables$point, team = recode(color, !!!color_to_team), year = tokens[1], season = tokens[2]) %>%
+    mutate(tables$point, team = recode(color, !!!color_to_team), year = as.integer(tokens[1]), season = as.numeric(tokens[2])) %>%
     mutate_at(c("period", "EV", "PP", "SH", "EN"), as.integer)
-  tables$penalty <- 
-    mutate(tables$penalty, team = recode(color, !!!color_to_team), year = tokens[1], season = tokens[2]) %>%
+  if ("penalty" %in% names(tables))
+    tables$penalty <-
+    mutate(tables$penalty, team = recode(color, !!!color_to_team), year = as.integer(tokens[1]), season = as.numeric(tokens[2])) %>%
     mutate_at(c("period", "duration"), function(ele) suppressWarnings(as.integer(ele))) %>%
     mutate_at("scored", as.logical)
-  tables$shot <- 
+  if ("shot" %in% names(tables))
+    tables$shot <-
     with(tables, shot[map_lgl(shot, ~ !all(is.na(.)))]) %>%
-    mutate(team = recode(color, !!!color_to_team)) %>% 
-    gather("period", "SH", -c("sheet", "week", "game", "shot", "color", "goalie", "team")) %>% 
+    mutate(team = recode(color, !!!color_to_team)) %>%
+    gather("period", "SH", -c("sheet", "week", "game", "shot", "color", "goalie", "team")) %>%
     arrange(sheet) %>%
     mutate(year = tokens[1], season = tokens[2]) %>%
     mutate_at(c("period", "SH"), as.integer) %>%
     drop_na(SH)
-  
   tables$team <- rename(team, id = team)
   tables$roster <- 
     read.xlsx(path, "roster") %>% 
@@ -77,7 +78,7 @@ tables <-
   enframe(name = NULL, value = "path") %>%
   arrange(path) %>%
   mutate(name = basename(path)) %>% 
-  filter(str_detect(name, "^\\d+-\\d+.xlsx$")) %>%
+  filter(str_detect(name, "^\\d+-[\\d\\.]+.xlsx$")) %>%
   separate("name", c("year", "season"), extra = "drop") %>%
   apply(1, function(row) process_book(row["path"]))
 

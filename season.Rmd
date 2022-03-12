@@ -4,8 +4,8 @@ author: "Stats Department"
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 params:
   db: "stats.sdb"
-  year: 2018
-  season: 23
+  year: 2022
+  season: 24
   out: NULL
 ---
 
@@ -16,7 +16,7 @@ source("stats.R")
 knitr::opts_chunk$set(echo = F, fig.width = 10)
 ```
 
-## Stats: `r unname(iso_season[as.character(params$season)])` `r params$year`
+## Stats: `r unname(iso_season[as.character(as.integer(params$season))])` `r params$year`
 
 ```{r query}
 con <- DBI::dbConnect(RSQLite::SQLite(), params$db)
@@ -39,7 +39,7 @@ res <-
     param = list(params$year, params$season)
   )
 df.point <- DBI::dbFetch(res)
-df.match <- distinct(df.point, week, game, team1, team2)
+df.match <- select(df.point, -id, -time) %>% distinct(week, game, team1, team2)
 df.point <- select(df.point, week, game, 3:13)
 DBI::dbClearResult(res)
 
@@ -64,7 +64,7 @@ DBI::dbDisconnect(con)
 
 ### Results
 
-```{r}
+```{r, message=FALSE}
 df.score <- count(df.point, week, game, team) %>% arrange(week, game)
 df.score <-
   bind_cols(
@@ -83,7 +83,7 @@ datatableize(df.score)
 
 ### Standing
 
-```{r}
+```{r, message=FALSE}
 df.standing <-
   mutate(
     df.score, 

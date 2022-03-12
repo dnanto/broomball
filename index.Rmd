@@ -15,15 +15,19 @@ knitr::opts_chunk$set(echo = F)
 ### Season
 
 ```{r}
-list.files(pattern = "^\\d+-\\d+\\.html$") %>%
+list.files(pattern = "*.html$") %>%
   enframe(name = NULL, value = "path") %>%
+  arrange(path) %>%
+  filter(str_detect(path, "^\\d+-[\\d\\.]+.html$")) %>%
   separate(path, c("year", "season"), sep = "[-.]", extra = "drop", remove = F) %>%
   mutate(
     path = paste0("[link](", path, ")"),
     season = recode(season, !!!iso_season)
   ) %>%
-  mutate_at("season", factor, levels = c("Spring", "Summer", "Autumn", "Winter")) %>%
-  spread(season, path) %>%
+  group_by(year, season) %>%
+  summarise(path = paste(path, collapse = " | "), .groups = "drop") %>%
+  pivot_wider(names_from = season, values_from = path) %>%
+  select(year, Spring, Summer, Autumn, Winter) %>%
   knitr::kable()
 ```
 
@@ -39,11 +43,11 @@ con <- DBI::dbConnect(RSQLite::SQLite(), "stats.sdb")
 df.lstat <- DBI::dbReadTable(con, "lstat") %>% write_csv("lstat.csv")
 
 res <- DBI::dbSendQuery(con, "SELECT * FROM point as x JOIN match as y ON x.match = y.id;")
-df.point <- rename(DBI::dbFetch(res), m.id = id..14, m.time = time..23) %>% write_csv("point.csv")
+df.point <- DBI::dbFetch(res) %>% write_csv("point.csv")
 DBI::dbClearResult(res)
 
 res <- DBI::dbSendQuery(con, "SELECT * FROM shot as x JOIN match as y ON x.match = y.id;")
-rename(DBI::dbFetch(res), m.id = id..7, m.time = time) %>% write_csv("shot.csv")
+DBI::dbFetch(res) %>% write_csv("shot.csv")
 DBI::dbClearResult(res)
 
 DBI::dbDisconnect(con)
