@@ -1,5 +1,5 @@
 ---
-title: "Capitol Broomball"
+title: "District Broomball"
 author: "Stats Department"
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 params:
@@ -38,19 +38,19 @@ list.files(pattern = "*.html$") %>%
 ### CSV
 
 ```{r, csv}
-con <- DBI::dbConnect(RSQLite::SQLite(), "stats.sdb")
+conn <- DBI::dbConnect(RSQLite::SQLite(), "stats.sdb")
 
-df.lstat <- DBI::dbReadTable(con, "lstat") %>% write_csv("lstat.csv")
+df.lstat <- DBI::dbReadTable(conn, "lstat") %>% write_csv("lstat.csv")
 
-res <- DBI::dbSendQuery(con, "SELECT * FROM point as x JOIN match as y ON x.match = y.id;")
+res <- DBI::dbSendQuery(conn, "SELECT * FROM point as x JOIN match as y ON x.match = y.id;")
 df.point <- DBI::dbFetch(res) %>% write_csv("point.csv")
 DBI::dbClearResult(res)
 
-res <- DBI::dbSendQuery(con, "SELECT * FROM shot as x JOIN match as y ON x.match = y.id;")
+res <- DBI::dbSendQuery(conn, "SELECT * FROM shot as x JOIN match as y ON x.match = y.id;")
 DBI::dbFetch(res) %>% write_csv("shot.csv")
 DBI::dbClearResult(res)
 
-DBI::dbDisconnect(con)
+DBI::dbDisconnect(conn)
 ```
 
 - [Legacy](lstat.csv)

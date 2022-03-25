@@ -1,7 +1,5 @@
 ---
 title: "Season"
-author: "Stats Department"
-date: "`r format(Sys.time(), '%B %d, %Y')`"
 params:
   db: "stats.sdb"
   year: 2022
@@ -19,88 +17,103 @@ knitr::opts_chunk$set(echo = F, fig.width = 10)
 ## Stats: `r unname(iso_season[as.character(as.integer(params$season))])` `r params$year`
 
 ```{r query}
-con <- DBI::dbConnect(RSQLite::SQLite(), params$db)
+conn <- DBI::dbConnect(RSQLite::SQLite(), params$db)
 
-sql <- "
+sql <- ("
   SELECT * FROM roster as x JOIN team as y ON x.team = y.id AND x.team IN (
     SELECT team1 FROM match WHERE year = ? AND season = ? UNION ALL 
     SELECT team2 FROM match WHERE year = ? AND season = ?
   );
 "
-res <- DBI::dbSendQuery(con, sql, param = list(params$year, params$season, params$year, params$season))
+)
+res <- DBI::dbSendQuery(conn, sql, param = list(params$year, params$season, params$year, params$season))
 df.roster <- DBI::dbFetch(res)
 DBI::dbClearResult(res)
 
 df.color <- distinct(df.roster, team, color)
 
-res <- 
+res <- (
   DBI::dbSendQuery(
-    con, "SELECT * FROM point as x JOIN match as y ON x.match = y.id WHERE year = ? AND season = ?;", 
+    conn, "SELECT * FROM point as x JOIN match as y ON x.match = y.id WHERE year = ? AND season = ?;",
     param = list(params$year, params$season)
   )
+)
 df.point <- DBI::dbFetch(res)
-df.match <- select(df.point, -id, -time) %>% distinct(week, game, team1, team2)
+df.match <- (
+  select(df.point, -id, -time) %>%
+    distinct(week, game, team1, team2)
+)
 df.point <- select(df.point, week, game, 3:13)
 DBI::dbClearResult(res)
 
-res <- 
+res <- (
   DBI::dbSendQuery(
-    con, "SELECT * FROM penalty as x JOIN match as y ON x.match = y.id WHERE year = ? AND season = ?;", 
+    conn, "SELECT * FROM penalty as x JOIN match as y ON x.match = y.id WHERE year = ? AND season = ?;",
     param = list(params$year, params$season)
   )
-df.penalty <- DBI::dbFetch(res) %>% select(week, game, 3:11)
+)
+df.penalty <- (
+  DBI::dbFetch(res) %>%
+    select(week, game, 3:11)
+)
 DBI::dbClearResult(res)
 
-res <- 
+res <- (
   DBI::dbSendQuery(
-    con, "SELECT * FROM shot as x JOIN match as y ON x.match = y.id WHERE year = ? AND season = ?;", 
+    conn, "SELECT * FROM shot as x JOIN match as y ON x.match = y.id WHERE year = ? AND season = ?;",
     param = list(params$year, params$season)
   )
-df.shot <- DBI::dbFetch(res) %>% select(week, game, 3:11)
+)
+df.shot <- (
+  DBI::dbFetch(res) %>%
+    select(week, game, 3:11)
+)
 DBI::dbClearResult(res)
 
-DBI::dbDisconnect(con)
+DBI::dbDisconnect(conn)
 ```
 
 ### Results
 
-```{r, message=FALSE}
-df.score <- count(df.point, week, game, team) %>% arrange(week, game)
-df.score <-
+```{r}
+df.score <- (
+  count(df.point, week, game, team) %>%
+    arrange(week, game)
+)
+df.score <- (
   bind_cols(
-    select(merge(df.match, df.score, by.x = c("week", "game", "team1"), by.y = c("week", "game", "team"), all.x = T), -team2),
-    select(merge(df.match, df.score, by.x = c("week", "game", "team2"), by.y = c("week", "game", "team"), all.x = T), -team1)
+    left_join(df.match, df.score, by = c(week = "week", game = "game", team1 = "team")) %>% select(-team2) %>% rename(G1 = n),
+    left_join(df.match, df.score, by = c(week = "week", game = "game", team2 = "team")) %>% select(-team1, -week, -game) %>% rename(G2 = n),
   ) %>%
-  merge(df.color, by.x = "team1", by.y = "team") %>%
-  merge(df.color, by.x = "team2", by.y = "team", suffixes = c("", "2")) %>%
-  replace(is.na(.), 0) %>%
-  setNames(c("team2", "team1", "week", "game", "n1", "week1", "game1", "n2", "color1", "color2")) %>%
-  arrange(desc(week), desc(game)) %>%
-  select(week, game, team1, color1, n1, n2, color2, team2, -week1, -game1)
-
+    left_join(df.color, c(team1 = "team")) %>%
+    left_join(df.color, c(team2 = "team"), suffix = c("1", "2")) %>%
+    replace(is.na(.), 0) %>%
+    arrange(desc(week), desc(game)) %>%
+    select(week, game, team1, color1, G1, G2, color2, team2)
+)
 datatableize(df.score)
 ```
 
 ### Standing
 
-```{r, message=FALSE}
-df.standing <-
+```{r}
+df.standing <- (
   mutate(
-    df.score, 
-    r1 = if_else(n1 == n2, "T", ifelse(n1 < n2, "L", "W")),
-    r2 = if_else(n1 == n2, "T", ifelse(n2 < n1, "L", "W"))
+    df.score,
+    r1 = if_else(G1 == G2, "T", ifelse(G1 < G2, "L", "W")),
+    r2 = if_else(G1 == G2, "T", ifelse(G2 < G1, "L", "W"))
   )
+)
 bind_rows(
   rename(count(df.standing, team1, r1), team = team1, r = r1),
   rename(count(df.standing, team2, r2), team = team2, r = r2)
 ) %>%
   group_by(team, r) %>%
-  summarise(n = sum(n)) %>%
-  ungroup() %>%
-  spread(r, n) %>%
+  summarise(n = sum(n), .groups = "drop") %>%
+  pivot_wider(names_from = r, values_from = n) %>%
   bind_rows(data.frame(team = character(), W = integer(), `T` = integer(), L = integer(), stringsAsFactors = F)) %>%
   replace(is.na(.), 0) %>%
-  merge(df.color, sort = F) %>%
+  left_join(df.color, by = "team") %>%
   select(team, color, W, `T`, L) %>%
   arrange(L, desc(`T`), desc(W)) %>%
   datatableize()
@@ -109,9 +122,9 @@ bind_rows(
 ### Career (Season)
 
 ```{r, career}
-overall.2(df.point, df.penalty) %>% 
+overall.2(df.point, df.penalty) %>%
   mutate(A1 = EVA1 + PPA1 + SHA1, A2 = EVA2 + PPA2 + SHA2) %>%
-  merge(select(df.roster, team, player, color), sort = F) %>%
+  left_join(select(df.roster, team, player, color), by = "player") %>%
   select(player, team, color, P, G, A, A1, A2, PEN, PIM) %>%
   arrange(desc(P)) %>%
   datatableize()
@@ -120,50 +133,53 @@ overall.2(df.point, df.penalty) %>%
 ### Goalie
 
 ```{r}
-df.sh <-
+df.sh <- (
   mutate(df.shot, team = if_else(team == team1, team2, team1)) %>%
-  group_by(week, game, goalie, team) %>%
-  summarise_at("SH", sum) %>%
-  ungroup()
-
-df.ga <-
+    group_by(week, game, goalie, team) %>%
+    summarise("SH" = sum(SH), .groups = "drop")
+)
+df.ga <- (
   filter(df.point, EN == 0 & !is.na(goalie)) %>%
-  count(week, game, goalie, name = "GA")
-
-merge(df.sh, df.ga, by = c("week", "game", "goalie"), all.x = T, sort = F) %>%
-  mutate_at("GA", replace_na, 0) %>%
-  mutate(`SV%` = sprintf("%0.2f%%", (SH - GA) / SH * 100)) %>%
+    count(week, game, goalie, name = "GA")
+)
+left_join(df.sh, df.ga, by = c("week", "game", "goalie")) %>%
+  mutate(
+    GA = replace_na(GA, 0),
+    `SV%` = sprintf("%0.2f%%", (SH - GA) / SH * 100)
+  ) %>%
   arrange(desc(week), desc(game)) %>%
   datatableize()
 ```
 
-### Assist Network
+### Assist
 
 ```{r assist_network}
-df.edges <-
+df.edges <- (
   bind_rows(
-    mutate(rename(select(df.point, assist1, shooter), from = assist1, to = shooter), type = "A1") %>%
-      mutate(from = if_else(is.na(from), to, from)) %>%
-      mutate(type = if_else(from == to, "A0", type)),
+    mutate(
+      rename(select(df.point, assist1, shooter), from = assist1, to = shooter),
+      type = "A1",
+      from = if_else(is.na(from), to, from),
+      type = if_else(from == to, "A0", type)
+    ),
     drop_na(mutate(rename(select(df.point, assist2, assist1), from = assist2, to = assist1), type = "A2"), from)
   ) %>%
-  rownames_to_column("label") %>%
-  mutate(
-    type = if_else(is.na(from) & type == "A1", "A0", type), 
-    dashes = type == "A2",
-    width = 2
-  )
-
-df.nodes <- 
+    rownames_to_column("label") %>%
+    mutate(
+      type = if_else(is.na(from) & type == "A1", "A0", type),
+      dashes = type == "A2",
+      width = 2
+    )
+)
+df.nodes <- (
   data.frame(id = unique(sort(c(pull(df.edges, from), pull(df.edges, to))))) %>%
-  mutate(label = id) %>%
-  merge(df.roster, by.x = "id", by.y = "player", all.x = T, sort = F)
+    mutate(label = id) %>%
+    left_join(df.roster, by = c(id = "player"), suffix = c("", ".team"))
+)
 
 visNetwork(df.nodes, df.edges, background = "lightgrey") %>%
   visEdges(arrows = list(to = list(enabled = T)))
 ```
-
-### Assist Table
 
 ```{r, assist_table}
 datatableize(arrange(df.point, desc(week), desc(game)))
@@ -177,7 +193,7 @@ datatableize(arrange(df.penalty, desc(week), desc(game)))
 
 ### Roster
 
-```{r}
-datatableize(df.roster)
+```{r roster}
+select(df.roster, -id) %>%
+  datatableize()
 ```
-

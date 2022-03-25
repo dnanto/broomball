@@ -1,7 +1,5 @@
 ---
 title: "Career"
-author: "Stats Department"
-date: "`r format(Sys.time(), '%B %d, %Y')`"
 ---
 
 ```{r setup, include=F}
@@ -12,32 +10,35 @@ knitr::opts_chunk$set(echo = F)
 ```
 
 ```{r read}
-con <- DBI::dbConnect(RSQLite::SQLite(), "stats.sdb")
-df.point <- DBI::dbReadTable(con, "point")
-df.lstat <- DBI::dbReadTable(con, "lstat")
-df.penalty <- DBI::dbReadTable(con, "penalty")
-df.player <- DBI::dbReadTable(con, "player")
-DBI::dbDisconnect(con)
+conn <- DBI::dbConnect(RSQLite::SQLite(), "stats.sdb")
+df.point <- DBI::dbReadTable(conn, "point")
+df.lstat <- DBI::dbReadTable(conn, "lstat")
+df.penalty <- DBI::dbReadTable(conn, "penalty")
+df.player <- DBI::dbReadTable(conn, "player")
+DBI::dbDisconnect(conn)
 ```
 
 ```{r career}
-df.type1 <-
+df.type1 <- (
   group_by(df.lstat, player) %>%
-  summarise(
-    EVG = sum(G), EVA = sum(A), PPG = sum(PPG), PPA = sum(PPA), SHG = sum(SHG), SHA = sum(SHA), 
-    GWG = sum(GWG),
-    PIM = sum(PIM)
-  ) %>%
-  mutate(P = EVG + EVA, G = EVG, A = EVA)
+    summarise(
+      EVG = sum(G), EVA = sum(A),
+      PPG = sum(PPG), PPA = sum(PPA),
+      SHG = sum(SHG), SHA = sum(SHA),
+      GWG = sum(GWG),
+      PIM = sum(PIM)
+    ) %>%
+    mutate(P = EVG + EVA, G = EVG, A = EVA)
+)
 
 df.type2 <- overall.2(df.point, df.penalty)
 
-bind_rows(rename(df.player, player = id), df.type1, df.type2) %>% 
-  mutate_at("player", as.factor) %>%
+rename(df.player, player = id) %>%
+  bind_rows(df.type1, df.type2) %>%
   select(player, P, G, A, PIM) %>%
   replace(is.na(.), 0) %>%
   group_by(player) %>%
-  summarise_all(sum) %>%
+  summarise(across(matches("[A-Z]+", ignore.case = F), sum)) %>%
   arrange(desc(P)) %>%
   datatableize()
 ```
