@@ -61,6 +61,7 @@ DBI::dbDisconnect(conn)
 
 - [SQLite Database](stats.sdb)
 - [ER Model](stats.mwb)
+- [Excel Template](template.xlsx)
 
 ### Acknowledgements
 
