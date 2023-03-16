@@ -1,7 +1,8 @@
 # broomball
-stats processing for broomball
 
-todo: explain data entry format...
+live: http://binf.gmu.edu/dnegron2/broomball/
+
+stats processing for broomball
 
 ## run
 
