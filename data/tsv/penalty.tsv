@@ -46,7 +46,7 @@ id	match	team	period	time	player	server	call	duration	goalie	scored
 45	18	PYROMANIACS	1		Amy Fenstermacher		Tripping	2		
 46	18	50 SHADES OF NUDI	2		Joe Nudi III		Tripping	2		
 47	19	YELLOW FEVER	1		Chris Brooks		Interference	2		
-48	20	50 SHADES OF NUDI	1		Michelle LaFramboise		Tripping	2		
+48	20	50 SHADES OF NUDI	1		Michelle Nudi		Tripping	2		
 49	21	V FOR VERDE-TTA	1		Kimberley Ramsay		Tripping	2		
 50	21	V FOR VERDE-TTA	1			Lindsey Getches	Too Many Men on the Ice	2		
 51	21	PYROMANIACS	2		Will Weiler		Tripping	2		
@@ -82,7 +82,7 @@ id	match	team	period	time	player	server	call	duration	goalie	scored
 81	33	BANANA GRAHAM BELLS	2	03:21	Joel Clark		Slashing	2		
 82	34	HOUSE BROOMATHEON	1	23:00	Aaron Bill		Slashing	2		
 83	34	HOUSE BROOMATHEON	1	02:45	Aaron Bill		High Sticking	2		
-84	34	OH, ME SO HORNER	2	07:45	Michelle LaFramboise		Tripping	2		
+84	34	OH, ME SO HORNER	2	07:45	Michelle Nudi		Tripping	2		
 85	34	HOUSE BROOMATHEON	3	01:59			Too Many Men on the Ice	2		
 86	35	HOW TO TRAIN YOUR FRANCHISE	1	15:53	Spencer Langrock		Tripping	2		
 87	35	OH, ME SO HORNER	1	03:51	Colin MacDougall		Tripping	2		
@@ -126,7 +126,7 @@ id	match	team	period	time	player	server	call	duration	goalie	scored
 125	44	OH, ME SO HORNER	1	00:10	Shane Mitchell		High Sticking	2		
 126	44	BANANA GRAHAM BELLS	2	16:47	Tim Kamphaus		Holding	2		
 127	44	BANANA GRAHAM BELLS	2	15:45	John Lemen		Interference	2		
-128	44	OH, ME SO HORNER	2	14:25	Michelle LaFramboise		High Sticking	2		
+128	44	OH, ME SO HORNER	2	14:25	Michelle Nudi		High Sticking	2		
 129	45	HOUSE BROOMATHEON	1	18:00	George MacDougall		Interference	2		
 130	45	OH, ME SO HORNER	1	05:29	Aaron Hopkins		High Sticking	2		
 131	45	HOUSE BROOMATHEON	2	14:00	Ronnie Patterson		Tripping	2		
@@ -136,7 +136,7 @@ id	match	team	period	time	player	server	call	duration	goalie	scored
 135	46	BANANA GRAHAM BELLS	2	00:26	Lauren Kirby		Tripping	2		
 136	47	BANANA GRAHAM BELLS	1	09:50	Art Chambers		Tripping	2		
 137	47	BANANA GRAHAM BELLS	1	00:54	Art Chambers		High Sticking	2		
-138	47	OH, ME SO HORNER	2	08:00	Michelle LaFramboise		Tripping	2		
+138	47	OH, ME SO HORNER	2	08:00	Michelle Nudi		Tripping	2		
 139	47	OH, ME SO HORNER	2	05:21	Colin MacDougall		Holding	2		
 140	47	OH, ME SO HORNER	2	03:32	Dinesh Vesra		High Sticking	2		
 141	47	BANANA GRAHAM BELLS	2	01:12	Jenn Caulk		Interference	2		
@@ -155,7 +155,7 @@ id	match	team	period	time	player	server	call	duration	goalie	scored
 154	51	GITTEN LAUXY	2		Spencer Langrock		Tripping	2		
 155	51	THE MOOSE IS LOOSE	2		Tim Kamphaus		High Sticking	2		
 156	51	GITTEN LAUXY	2		Katy Bright		High Sticking	2		
-157	51	GITTEN LAUXY	2		Michelle LaFramboise		High Sticking	2		
+157	51	GITTEN LAUXY	2		Michelle Nudi		High Sticking	2		
 158	51	GITTEN LAUXY	2			Jason Gubi	Too Many Men on the Ice	2		
 159	53	LARGE HALPERIN COLLIDER	1		Colin MacDougall		Tripping	2		
 160	53	THE MOOSE IS LOOSE	1		Kasey Kirby		Tripping	2		
@@ -177,7 +177,7 @@ id	match	team	period	time	player	server	call	duration	goalie	scored
 176	55	LARGE HALPERIN COLLIDER	2		Bryan Egan		Tripping	2		
 177	56	GITTEN LAUXY	1		Michael McVay		Interference	2		
 178	56	GANGREEN	2		Chris Brooks		Interference	2		
-179	56	GITTEN LAUXY	2		Michelle LaFramboise		High Sticking	2		
+179	56	GITTEN LAUXY	2		Michelle Nudi		High Sticking	2		
 180	57	HOPKINS SPICED LATTES	1		Bradford Neumann		Tripping	2		
 181	57	HOPKINS SPICED LATTES	1		Chris Conaway		Roughing	2		
 182	57	HOPKINS SPICED LATTES	1		Chris Conaway		Roughing	2		
@@ -191,8 +191,8 @@ id	match	team	period	time	player	server	call	duration	goalie	scored
 190	61	LARGE HALPERIN COLLIDER	2		Colin MacDougall		Hooking	2		
 191	62	THE MOOSE IS LOOSE	1		Joey Tercero		Tripping	2		
 192	62	GANGREEN	2		Dan Pall		Tripping	2		
-193	63	GITTEN LAUXY	2		Michelle LaFramboise		Tripping	2		
-194	63	GITTEN LAUXY	3		Michelle LaFramboise		Tripping	2		
+193	63	GITTEN LAUXY	2		Michelle Nudi		Tripping	2		
+194	63	GITTEN LAUXY	3		Michelle Nudi		Tripping	2		
 195	64	GITTEN LAUXY	1		David Horner		Elbowing	2		
 196	65	LARGE HALPERIN COLLIDER	1		Andrew Anzano		Tripping	2		
 197	65	LARGE HALPERIN COLLIDER	2		Colin MacDougall		Holding	2		
@@ -202,7 +202,7 @@ id	match	team	period	time	player	server	call	duration	goalie	scored
 201	67	GITTEN LAUXY	2		Spencer Langrock		Delay of Game	2		
 202	67	HOPKINS SPICED LATTES	2		Bradford Neumann		Interference	2		
 203	67	HOPKINS SPICED LATTES	2		Aaron Hopkins		Holding	2		
-204	67	GITTEN LAUXY	2		Michelle LaFramboise		Holding	2		
+204	67	GITTEN LAUXY	2		Michelle Nudi		Holding	2		
 205	67	GITTEN LAUXY	2		Joe Nudi III		Unsportsmanlike Conduct	2		
 206	68	THE MOOSE IS LOOSE	1		Mariam Mehter		High Sticking	2		
 207	68	GANGREEN	2		Chris Matroniano		Interference	2		
@@ -415,7 +415,7 @@ id	match	team	period	time	player	server	call	duration	goalie	scored
 414	150	BRIGHT & HORNEY	2	10:32	Lindsey Getches		High Sticking	2		
 415	150	BRIGHT & HORNEY	2	00:15	Mike Norman		High Sticking	2		
 416	151	MEAN TANGERINE	1	09:07	Danny Ferry		High Sticking	2		
-417	151	MEAN TANGERINE	2	12:14	Michelle LaFramboise		Interference	2		
+417	151	MEAN TANGERINE	2	12:14	Michelle Nudi		Interference	2		
 418	152	BRIGHT & HORNEY	1	16:20	Lindsey Getches		High Sticking	2		
 419	152	🍆	1	13:40	Art Chambers		Tripping	2		
 420	152	🍆	1	13:40	Ryan Schradin		Tripping	2		

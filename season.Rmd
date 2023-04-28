@@ -2,8 +2,8 @@
 title: "Season"
 params:
   db: "stats.sdb"
-  year: 2022
-  season: 24
+  year: 2023
+  season: 21
   out: NULL
 ---
 
@@ -115,7 +115,7 @@ bind_rows(
   replace(is.na(.), 0) %>%
   left_join(df.color, by = "team") %>%
   select(team, color, W, `T`, L) %>%
-  arrange(L, desc(`T`), desc(W)) %>%
+  arrange(desc(W), desc(`T`), L) %>%
   datatableize()
 ```
 

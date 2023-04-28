@@ -142,7 +142,7 @@ df.shot.1 <- read_tsv("data/tsv/shot.tsv", col_types = "iiccii")
 df.shot.2 <- (
   lapply(tables, function(df) df[["shot"]]) %>%
     bind_rows() %>%
-    left_join(df.match, by = c("year", "season", "week", "game"), sort = F) %>%
+    left_join(df.match, by = c("year", "season", "week", "game")) %>%
     rename(match = id)
 )
 df.shot <- (
@@ -155,7 +155,7 @@ df.point.1 <- read_tsv("data/tsv/point.tsv", col_types = "iiciccccciiii")
 df.point.2 <- (
   lapply(tables, function(df) df[["point"]]) %>%
     bind_rows() %>%
-    left_join(df.match, by = c("year", "season", "week", "game"), sort = F) %>%
+    left_join(df.match, by = c("year", "season", "week", "game")) %>%
     rename(match = id, time = time.x)
 )
 df.point <- (
@@ -168,7 +168,7 @@ df.penalty.1 <- read_tsv("data/tsv/penalty.tsv", col_types = "iiciccccicl")
 df.penalty.2 <- (
   lapply(tables, function(df) df[["penalty"]]) %>%
     bind_rows() %>%
-    left_join(df.match, by = c("year", "season", "week", "game"), sort = F) %>%
+    left_join(df.match, by = c("year", "season", "week", "game")) %>%
     rename(match = id, time = time.x)
 )
 df.penalty <- (

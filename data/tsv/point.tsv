@@ -15,7 +15,7 @@ id	match	team	period	time	shooter	assist1	assist2	goalie	EV	PP	SH	EN
 14	3	RED HOT BALLS	1		John Slawinski	Spencer Langrock		Phil Karash	1	0	0	0
 15	3	EMANCIPATION BROCLAMATION	1		John Lemen	Wendy Jason	Mike Pawlo	Max Leitschuh	0	1	0	0
 16	3	EMANCIPATION BROCLAMATION	1		Deanna Weidenhammer	Tom Zohlen	Chris Conaway	Max Leitschuh	1	0	0	0
-17	3	RED HOT BALLS	1		Colin MacDougall	Michelle LaFramboise		Phil Karash	1	0	0	0
+17	3	RED HOT BALLS	1		Colin MacDougall	Michelle Nudi		Phil Karash	1	0	0	0
 18	3	EMANCIPATION BROCLAMATION	1		Bradford Neumann	Mike Pawlo	Keri Rapalski	Max Leitschuh	1	0	0	0
 19	3	RED HOT BALLS	2		Colin MacDougall	Max Leitschuh		Phil Karash	1	0	0	0
 20	3	EMANCIPATION BROCLAMATION	2		Nick Keune	Deanna Weidenhammer	Chris Conaway	Max Leitschuh	1	0	0	0
@@ -93,7 +93,7 @@ id	match	team	period	time	shooter	assist1	assist2	goalie	EV	PP	SH	EN
 92	15	EMANCIPATION BROCLAMATION	2		Luke Streng	Bradford Neumann		Phil Karash	1	0	0	0
 93	16	THE NIGHT'S WATCH	1		Mychal Ivancich				1	0	0	1
 94	16	RED HOT BALLS	1		Adam Long				1	0	0	1
-95	16	RED HOT BALLS	1		Colin MacDougall	Michelle LaFramboise	Max Leitschuh		1	0	0	1
+95	16	RED HOT BALLS	1		Colin MacDougall	Michelle Nudi	Max Leitschuh		1	0	0	1
 96	16	THE NIGHT'S WATCH	1		James Cargo	Brett Schneider			0	1	0	1
 97	16	THE NIGHT'S WATCH	1		David Horner				1	0	0	1
 98	16	THE NIGHT'S WATCH	1		Dan Negron	James Cargo	Brett Schneider		1	0	0	1
@@ -160,7 +160,7 @@ id	match	team	period	time	shooter	assist1	assist2	goalie	EV	PP	SH	EN
 159	26	YELLOW FEVER	2		Ryan Powell	Joe Ulerich	Devon Berman	Phil Karash	1	0	0	0
 160	27	YELLOW FEVER	1		Jason Gubi	Paul Fajman		Phil Karash	0	1	0	0
 161	27	YELLOW FEVER	1		Chris Brooks	David Horner	Brett Schneider	Phil Karash	1	0	0	0
-162	27	50 SHADES OF NUDI	1		Joe Nudi III	Michelle LaFramboise		Ken Zinser	1	0	0	0
+162	27	50 SHADES OF NUDI	1		Joe Nudi III	Michelle Nudi		Ken Zinser	1	0	0	0
 163	27	50 SHADES OF NUDI	2		Bradford Neumann	Joe Nudi III		Ken Zinser	1	0	0	0
 164	27	YELLOW FEVER	3		Paul Fajman			Phil Karash	1	0	0	1
 165	28	PYROMANIACS	1		Spencer Langrock			James Cargo	1	0	1	0
@@ -221,7 +221,7 @@ id	match	team	period	time	shooter	assist1	assist2	goalie	EV	PP	SH	EN
 220	35	OH, ME SO HORNER	2	04:30	Megan Thomas	Tom Zohlen	Sean Moberg	Phil Karash	1	0	0	0
 221	36	HOUSE BROOMATHEON	1	23:02	Bradford Neumann	Ronnie Patterson		James Cargo	1	0	0	0
 222	36	BANANA GRAHAM BELLS	1	16:45	Tim Kamphaus	Brett Schneider	Lauren Kirby	Paul Fajman	1	0	0	0
-223	36	HOUSE BROOMATHEON	1	08:10	Bradford Neumann	Michelle LaFramboise		James Cargo	1	0	0	0
+223	36	HOUSE BROOMATHEON	1	08:10	Bradford Neumann	Michelle Nudi		James Cargo	1	0	0	0
 224	36	HOUSE BROOMATHEON	1	06:05	Lindsey Getches	Bradford Neumann		James Cargo	1	0	0	0
 225	36	BANANA GRAHAM BELLS	2	24:35	Kasey Kirby	Tim Kamphaus		Paul Fajman	1	0	0	0
 226	36	BANANA GRAHAM BELLS	2	23:38	Brett Schneider	Kasey Kirby		Paul Fajman	0	1	0	0
@@ -313,7 +313,7 @@ id	match	team	period	time	shooter	assist1	assist2	goalie	EV	PP	SH	EN
 312	48	HOW TO TRAIN YOUR FRANCHISE	2	08:25	Andrew Anzano	Dan Negron	Dan Pall	Sean Greeney	1	0	0	0
 313	48	HOW TO TRAIN YOUR FRANCHISE	2	01:23	Tara Laux	Dan Pall		Sean Greeney	1	0	0	0
 314	49	GITTEN LAUXY	1		David Horner	Dinesh Vesra		Paul Seiffert	1	0	0	0
-315	49	GITTEN LAUXY	1		Spencer Langrock	Michelle LaFramboise	Michael McVay	Paul Seiffert	1	0	0	0
+315	49	GITTEN LAUXY	1		Spencer Langrock	Michelle Nudi	Michael McVay	Paul Seiffert	1	0	0	0
 316	49	GITTEN LAUXY	1		Spencer Langrock	Paul Fajman	Deanna Weidenhammer	Paul Seiffert	1	0	0	0
 317	49	GITTEN LAUXY	2		Tara Laux	Spencer Langrock	Dinesh Vesra	Paul Seiffert	1	0	0	0
 318	50	GANGREEN	1		Kara Brooks	Dan Pall	Joe Ulerich	Sean Greeney	1	0	0	0
@@ -352,7 +352,7 @@ id	match	team	period	time	shooter	assist1	assist2	goalie	EV	PP	SH	EN
 351	55	LARGE HALPERIN COLLIDER	2		George MacDougall	Mike Pawlo		Ken Zinser	0	1	0	0
 352	56	GANGREEN	1		Joe Ulerich	Dan Pall	Chris Brooks	Phil Karash	1	0	0	0
 353	56	GITTEN LAUXY	1		Paul Fajman	Joe Nudi III	David Horner	Paul Seiffert	1	0	0	0
-354	56	GITTEN LAUXY	2		Paul Fajman	Joe Nudi III	Michelle LaFramboise	Paul Seiffert	0	1	0	0
+354	56	GITTEN LAUXY	2		Paul Fajman	Joe Nudi III	Michelle Nudi	Paul Seiffert	0	1	0	0
 355	56	GANGREEN	2		Chris Brooks	Joe Ulerich		Phil Karash	0	1	0	0
 356	56	GANGREEN	3		Joe Ulerich	Kara Brooks		Phil Karash	1	0	0	1
 357	57	THE MOOSE IS LOOSE	1		John Slawinski			Dan Piotrowski	1	0	0	0
@@ -393,7 +393,7 @@ id	match	team	period	time	shooter	assist1	assist2	goalie	EV	PP	SH	EN
 392	62	GANGREEN	2		Joe Ulerich	Chris Brooks		Paul Seiffert	1	0	0	0
 393	63	LARGE HALPERIN COLLIDER	1		Colin MacDougall	Sean Moberg		Phil Karash	1	0	0	0
 394	63	LARGE HALPERIN COLLIDER	1		Amy Fenstermacher	Adam Long		Phil Karash	1	0	0	0
-395	63	GITTEN LAUXY	2		Michelle LaFramboise	Spencer Langrock		Sean Greeney	1	0	0	0
+395	63	GITTEN LAUXY	2		Michelle Nudi	Spencer Langrock		Sean Greeney	1	0	0	0
 396	63	GITTEN LAUXY	2		Joe Nudi III	David Horner		Sean Greeney	1	0	0	0
 397	63	GITTEN LAUXY	3		David Horner	Joe Nudi III	Paul Fajman	Sean Greeney	1	0	1	1
 398	64	THE MOOSE IS LOOSE	1		Chris Matroniano	Kasey Kirby	Tim Kamphaus	Phil Karash	1	0	0	0
@@ -419,7 +419,7 @@ id	match	team	period	time	shooter	assist1	assist2	goalie	EV	PP	SH	EN
 418	67	GITTEN LAUXY	1		David Horner	Paul Fajman		Dan Piotrowski	1	0	0	0
 419	67	HOPKINS SPICED LATTES	2		Bradford Neumann			Phil Karash	1	0	0	0
 420	67	GITTEN LAUXY	2		Jason Gubi			Dan Piotrowski	0	1	0	0
-421	67	GITTEN LAUXY	2		Michelle LaFramboise	Tara Laux	David Horner	Dan Piotrowski	1	0	0	1
+421	67	GITTEN LAUXY	2		Michelle Nudi	Tara Laux	David Horner	Dan Piotrowski	1	0	0	1
 422	68	THE MOOSE IS LOOSE	1		Joey Tercero	Kasey Kirby		Paul Seiffert	0	1	0	0
 423	68	GANGREEN	1		Dan Pall			Ken Zinser	1	0	0	0
 424	68	THE MOOSE IS LOOSE	4		Kasey Kirby	Joey Tercero		Paul Seiffert	0	1	0	0
@@ -450,7 +450,7 @@ id	match	team	period	time	shooter	assist1	assist2	goalie	EV	PP	SH	EN
 449	71	ART OF DARKNESS	2	15:12	Andrew Anzano	Sean Greeney		Amy Fenstermacher	1	0	0	0
 450	72	CARGO CULT	1	20:40	Mike Pawlo	Shane Mitchell	Luke Streng	Theo Weber	1	0	0	0
 451	72	KINKY MEHTER MAIDS	1	18:10	Joe Ulerich	Brad Sarnell		James Cargo	1	0	0	0
-452	72	KINKY MEHTER MAIDS	1	13:08	Joe Ulerich	Michelle LaFramboise		James Cargo	1	0	0	0
+452	72	KINKY MEHTER MAIDS	1	13:08	Joe Ulerich	Michelle Nudi		James Cargo	1	0	0	0
 453	72	KINKY MEHTER MAIDS	1	02:28	Aaron Hopkins	Joe Nudi III	Jason Gubi	James Cargo	1	0	0	0
 454	72	CARGO CULT	2	22:12	Dave Zarneke	Will Weiler		Theo Weber	0	1	0	0
 455	72	KINKY MEHTER MAIDS	2	20:00	Joe Ulerich	Nick Keune	Colin Horner	James Cargo	1	0	0	0
@@ -501,8 +501,8 @@ id	match	team	period	time	shooter	assist1	assist2	goalie	EV	PP	SH	EN
 500	80	KINKY MEHTER MAIDS	1	07:00	Aaron Hopkins	Brad Sarnell	Paul Fajman	Sean Greeney	1	0	0	0
 501	80	ART OF DARKNESS	1	03:15	Andrew Anzano	John Slawinski		Theo Weber	1	0	0	0
 502	80	ART OF DARKNESS	2	10:42	Lindsey Getches	Brett Schneider	Robert Kollenberg	Theo Weber	1	0	0	0
-503	80	KINKY MEHTER MAIDS	2	04:59	Michael McVay	Katy Bright	Michelle LaFramboise	Sean Greeney	1	0	0	0
-504	81	KINKY MEHTER MAIDS	1	03:21	Michelle LaFramboise	Joe Ulerich	Jason Gubi	James Cargo	0	1	0	0
+503	80	KINKY MEHTER MAIDS	2	04:59	Michael McVay	Katy Bright	Michelle Nudi	Sean Greeney	1	0	0	0
+504	81	KINKY MEHTER MAIDS	1	03:21	Michelle Nudi	Joe Ulerich	Jason Gubi	James Cargo	0	1	0	0
 505	81	KINKY MEHTER MAIDS	2	19:30	Kat Ulerich	Joe Nudi III	Joe Ulerich	James Cargo	1	0	0	0
 506	81	KINKY MEHTER MAIDS	2	18:00	Joe Ulerich	Brad Sarnell	Colin Horner	James Cargo	1	0	0	0
 507	81	KINKY MEHTER MAIDS	2	09:30	Joe Ulerich	Jason Gubi		James Cargo	1	0	0	0
@@ -549,9 +549,9 @@ id	match	team	period	time	shooter	assist1	assist2	goalie	EV	PP	SH	EN
 548	88	CARLOS DANGER'S QUINCEAÑERA	1	10:50	John Lemen	John Slawinski		Amy Fenstermacher	1	0	0	0
 549	88	NEGRONOMICON	1	09:28	Dan Negron	Andrew Anzano		Theo Weber	1	0	0	0
 550	88	NEGRONOMICON	2	05:00	Joe Ulerich	Dan Negron		Theo Weber	1	0	0	0
-551	89	NEGRONOMICON	1	14:30	Michelle LaFramboise	Chris Matroniano	Dan Negron	Dan Piotrowski	1	0	0	0
+551	89	NEGRONOMICON	1	14:30	Michelle Nudi	Chris Matroniano	Dan Negron	Dan Piotrowski	1	0	0	0
 552	89	NEGRONOMICON	1	01:38	Joe Ulerich			Dan Piotrowski	1	0	0	0
-553	89	NEGRONOMICON	2	07:58	Joe Ulerich	Michelle LaFramboise	Chris Matroniano	Dan Piotrowski	1	0	0	0
+553	89	NEGRONOMICON	2	07:58	Joe Ulerich	Michelle Nudi	Chris Matroniano	Dan Piotrowski	1	0	0	0
 554	90	CARLOS DANGER'S QUINCEAÑERA	1	11:50	Scott Baker	Ryan Mullady			1	0	0	0
 555	90	LAVIOLET FEMMES	1	05:00	Aaron Hopkins	Keri Rapalski		Sean Greeney	1	0	0	0
 556	90	LAVIOLET FEMMES	2	08:18	Dan Pall	Aaron Hopkins	Nathan Hauke	Sean Greeney	1	0	0	0
@@ -605,18 +605,18 @@ id	match	team	period	time	shooter	assist1	assist2	goalie	EV	PP	SH	EN
 604	98	NEGRONOMICON	2	22:35	Joe Ulerich	Jason Gubi	Nick Keely	James Cargo	1	0	0	0
 605	98	NEGRONOMICON	2	21:23	Dan Negron	Andrew Anzano	Savannah Fetterolf	James Cargo	0	1	0	0
 606	98	NEGRONOMICON	2	17:21	Andrew Anzano	Amy Fenstermacher		James Cargo	1	0	0	0
-607	98	NEGRONOMICON	2	10:10	Michelle LaFramboise	Chris Matroniano		James Cargo	1	0	0	0
+607	98	NEGRONOMICON	2	10:10	Michelle Nudi	Chris Matroniano		James Cargo	1	0	0	0
 608	98	LAVIOLET FEMMES	2	09:15	Keri Rapalski	Bryan Egan	Luke LaViolet	Amy Fenstermacher	1	0	0	0
 609	98	LAVIOLET FEMMES	2	08:35	Bonnie Coburn	Logan Bair		Amy Fenstermacher	1	0	0	0
 610	99	HERB APPEAL	1	20:10	Will Eger	Jenn Caulk	Paul Fajman	Amy Fenstermacher	1	0	0	0
 611	99	HERB APPEAL	1	11:18	Lindsey Getches	Chris Conaway	Paul Fajman	Amy Fenstermacher	1	0	0	0
 612	99	NEGRONOMICON	1	09:47	Spencer Langrock	Michael McVay	Dan Negron	Dan Piotrowski	1	0	0	0
-613	99	NEGRONOMICON	1	04:08	Michael McVay	Jason Gubi	Michelle LaFramboise	Dan Piotrowski	1	0	0	0
+613	99	NEGRONOMICON	1	04:08	Michael McVay	Jason Gubi	Michelle Nudi	Dan Piotrowski	1	0	0	0
 614	99	HERB APPEAL	2	23:16	Paul Fajman	Chris Conaway	Dan Piotrowski	Amy Fenstermacher	1	0	0	0
 615	99	HERB APPEAL	2	20:32	David Horner	Paul Fajman		Amy Fenstermacher	1	0	0	0
 616	99	NEGRONOMICON	2	14:10	Jason Gubi	Michael McVay	Joe Ulerich	Dan Piotrowski	1	0	0	0
 617	99	NEGRONOMICON	2	04:02	Joe Ulerich	Tom Zohlen	Andrew Anzano	Dan Piotrowski	1	0	0	0
-618	99	NEGRONOMICON	3	18:18	Joe Ulerich	Michelle LaFramboise		Dan Piotrowski	1	0	0	0
+618	99	NEGRONOMICON	3	18:18	Joe Ulerich	Michelle Nudi		Dan Piotrowski	1	0	0	0
 619	100	LAVIOLET FEMMES	1		Sean Moberg	Nathan Hauke	Luke LaViolet	Theo Weber	1	0	0	0
 620	100	LAVIOLET FEMMES	1		Brad Sarnell	Dan Pall	Stephanie Berman	Theo Weber	1	0	0	0
 621	100	LAVIOLET FEMMES	1		Brad Sarnell	Dan Pall	Nathan Hauke	Theo Weber	1	0	0	0
@@ -665,12 +665,12 @@ id	match	team	period	time	shooter	assist1	assist2	goalie	EV	PP	SH	EN
 664	107	COMMUNIST PAR-TAY	1	10:49	Paul Fajman	Spencer Langrock		Theo Weber	1	0	0	0
 665	107	SITH HAPPENS	1	08:47	Adam Long	Sean Moberg	Joe Nudi III	Phil Karash	1	0	0	0
 666	107	SITH HAPPENS	2	12:57	Tim Kamphaus	Scott Baker	Joe Nudi III	Phil Karash	1	0	0	0
-667	108	THAT'S NO BROOM	1	15:00	Dan Pall	Michelle LaFramboise		James Cargo	1	0	0	0
+667	108	THAT'S NO BROOM	1	15:00	Dan Pall	Michelle Nudi		James Cargo	1	0	0	0
 668	108	YELLOW-BELLIED PIRATE HOOKERS	1	10:45	Bradford Neumann	Chris Polley	Andrew Anzano	Sean Greeney	1	0	0	0
 669	108	YELLOW-BELLIED PIRATE HOOKERS	1	02:15	Brett Schneider	Andrew Anzano		Sean Greeney	1	0	0	0
 670	108	THAT'S NO BROOM	2	22:30	David Horner	Dan Pall		James Cargo	1	0	0	0
 671	108	YELLOW-BELLIED PIRATE HOOKERS	2	21:20	Bradford Neumann	Brett Schneider		Sean Greeney	1	0	0	0
-672	108	THAT'S NO BROOM	2	19:30	Amy Fenstermacher	Michelle LaFramboise		James Cargo	1	0	0	0
+672	108	THAT'S NO BROOM	2	19:30	Amy Fenstermacher	Michelle Nudi		James Cargo	1	0	0	0
 673	108	THAT'S NO BROOM	2	18:45	Dan Pall	Lindsey Getches		James Cargo	1	0	0	0
 674	108	THAT'S NO BROOM	2	17:20	Dan Pall			James Cargo	1	0	0	0
 675	108	YELLOW-BELLIED PIRATE HOOKERS	2	16:05	Brett Schneider	Bradford Neumann		Sean Greeney	1	0	0	0
@@ -693,7 +693,7 @@ id	match	team	period	time	shooter	assist1	assist2	goalie	EV	PP	SH	EN
 692	111	COMMUNIST PAR-TAY	2	12:44	Spencer Langrock	Mariam Mehter	Will Weiler	Theo Weber	1	0	0	0
 693	111	COMMUNIST PAR-TAY	2	04:17	Paul Fajman	Mariam Mehter	Tom Zohlen	Theo Weber	1	0	0	1
 694	111	SITH HAPPENS	2	01:44	Scott Baker	Aaron Bill	Tim Kamphaus	Phil Karash	0	1	0	0
-695	111	SITH HAPPENS	2	00:17	David Horner	John Slawinski	Michelle LaFramboise	Phil Karash	0	1	0	0
+695	111	SITH HAPPENS	2	00:17	David Horner	John Slawinski	Michelle Nudi	Phil Karash	0	1	0	0
 696	112	YELLOW-BELLIED PIRATE HOOKERS	2	23:00	Brett Schneider	Bradford Neumann	Andrew Anzano	Sean Greeney	1	0	0	0
 697	112	YELLOW-BELLIED PIRATE HOOKERS	2	21:10	Brett Schneider			Sean Greeney	1	0	0	0
 698	112	THAT'S NO BROOM	2	11:25	Brad Sarnell	George MacDougall		James Cargo	1	0	0	0
@@ -903,18 +903,18 @@ id	match	team	period	time	shooter	assist1	assist2	goalie	EV	PP	SH	EN
 902	155	BRIGHT & HORNEY	1	12:00	Luke LaViolet	David Horner	Lindsey Getches	David Cook	1	0	0	0
 903	155	MEAN TANGERINE	1	05:30	Kasey Kirby	Joe Nudi III	Danny Ferry	Spencer Langrock	1	0	0	0
 904	155	MEAN TANGERINE	2	11:10	Kasey Kirby	Joe Nudi III		Spencer Langrock	0	1	0	0
-905	155	MEAN TANGERINE	2	09:40	Kasey Kirby	Michelle LaFramboise		Spencer Langrock	1	0	0	0
+905	155	MEAN TANGERINE	2	09:40	Kasey Kirby	Michelle Nudi		Spencer Langrock	1	0	0	0
 906	155	BRIGHT & HORNEY	2	07:00	Luke LaViolet	Spencer Langrock	David Horner	David Cook	1	0	0	0
 907	155	BRIGHT & HORNEY	2	01:20	Luke LaViolet	Spencer Langrock	Josh Blockstein	David Cook	0	1	0	0
 908	156	SKEWED BLUE	1	16:15	Justin Sawyer	Oleg Fastovsky	Nick Riddlesberger	Dan Piotrowski	1	0	0	0
 909	156	SKEWED BLUE	1	05:05	Nick Riddlesberger	Joe Ulerich		Dan Piotrowski	1	0	0	0
-910	157	MEAN TANGERINE	1	09:07	Tim Kamphaus	Kasey Kirby	Michelle LaFramboise	Spencer Langrock	1	0	0	0
-911	157	MEAN TANGERINE	1	08:31	Kasey Kirby	Danny Ferry	Michelle LaFramboise	Spencer Langrock	1	0	0	0
-912	157	MEAN TANGERINE	1	03:55	Kasey Kirby	Danny Ferry	Michelle LaFramboise	Spencer Langrock	1	0	1	0
+910	157	MEAN TANGERINE	1	09:07	Tim Kamphaus	Kasey Kirby	Michelle Nudi	Spencer Langrock	1	0	0	0
+911	157	MEAN TANGERINE	1	08:31	Kasey Kirby	Danny Ferry	Michelle Nudi	Spencer Langrock	1	0	0	0
+912	157	MEAN TANGERINE	1	03:55	Kasey Kirby	Danny Ferry	Michelle Nudi	Spencer Langrock	1	0	1	0
 913	157	BRIGHT & HORNEY	2	09:47	Brad Sarnell	Luke LaViolet	Spencer Langrock	David Cook	1	0	0	0
 914	157	BRIGHT & HORNEY	2	07:52	David Horner	Dan Negron	Lindsey Getches	David Cook	1	0	0	0
 915	157	BRIGHT & HORNEY	2	06:28	Mickey Senate	David Horner	Luke LaViolet	David Cook	1	0	0	0
-916	157	MEAN TANGERINE	2	04:42	Michelle LaFramboise	Kasey Kirby		Spencer Langrock	1	0	0	0
+916	157	MEAN TANGERINE	2	04:42	Michelle Nudi	Kasey Kirby		Spencer Langrock	1	0	0	0
 917	158	🍆	1	05:18	Sean Moberg	Scott Baker		Dan Piotrowski	1	0	0	0
 918	158	🍆	2	16:47	Will Weiler	Paul Fajman	Sean Moberg	Dan Piotrowski	1	0	0	0
 919	159	MEAN TANGERINE	1	17:35	Joe Nudi III	Kasey Kirby		Dan Piotrowski	1	0	0	0
@@ -925,7 +925,7 @@ id	match	team	period	time	shooter	assist1	assist2	goalie	EV	PP	SH	EN
 924	159	MEAN TANGERINE	2	12:20	Kasey Kirby	Dan Pall		Dan Piotrowski	1	0	0	0
 925	159	SKEWED BLUE	2	04:40	Oleg Fastovsky	Kate Van Essen	Dave Zarneke	David Cook	0	1	0	0
 926	159	MEAN TANGERINE	2	00:16	Danny Ferry	Tim Kamphaus		Dan Piotrowski	1	0	0	1
-927	160	MEAN TANGERINE	1	06:35	Michelle LaFramboise	Kasey Kirby		Ryan Schradin	1	0	0	0
+927	160	MEAN TANGERINE	1	06:35	Michelle Nudi	Kasey Kirby		Ryan Schradin	1	0	0	0
 928	160	🍆	1	05:30	Nick Keune	Paul Fajman		David Cook	1	0	0	0
 929	160	MEAN TANGERINE	1	03:45	Kasey Kirby	Danny Ferry		Ryan Schradin	1	0	0	0
 930	160	MEAN TANGERINE	2	15:28	Danny Ferry	Kasey Kirby	Dan Pall	Ryan Schradin	0	1	0	0
@@ -1089,7 +1089,7 @@ id	match	team	period	time	shooter	assist1	assist2	goalie	EV	PP	SH	EN
 1088	191	MAIZE RAGE	1	00:50	Sean Moberg	Brett Schneider		Mickey Senate	1	0	0	0
 1089	191	MAIZE RAGE	2	11:00	Brett Schneider	Lindsey Getches		Mickey Senate	1	0	0	0
 1090	191	MAIZE RAGE	2	01:37	Sean Moberg	Brett Schneider	Lindsey Getches	Mickey Senate	1	0	0	0
-1091	191	MAIZE RAGE	2	01:06	Lindsey Getches	James Kruggel		Mickey Senate	1	0	0	0
+1091	191	MAIZE RAGE	2	01:06	Lindsey Getches	Jim Kruggel		Mickey Senate	1	0	0	0
 1092	192	THE FIGHTING MONGOOSES	1	05:15	Spencer Langrock	Chris Peterson		Mike Silber	0	1	0	0
 1093	192	THE FIGHTING MONGOOSES	2	15:40	Dan Negron	Aaron Hopkins		Mike Silber	1	0	0	0
 1094	193	THE FIGHTING MONGOOSES	2	06:34	Aaron Hopkins	Theo Trigylidas	Dan Negron	Sean Greeney	0	1	0	0
@@ -1103,7 +1103,7 @@ id	match	team	period	time	shooter	assist1	assist2	goalie	EV	PP	SH	EN
 1102	195	BLEACHED ICE HOLES	1	04:29	Nick Riddlesberger			Theo Weber	1	0	0	0
 1103	195	BLEACHED ICE HOLES	2	17:50	Kasey Kirby	Nick Riddlesberger		Theo Weber	1	0	0	0
 1104	196	MAIZE RAGE	1	16:13	Sean Moberg	Rodney Jean		Sean Greeney	1	0	0	0
-1105	196	MAIZE RAGE	1	15:35	Tim Stout	Sean Moberg		Sean Greeney	1	0	0	0
+1105	196	MAIZE RAGE	1	15:35	Tim Stoutzenberger	Sean Moberg		Sean Greeney	1	0	0	0
 1106	196	1-800-382-5633	1	12:12	Chris Matroniano	Michael McVay		David Cook	1	0	0	0
 1107	196	MAIZE RAGE	1	02:48	Luke LaViolet	Sean Moberg		Sean Greeney	0	1	0	0
 1108	196	MAIZE RAGE	2	12:44	Brett Schneider	Lindsey Getches		Sean Greeney	1	0	0	0
@@ -1116,7 +1116,7 @@ id	match	team	period	time	shooter	assist1	assist2	goalie	EV	PP	SH	EN
 1115	197	1-800-382-5633	2	02:00	Connor Rattey			Mickey Senate	1	0	0	0
 1116	198	GUBI OR NOT GUBI	1	10:50	Paul Donohoo-Vallett	Clarissa Perkins		David Cook	0	1	0	0
 1117	198	GUBI OR NOT GUBI	1	17:08	Nathan Hauke	Bradford Neumann	Brett Schneider (Bort)	David Cook	1	0	0	0
-1118	198	MAIZE RAGE	2	04:05	James Kruggel	Luke LaViolet		Mike Silber	1	0	0	0
+1118	198	MAIZE RAGE	2	04:05	Jim Kruggel	Luke LaViolet		Mike Silber	1	0	0	0
 1119	198	GUBI OR NOT GUBI	2	01:16	Nathan Hauke	Brett Schneider (Bort)		David Cook	1	0	0	0
 1120	199	GUBI OR NOT GUBI	1	04:20	Alex Homme	Reeves Hollar	Paul Donohoo-Vallett	Sean Greeney	1	0	0	0
 1121	199	GUBI OR NOT GUBI	2	08:53	Bradford Neumann			Sean Greeney	1	0	0	0
